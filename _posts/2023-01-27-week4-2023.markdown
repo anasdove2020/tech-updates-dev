@@ -4,6 +4,8 @@ title:  "Week #4 2023 - Observability-Driven Development"
 date:   2023-01-27 20:00:00 +0700
 ---
 
+{% include post-header.html %}
+
 ## Observability-Driven Development
 
 Observability-driven development (ODD) is a software development approach in which observability is built into the design and development of software systems. It means that developers focus on making systems easily observable and understandable, rather than just functional, to make it easier to detect and diagnose issues in production.

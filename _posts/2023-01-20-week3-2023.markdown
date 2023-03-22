@@ -4,6 +4,8 @@ title:  "Week #3 2023 - Cybersecurity Mesh Architecture"
 date:   2023-01-20 20:00:00 +0700
 ---
 
+{% include post-header.html %}
+
 ## Cybersecurity Mesh Architecture
 
 Cybersecurity Mesh Architecture (CSMA) is a modern architecture of your security posture. It helps to provide a standard and integrated security structure to secure all assets, whether on-premises, in data centers, or in the cloud.

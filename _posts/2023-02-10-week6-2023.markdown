@@ -5,6 +5,8 @@ title:  "Prompt Engineering"
 date:   2023-02-10 20:00:00 +0700
 ---
 
+{% include post-header.html %}
+
 ## Prompt Engineering
 
 Prompt Engineering is the practice of using prompts to get the output you want in Natural Language Processing (NLP) and Artificial Intelligence (AI) models. A prompt is a sequence of text, like a sentence or a block of code, that could be interpreted as instructions, questions, examples, or input data.

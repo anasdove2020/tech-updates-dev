@@ -4,6 +4,8 @@ title:  "Week #5 2023 - ChatGPT"
 date:   2023-02-03 20:00:00 +0700
 ---
 
+{% include post-header.html %}
+
 ## ChatGPT
 
 ChatGPT is a language model that is optimized for conversational dialogue. I have been researching what it is and why it is becoming so popular lately. Many experts have given their opinion, but then I thought it would be fun to let the ChatGPT itself tell the story. So I went to ChatGPT and started to ask questions.

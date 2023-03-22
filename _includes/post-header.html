@@ -1,0 +1,21 @@
+{% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
+{% assign postDate = page.date | date: date_format %}
+{{ page.week | append: ' · ' | append: postDate }}
+{: .post-content-metadata }
+
+# {{ page.title }}
+{: .post-content-title }
+
+{% if page.briefDescription %}
+  # {{ page.briefDescription }}
+  {: .post-content-briefdescription }
+{% endif %}
+
+{% if page.bannerUrl %}
+  {% assign bannerUrl = "/assets/images/" | append: page.bannerUrl %}
+{% else %}
+  {% assign bannerUrl = "/assets/images/banner_default.png" %}
+{% endif %}
+
+![memo]({{ bannerUrl }})
+{: .post-content-image }

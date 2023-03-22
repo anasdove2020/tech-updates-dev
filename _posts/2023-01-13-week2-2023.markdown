@@ -4,6 +4,8 @@ title:  "Week #2 2023 - Minimum Viable Architecture"
 date:   2023-01-13 20:00:00 +0700
 ---
 
+{% include post-header.html %}
+
 ## Minimum Viable Architecture
 
 The minimum viable architecture (MVA), also known as "just enough architecture," is an approach to start software development with the bare minimum architecture that is good enough for a release. From there, improvements will be continuously introduced alongside the software product during its lifetime.
