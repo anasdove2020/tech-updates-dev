@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #14 2022 - Monitoring & Observability Service"
+week: 14
+title:  "Monitoring & Observability Service"
 date:   2022-04-08 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Monitoring & Observability Service
 
@@ -34,23 +39,44 @@ These are the example of the monitoring & observability services:
 - [LogicMonitor](https://www.logicmonitor.com/): it provides an agentless SaaS-based monitoring platform. LogicMonitor provides prebuilt integrations and an open API and monitoring across networks, servers, applications, websites, and containers, including insights and reporting capabilities.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *Acing Google's PageSpeed Insights Assessment* (Read [these tips if you often face this task in your work](https://www.toptal.com/site-speed-optimization/pagespeed-insights-best-practices))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "The article explains in detail the reports you see in the PageSpeed Insights assessment, and offers some tips and how to do the optimization. I think it’s a good read if you often have to optimize the page speed on the website you build."
+*Acing Google's PageSpeed Insights Assessment* (Read [these tips if you often face this task in your work](https://www.toptal.com/site-speed-optimization/pagespeed-insights-best-practices))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *Webinar recording: The Importance of humor in Cyber Security* (Watch [the webinar here](https://lp.goto.com/lastpass-webinar-Importance-of-humour-in-Cyber-Security_TYP.html))
+__Brain:__ "The article explains in detail the reports you see in the PageSpeed Insights assessment, and offers some tips and how to do the optimization. I think it’s a good read if you often have to optimize the page speed on the website you build."
 
-Brain: "The presenter gives some insight as a founder of a Cyber Security company on how communicating the security awareness or guidance through humor can be more effective in nudging people to be more aware of cyber security in their daily work activities, since they are more engaged when presented with such info that is also making them laugh. I have a few good chuckles when listening to some anecdotes that the presenter shared."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *GitHub Copilot Labs, an ML-powered editor features for developers* (Read [the advanced VS code extension features here](https://next.github.com/projects/copilot-labs/))
+*Webinar recording: The Importance of humor in Cyber Security* (Watch [the webinar here](https://lp.goto.com/lastpass-webinar-Importance-of-humour-in-Cyber-Security_TYP.html))
+{: .tech-news-link }
 
-Brain: "GitHub shares a new VS Code extension that has experimental features that utilize machine learning, such as allowing it to explain the code you select into a natural language, and translate the code to other programming languages. It’s still available as a technical preview, so you might need to register first before trying it out."
+__Brain:__ "The presenter gives some insight as a founder of a Cyber Security company on how communicating the security awareness or guidance through humor can be more effective in nudging people to be more aware of cyber security in their daily work activities, since they are more engaged when presented with such info that is also making them laugh. I have a few good chuckles when listening to some anecdotes that the presenter shared."
 
-![memo](/assets/images/memo16.png) *Want to Be More Productive? Think about Sustainability* (Read [Microsoft’s interesting take about management & productivity](https://www.microsoft.com/en-us/worklab/want-to-be-more-productive-think-about-sustainability))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "Please don’t take offense at how the article suggests that managers should think of their workers as crops. But I think the analogy between environmental sustainability and workplace productivity has quite a good point."
+*GitHub Copilot Labs, an ML-powered editor features for developers* (Read [the advanced VS code extension features here](https://next.github.com/projects/copilot-labs/))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *How to use Props in React* (it's good to read [this if you are starting on learning React](https://www.robinwieruch.de/react-pass-props-to-component/))
+__Brain:__ "GitHub shares a new VS Code extension that has experimental features that utilize machine learning, such as allowing it to explain the code you select into a natural language, and translate the code to other programming languages. It’s still available as a technical preview, so you might need to register first before trying it out."
 
-Brain: "Sorry if it's a bit too technical for the wide audience. I just started learning React when working on recent projects, and I found this article to be quite enlightening on the concept I was struggling with before."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Want to Be More Productive? Think about Sustainability* (Read [Microsoft’s interesting take about management & productivity](https://www.microsoft.com/en-us/worklab/want-to-be-more-productive-think-about-sustainability))
+{: .tech-news-link }
+
+__Brain:__ "Please don’t take offense at how the article suggests that managers should think of their workers as crops. But I think the analogy between environmental sustainability and workplace productivity has quite a good point."
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*How to use Props in React* (it's good to read [this if you are starting on learning React](https://www.robinwieruch.de/react-pass-props-to-component/))
+{: .tech-news-link }
+
+__Brain:__ "Sorry if it's a bit too technical for the wide audience. I just started learning React when working on recent projects, and I found this article to be quite enlightening on the concept I was struggling with before."

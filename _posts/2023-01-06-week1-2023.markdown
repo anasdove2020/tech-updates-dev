@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #1 2023 - Cloud FinOps"
+week: 1
+title:  "Cloud FinOps"
 date:   2023-01-06 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Cloud FinOps
 
@@ -58,23 +63,49 @@ __References__
 - [https://www.ibm.com/tw-en/topics/finops](https://www.ibm.com/tw-en/topics/finops)
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Github force to enable 2FA for all of their users](https://www.bleepingcomputer.com/news/security/github-to-require-all-users-to-enable-2fa-by-the-end-of-2023/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: "GitHub has announced that by the end of 2023, their users need to enable two-factor authentication (2FA) as additional protection on their accounts. This announcement has made earlier this year, but it will come with a more detailed implementation. This will begin in March 2023 by rolling out the 2FA on selected groups of contributors and then scaling to larger groups based on their criteria. GitHub will give 45 days period to enable 2FA for those who receive advance notice from them."
+[Github force to enable 2FA for all of their users](https://www.bleepingcomputer.com/news/security/github-to-require-all-users-to-enable-2fa-by-the-end-of-2023/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[The End of Programming](https://cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext)*
+__Yoga:__ "GitHub has announced that by the end of 2023, their users need to enable two-factor authentication (2FA) as additional protection on their accounts. This announcement has made earlier this year, but it will come with a more detailed implementation. This will begin in March 2023 by rolling out the 2FA on selected groups of contributors and then scaling to larger groups based on their criteria. GitHub will give 45 days period to enable 2FA for those who receive advance notice from them."
+{: .tech-news-info }
 
-Brain: "The article title might be slightly extravagant. And the author might be a little biased, given he is the CEO and founder of an AI startup. But it is indeed interesting to imagine how programming will change in the next 30 years. The article claimed that the programming paradigm would shift from an engineering endeavor to an educational one, as in how to train the machine (AI) best to generate the software for us. Given the pace of AI development as of late, it might not just be an imagination anymore."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[ChatGPT inside VSCode with official OpenAI API](https://dev.to/dani_avila7/chatgpt-inside-vscode-with-official-openai-api-10n8)*
+[The End of Programming](https://cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext)
+{: .tech-news-link }
 
-Rizqun: "On December 25th, a new extension was released in Visual Studio Code with the name CodeGPT. CodeGPT uses the official OpenAI API to be able to use ChatGPT, which is currently being widely discussed directly within VSCode. This extension has several features, such as asking and getting code, explaining code, refactoring code, documenting code, and finding a problem in the code."
+__Brain:__ "The article title might be slightly extravagant. And the author might be a little biased, given he is the CEO and founder of an AI startup. But it is indeed interesting to imagine how programming will change in the next 30 years. The article claimed that the programming paradigm would shift from an engineering endeavor to an educational one, as in how to train the machine (AI) best to generate the software for us. Given the pace of AI development as of late, it might not just be an imagination anymore."
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Why remote development is the future?](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Dika: "In this article, we can see so many reasons that remote development is the future of development. The writer found that most developer struggle with the performance of local machine development. He also explained the benefit of using remote development and what cases can be solved best by remote development."
+[ChatGPT inside VSCode with official OpenAI API](https://dev.to/dani_avila7/chatgpt-inside-vscode-with-official-openai-api-10n8)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Exclusive: Joe Letteri Discusses Wētā FX’s new Facial Pipeline on Avatar 2](https://www.fxguide.com/fxfeatured/exclusive-joe-letteri-discusses-weta-fxs-new-facial-pipeline-on-avatar-2/)*
+__Rizqun:__ "On December 25th, a new extension was released in Visual Studio Code with the name CodeGPT. CodeGPT uses the official OpenAI API to be able to use ChatGPT, which is currently being widely discussed directly within VSCode. This extension has several features, such as asking and getting code, explaining code, refactoring code, documenting code, and finding a problem in the code."
+{: .tech-news-info }
 
-Frandi: “Have you ever heard of Anatomically Plausible Facial System (APFS)? Well, don’t be sad if you haven’t. But if you have watched Avatar 2 film, you have seen an example of how the APFS is implemented. This article explains some technical things on how the VFX animation is created.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Why remote development is the future?](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13)
+{: .tech-news-link }
+
+__Dika:__ "In this article, we can see so many reasons that remote development is the future of development. The writer found that most developer struggle with the performance of local machine development. He also explained the benefit of using remote development and what cases can be solved best by remote development."
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Exclusive: Joe Letteri Discusses Wētā FX’s new Facial Pipeline on Avatar 2](https://www.fxguide.com/fxfeatured/exclusive-joe-letteri-discusses-weta-fxs-new-facial-pipeline-on-avatar-2/)
+{: .tech-news-link }
+
+__Frandi:__ “Have you ever heard of Anatomically Plausible Facial System (APFS)? Well, don’t be sad if you haven’t. But if you have watched Avatar 2 film, you have seen an example of how the APFS is implemented. This article explains some technical things on how the VFX animation is created.”
+{: .tech-news-info }

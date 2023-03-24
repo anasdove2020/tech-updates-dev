@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #15 2022 - Feature Flags"
+week: 15
+title:  "Feature Flags"
 date:   2022-04-15 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Feature Flags
 
@@ -37,23 +42,48 @@ We have implemented Feature Flags in many of the Polyrific projects. Let's take 
 - and many more
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *The twelve-factor app, a comprehensive best practice for developing SaaS apps* (Read [the summary and the detail of all the twelve factors here](https://12factor.net/))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "The developers at Heroku share this document that synthesizes all of their experience and observations on a wide variety of software-as-a-service apps in the wild. It covers things from how to manage your codebase, dependencies, CI/CD, to how to treat logs in your application. I think it’s quite insightful for those who try to create such applications, whether for developers or ops engineers".
+*The twelve-factor app, a comprehensive best practice for developing SaaS apps* (Read [the summary and the detail of all the twelve factors here](https://12factor.net/))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *The end of the road for Cloudflare CAPTCHAs* (Read [how Cloudflare tries to put an end to captcha](https://blog.cloudflare.com/end-cloudflare-captcha/))
+__Brain:__ "The developers at Heroku share this document that synthesizes all of their experience and observations on a wide variety of software-as-a-service apps in the wild. It covers things from how to manage your codebase, dependencies, CI/CD, to how to treat logs in your application. I think it’s quite insightful for those who try to create such applications, whether for developers or ops engineers".
+{: .tech-news-info }
 
-Brain: "Interesting article that tells us about why we still have to deal with Captcha in this world, and the trade-off companies need to make to eliminate CAPTCHAs. It turns out something that looks as simple as CAPTCHAs requires many solutions for it to be replaced".
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *OpenAI’s DALL-E AI is becoming a scary-good graphic artist* (Read [the story about the latest OpenAI experiment](https://www.fastcompany.com/90738554/openais-dall-e-ai-is-becoming-a-scary-good-graphic-artist))
+*The end of the road for Cloudflare CAPTCHAs* (Read [how Cloudflare tries to put an end to captcha](https://blog.cloudflare.com/end-cloudflare-captcha/))
+{: .tech-news-link }
 
-Brain: "I didn’t expect such highly creative work could be threatened by AI this soon. But with DALL-E, it seems like you can have your own artist who you can just describe what you want, and it’ll create the illustration for you. I mean look at how it can create the picture with quite a particular description".
+__Brain:__ "Interesting article that tells us about why we still have to deal with Captcha in this world, and the trade-off companies need to make to eliminate CAPTCHAs. It turns out something that looks as simple as CAPTCHAs requires many solutions for it to be replaced".
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *How to prevent email HTML injection in C# and .NET* (Read [the technical tutorial here](https://www.twilio.com/blog/prevent-email-html-injection-in-csharp-and-dotnet))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "For our dotnet programmer, this article is good at explaining how we can prevent email HTML injection when we develop an application that has a feature to send an email. This is especially useful when the website is a public site that can be used by any user, including some malicious ones".
+*OpenAI’s DALL-E AI is becoming a scary-good graphic artist* (Read [the story about the latest OpenAI experiment](https://www.fastcompany.com/90738554/openais-dall-e-ai-is-becoming-a-scary-good-graphic-artist))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *Introducing the new Azure Front Door: Reimagined for modern apps and content* (Read [the new features of Microsoft’s enterprise CDN](https://azure.microsoft.com/en-ca/blog/introducing-the-new-azure-front-door-reimagined-for-modern-apps-and-content/))
+__Brain:__ "I didn’t expect such highly creative work could be threatened by AI this soon. But with DALL-E, it seems like you can have your own artist who you can just describe what you want, and it’ll create the illustration for you. I mean look at how it can create the picture with quite a particular description".
+{: .tech-news-info }
 
-Brain: "Microsoft announced a new Azure Front Door, with new features that also include CDN capabilities in addition to the existing traffic management & load balancing feature. It also offers a simplified cost model which makes it easier for us to budget our resources. The previous product of Azure Front Door and Azure CDN will now be known as Azure Front Door (classic) and Azure CDN from Microsoft (classic) moving forward".
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*How to prevent email HTML injection in C# and .NET* (Read [the technical tutorial here](https://www.twilio.com/blog/prevent-email-html-injection-in-csharp-and-dotnet))
+{: .tech-news-link }
+
+__Brain:__ "For our dotnet programmer, this article is good at explaining how we can prevent email HTML injection when we develop an application that has a feature to send an email. This is especially useful when the website is a public site that can be used by any user, including some malicious ones".
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Introducing the new Azure Front Door: Reimagined for modern apps and content* (Read [the new features of Microsoft’s enterprise CDN](https://azure.microsoft.com/en-ca/blog/introducing-the-new-azure-front-door-reimagined-for-modern-apps-and-content/))
+{: .tech-news-link }
+
+__Brain:__ "Microsoft announced a new Azure Front Door, with new features that also include CDN capabilities in addition to the existing traffic management & load balancing feature. It also offers a simplified cost model which makes it easier for us to budget our resources. The previous product of Azure Front Door and Azure CDN will now be known as Azure Front Door (classic) and Azure CDN from Microsoft (classic) moving forward".

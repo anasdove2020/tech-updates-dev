@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #43 2022 - Platform Engineering"
+week: 43
+title:  "Platform Engineering"
 date:   2022-10-28 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Platform Engineering
 
@@ -40,23 +45,49 @@ How do we know that the implementation of Platform Engineering is a success? The
 - **Reliable**: The platform has to be reliable to gain the Engineer's and Management's confidence.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Next.js 13 is out](https://nextjs.org/blog/next-13)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: “The React world is quite impressed by the new Next.js version. Two of the most talked about features are: Server components, and the introduction of Turbopack, a Webpack successor that’s 700x faster. The server component is a rather new architecture introduced by the react team at the end of 2020, and we can see that this approach might be the direction that the React community is trending into.”
+[Next.js 13 is out](https://nextjs.org/blog/next-13)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Now, SSH File Transfer Protocol (SFTP) support for Azure Blob Storage](https://azure.microsoft.com/en-us/blog/leverage-sftp-support-for-azure-blob-storage-to-build-a-unified-data-lake/)*
+__Brain:__ “The React world is quite impressed by the new Next.js version. Two of the most talked about features are: Server components, and the introduction of Turbopack, a Webpack successor that’s 700x faster. The server component is a rather new architecture introduced by the react team at the end of 2020, and we can see that this approach might be the direction that the React community is trending into.”
+{: .tech-news-info }
 
-Dika: “Azure Blob Storage now supports SSH File Transfer Protocol (SFTP). SFTP is a common protocol that helps us to transfer and receive data in a scalable and secure manner. However, it requires constant maintenance on our own SFTP VM Server. With SFTP support for Azure Blob Storage, we can easily enable an SFTP endpoint to exchange data without compromising security and zero maintenance of our SFTP servers.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[Passkeys—Microsoft, Apple, and Google’s password killer—are finally here](https://arstechnica.com/information-technology/2022/10/passkeys-microsoft-apple-and-googles-password-killer-are-finally-here/)*
+[Now, SSH File Transfer Protocol (SFTP) support for Azure Blob Storage](https://azure.microsoft.com/en-us/blog/leverage-sftp-support-for-azure-blob-storage-to-build-a-unified-data-lake/)
+{: .tech-news-link }
 
-Yoga: “Password is one of the most important things that we have to secure our accounts, and we have been using this for years. But, a new era is coming where we do not necessarily need to use passwords anymore and just use authenticating information instead. Recently, there was a report that large companies like Google, Microsoft, and Apple have agreed to use a single standard for password alternative, and that is called Passkeys. Passkeys are provided by FIDO Alliance, experts in MFA provision that has been years providing security for Big Tech companies.”
+__Dika:__ “Azure Blob Storage now supports SSH File Transfer Protocol (SFTP). SFTP is a common protocol that helps us to transfer and receive data in a scalable and secure manner. However, it requires constant maintenance on our own SFTP VM Server. With SFTP support for Azure Blob Storage, we can easily enable an SFTP endpoint to exchange data without compromising security and zero maintenance of our SFTP servers.”
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Introducing Shoelace, a Framework-Independent Component-Based UX Library](https://css-tricks.com/shoelace-component-frameowrk-introduction/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Rizqun: “Shoelace is a component library that defines all standard UX components such as tabs, modals, accordions, auto-completes, and much more. rather than creating these components in React, Solid, or Svelte, etc., it creates them with Web Components, which means we can use them with any framework.”
+[Passkeys—Microsoft, Apple, and Google’s password killer—are finally here](https://arstechnica.com/information-technology/2022/10/passkeys-microsoft-apple-and-googles-password-killer-are-finally-here/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Types of Barcodes and their usage](https://scanbot.io/blog/types-of-barcodes/)*
+__Yoga:__ “Password is one of the most important things that we have to secure our accounts, and we have been using this for years. But, a new era is coming where we do not necessarily need to use passwords anymore and just use authenticating information instead. Recently, there was a report that large companies like Google, Microsoft, and Apple have agreed to use a single standard for password alternative, and that is called Passkeys. Passkeys are provided by FIDO Alliance, experts in MFA provision that has been years providing security for Big Tech companies.”
+{: .tech-news-info }
 
-Frandi: “I’m sure we’ve been familiar with barcodes. But do you know the types of barcodes and how they are usually used in the products? You might want to bookmark this article for future reference if you want to develop a product with barcodes.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Introducing Shoelace, a Framework-Independent Component-Based UX Library](https://css-tricks.com/shoelace-component-frameowrk-introduction/)
+{: .tech-news-link }
+
+__Rizqun:__ “Shoelace is a component library that defines all standard UX components such as tabs, modals, accordions, auto-completes, and much more. rather than creating these components in React, Solid, or Svelte, etc., it creates them with Web Components, which means we can use them with any framework.”
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Types of Barcodes and their usage](https://scanbot.io/blog/types-of-barcodes/)
+{: .tech-news-link }
+
+__Frandi:__ “I’m sure we’ve been familiar with barcodes. But do you know the types of barcodes and how they are usually used in the products? You might want to bookmark this article for future reference if you want to develop a product with barcodes.”
+{: .tech-news-info }

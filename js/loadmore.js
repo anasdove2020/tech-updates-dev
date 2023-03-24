@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
                           <img src='/assets/images/" + postImage + "' alt='banner'> \
                         </div> \
                         <div class='home-post-detail'> \
-                          <div class='home-post-detail-header'>" + postWeek + " · " + postDateFormat + "</div> \
+                          <div class='home-post-detail-header'>Week #" + postWeek + " · " + postDateFormat + "</div> \
                           <div class='home-post-detail-title'>" + postTitle + "</div> \
                           <div class='home-post-detail-description'>" + postBriefDesc + "</div> \
                         </div> \

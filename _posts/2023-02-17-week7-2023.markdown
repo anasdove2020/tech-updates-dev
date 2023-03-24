@@ -1,8 +1,10 @@
 ---
 layout: post
-week: "Week #7"
+week: 7
 title:  "Serverless Functions"
 date:   2023-02-17 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
 
 {% include post-header.html %}
@@ -60,23 +62,53 @@ The big three cloud providers offer serverless functions as part of their leadin
 Some other cloud providers also join the competition: [IBM Cloud Functions](https://cloud.ibm.com/functions), [Alibaba Function Compute](https://www.alibabacloud.com/product/function-compute), [Cloudflare Workers](https://www.cloudflare.com/products/workers/), [Digital Ocean Functions](https://www.digitalocean.com/products/functions), [Netlify Functions](https://functions.netlify.com/), [Vercel Functions](https://vercel.com/docs/concepts/functions/serverless-functions), and more.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Malicious Dota 2 game mods infected players with malware](https://decoded.avast.io/janvojtesek/dota-2-under-attack-how-a-v8-bug-was-exploited-in-the-game/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: "Cyber-threat using malicious software can affect anyone and from anywhere, and games are no exception. Recently, researchers have found malicious attacks spread through game mods for one of the biggest online competitive video games, Dota 2. Threat actors included a new file to provide them with a backdoor to permit them to install further malware on the infected users. It happened because Dota 2 used an outdated build of v8.dll that was compiled four years ago and is vulnerable to a wide range of exploits. The game has already updated the V8 version, took down the malicious game mods, and alerted all players impacted by the attack."
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[GitHub Copilot for Business is now available](https://github.blog/2023-02-14-github-copilot-for-business-is-now-available/)*
+[Malicious Dota 2 game mods infected players with malware](https://decoded.avast.io/janvojtesek/dota-2-under-attack-how-a-v8-bug-was-exploited-in-the-game/)
+{: .tech-news-link }
 
-Brain: "GitHub announced a new GitHub Copilot offering that targets the enterprise. The price is almost twice the individual plan. Still, it offers more exciting features, such as a more powerful AI model, AI-based security vulnerability filtering, and organization-wide policy management."
+__Yoga:__ "Cyber-threat using malicious software can affect anyone and from anywhere, and games are no exception. Recently, researchers have found malicious attacks spread through game mods for one of the biggest online competitive video games, Dota 2. Threat actors included a new file to provide them with a backdoor to permit them to install further malware on the infected users. It happened because Dota 2 used an outdated build of v8.dll that was compiled four years ago and is vulnerable to a wide range of exploits. The game has already updated the V8 version, took down the malicious game mods, and alerted all players impacted by the attack."
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[GitHub built a new search engine for code from scratch in Rust](https://www.zdnet.com/article/github-builds-a-search-engine-for-code-from-scratch-in-rust/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Rizqun: "The Rust programming language continues to grow in popularity, and now developer platform GitHub has used it to build its new code-focused search engine, Blackbird. Instead of perusing forums for answers, GitHub wants users to use its search engine, which is currently in beta. GitHub's Blackbird now supports searching across about 45 million repositories, providing only partial coverage. However, it still enables code searching across 15 terabytes of code and 15.5 billion documents for programs written in Python, Java, and JavaScript."
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[Google AI updates: Bard and new AI features in Search](https://blog.google/technology/ai/bard-google-ai-search-updates/)*
+[GitHub Copilot for Business is now available](https://github.blog/2023-02-14-github-copilot-for-business-is-now-available/)
+{: .tech-news-link }
 
-Frandi: "It's been interesting to see how big companies are competing in AI development lately. After Microsoft announced the integration of ChatGPT with Bing last week, there was this announcement from Google regarding their newest conversational AI service, Bard."
+__Brain:__ "GitHub announced a new GitHub Copilot offering that targets the enterprise. The price is almost twice the individual plan. Still, it offers more exciting features, such as a more powerful AI model, AI-based security vulnerability filtering, and organization-wide policy management."
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Upgrading your .NET projects with Visual Studio](https://devblogs.microsoft.com/dotnet/upgrade-assistant-now-in-visual-studio/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Dika: "This week, Microsoft introduced the visual studio extension that has the functionality to Upgrade .NET Framework or .NET Core web and desktop applications. This tool will make developers easier to upgrade their applications to a newer framework since the newer version like .NET 6 (Long Term Support version), and .NET 7 (Standard Term Support version) have better performance and give access to the latest feature and capabilities. For now, it supports ASP.NET, Class Libraries, Console, WPF, and WinForm. For the next, it will support porting from Xamarin to .NET MAUI, UWP to WINUI, and WCF to WCF Core."
+[GitHub built a new search engine for code from scratch in Rust](https://www.zdnet.com/article/github-builds-a-search-engine-for-code-from-scratch-in-rust/)
+{: .tech-news-link }
+
+__Rizqun:__ "The Rust programming language continues to grow in popularity, and now developer platform GitHub has used it to build its new code-focused search engine, Blackbird. Instead of perusing forums for answers, GitHub wants users to use its search engine, which is currently in beta. GitHub's Blackbird now supports searching across about 45 million repositories, providing only partial coverage. However, it still enables code searching across 15 terabytes of code and 15.5 billion documents for programs written in Python, Java, and JavaScript."
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Google AI updates: Bard and new AI features in Search](https://blog.google/technology/ai/bard-google-ai-search-updates/)
+{: .tech-news-link }
+
+__Frandi:__ "It's been interesting to see how big companies are competing in AI development lately. After Microsoft announced the integration of ChatGPT with Bing last week, there was this announcement from Google regarding their newest conversational AI service, Bard."
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Upgrading your .NET projects with Visual Studio](https://devblogs.microsoft.com/dotnet/upgrade-assistant-now-in-visual-studio/)
+{: .tech-news-link }
+
+__Dika:__ "This week, Microsoft introduced the visual studio extension that has the functionality to Upgrade .NET Framework or .NET Core web and desktop applications. This tool will make developers easier to upgrade their applications to a newer framework since the newer version like .NET 6 (Long Term Support version), and .NET 7 (Standard Term Support version) have better performance and give access to the latest feature and capabilities. For now, it supports ASP.NET, Class Libraries, Console, WPF, and WinForm. For the next, it will support porting from Xamarin to .NET MAUI, UWP to WINUI, and WCF to WCF Core."
+{: .tech-news-info }

@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #49 2022 - Chaos Engineering"
+week: 49
+title:  "Chaos Engineering"
 date:   2022-12-09 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Chaos Engineering
 
@@ -62,23 +67,49 @@ __Reference:__
 - [https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: “Open AI releases a new language model that can answer complex questions, like “why is the following code not working?”. It can even answer your questions in limerick if you request it. Perhaps we don’t need to use Google now to search for answers on the internet.”
+[ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[OpenSSL fixes two high-severity vulnerabilities, what you need to know](https://www.bleepingcomputer.com/news/security/openssl-fixes-two-high-severity-vulnerabilities-what-you-need-to-know/)*
+__Brain:__ “Open AI releases a new language model that can answer complex questions, like “why is the following code not working?”. It can even answer your questions in limerick if you request it. Perhaps we don’t need to use Google now to search for answers on the internet.”
+{: .tech-news-info }
 
-Yoga: “OpenSSL is a widely used application that secures communications over computer networks. Recently, they have had two high-severity security flaws patched following their latest version. Those two vulnerabilities allow attackers to trigger crashes or lead to remote code execution and trigger a denial of service. Although these flaws have been early mitigated, there are instances that have already been impacted by these flaws across major cloud environments, including Azure and AWS.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[10 games to learn JavaScript](https://dev.to/dailydevtips1/10-games-to-learn-javascript-155j)*
+[OpenSSL fixes two high-severity vulnerabilities, what you need to know](https://www.bleepingcomputer.com/news/security/openssl-fixes-two-high-severity-vulnerabilities-what-you-need-to-know/)
+{: .tech-news-link }
 
-Rizqun: “Learning programming might be more fun if we can learn it through a game. This article tells us some games that can be played by taking advantage of our programming skills. I have briefly tried some of these games. This game asks us to write a few lines of a program to provide action so we can pass the game's levels.”
+__Yoga:__ “OpenSSL is a widely used application that secures communications over computer networks. Recently, they have had two high-severity security flaws patched following their latest version. Those two vulnerabilities allow attackers to trigger crashes or lead to remote code execution and trigger a denial of service. Although these flaws have been early mitigated, there are instances that have already been impacted by these flaws across major cloud environments, including Azure and AWS.”
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[AWS re:Invent 2022 - Keynote with Dr. Werner Vogels](https://youtu.be/RfvL_423a-I)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Frandi: “Dr. Werner Vogels, Amazon.com VP and CTO, talks about the benefits of building asynchronous, loosely coupled systems and how event-driven architecture enables global scale. He then explains how the cloud is enabling customers to build more immersive experiences using 3D and how simulation is empowering customers to experiment and innovate in new ways.”
+[10 games to learn JavaScript](https://dev.to/dailydevtips1/10-games-to-learn-javascript-155j)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[GitHub Codespaces Security Best Practices](https://www.legitsecurity.com/blog/github-codespaces-security-best-practices)*
+__Rizqun:__ “Learning programming might be more fun if we can learn it through a game. This article tells us some games that can be played by taking advantage of our programming skills. I have briefly tried some of these games. This game asks us to write a few lines of a program to provide action so we can pass the game's levels.”
+{: .tech-news-info }
 
-Dika: “Codespace is a very interesting tool now since it offers flexibility during coding. As a remote development environment platform, we can just move to another computer and be ready to code without any effort to re-set up our new environment. However, as the code is hosted in a remote environment, the security risk will be big if handled or set up incorrectly. This article explained the security best practices for Github Codespace.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[AWS re:Invent 2022 - Keynote with Dr. Werner Vogels](https://youtu.be/RfvL_423a-I)
+{: .tech-news-link }
+
+__Frandi:__ “Dr. Werner Vogels, Amazon.com VP and CTO, talks about the benefits of building asynchronous, loosely coupled systems and how event-driven architecture enables global scale. He then explains how the cloud is enabling customers to build more immersive experiences using 3D and how simulation is empowering customers to experiment and innovate in new ways.”
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[GitHub Codespaces Security Best Practices](https://www.legitsecurity.com/blog/github-codespaces-security-best-practices)
+{: .tech-news-link }
+
+__Dika:__ “Codespace is a very interesting tool now since it offers flexibility during coding. As a remote development environment platform, we can just move to another computer and be ready to code without any effort to re-set up our new environment. However, as the code is hosted in a remote environment, the security risk will be big if handled or set up incorrectly. This article explained the security best practices for Github Codespace.”
+{: .tech-news-info }

@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #50 2022 - Database DevOps"
+week: 50
+title:  "Database DevOps"
 date:   2022-12-16 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Database DevOps
 
@@ -43,23 +48,49 @@ __References:__
 - [https://www.red-gate.com/simple-talk/devops/database-devops/introduction-to-devops-database-devops/](https://www.red-gate.com/simple-talk/devops/database-devops/introduction-to-devops-database-devops/)
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: “The article shares several predictions for 2023 in the Platform Engineering space. One of the interesting predictions is how there will be more commercial developer platforms being introduced, showing that widespread adoption of this technology might happen sooner than later.”
+[Platform Engineering in 2023: Dev First, Collaboration and APIs](https://thenewstack.io/platform-engineering-in-2023-dev-first-collaboration-and-apis/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Postman v10 is available](https://blog.postman.com/announcing-postman-v10/)*
+__Brain:__ “The article shares several predictions for 2023 in the Platform Engineering space. One of the interesting predictions is how there will be more commercial developer platforms being introduced, showing that widespread adoption of this technology might happen sooner than later.”
+{: .tech-news-info }
 
-Dika: “In middle of september 2022, the Postman Team have announced that the version 10 is released. Some new features that are interesting to try is native support with Git, gRPC support, and also another new interesting feature in Postman version 10 is Partner Workspace which provides a shared, secure, access-controlled space where organizations can invite partners to collaborate and build APIs.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[Generate SQL queries instantly with AI bot](https://aihelperbot.com/)*
+[Postman v10 is available](https://blog.postman.com/announcing-postman-v10/)
+{: .tech-news-link }
 
-Rizqun: “AIHelperBot is a bot that can help us generate an SQL query by providing input using natural language. In some of the tests I did, AIHelperBot was able to provide sql query results related to joins, finding data based on value, date, or text. AIHelperBot can generate sql queries for mysql, postgreSQL, and recently provided an update to be able to generate results for MsSQL.”
+__Dika:__ “In middle of september 2022, the Postman Team have announced that the version 10 is released. Some new features that are interesting to try is native support with Git, gRPC support, and also another new interesting feature in Postman version 10 is Partner Workspace which provides a shared, secure, access-controlled space where organizations can invite partners to collaborate and build APIs.”
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Syntax errors are the doom of us all, including botnet authors](https://arstechnica.com/information-technology/2022/12/advanced-botnet-taken-down-by-an-all-too-human-flaw-syntax-error/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: “A complex malware called KmsdBot, which was used for crypto-mining and DDOS suddenly stopped sending attack commands on targets they were infected with. Researchers said that this was caused by a typo on a command sent by whoever was controlling the botnet. With no error-checking built in and persistence, the bot stays down by only missing one space between an IP address and a port in that command and it needs to reinfect its target to be able to rebuild the bot's function. This error leads to almost all the bot's activity being ceased and may be trying to reinfect their targets again.”
+[Generate SQL queries instantly with AI bot](https://aihelperbot.com/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[For your eyes only: improving Netflix video quality with neural networks](https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c)*
+__Rizqun:__ “AIHelperBot is a bot that can help us generate an SQL query by providing input using natural language. In some of the tests I did, AIHelperBot was able to provide sql query results related to joins, finding data based on value, date, or text. AIHelperBot can generate sql queries for mysql, postgreSQL, and recently provided an update to be able to generate results for MsSQL.”
+{: .tech-news-info }
 
-Frandi: “This interesting article describes how Netflix improves video quality with neural networks, the challenges they faced and what lies ahead.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Syntax errors are the doom of us all, including botnet authors](https://arstechnica.com/information-technology/2022/12/advanced-botnet-taken-down-by-an-all-too-human-flaw-syntax-error/)
+{: .tech-news-link }
+
+__Yoga:__ “A complex malware called KmsdBot, which was used for crypto-mining and DDOS suddenly stopped sending attack commands on targets they were infected with. Researchers said that this was caused by a typo on a command sent by whoever was controlling the botnet. With no error-checking built in and persistence, the bot stays down by only missing one space between an IP address and a port in that command and it needs to reinfect its target to be able to rebuild the bot's function. This error leads to almost all the bot's activity being ceased and may be trying to reinfect their targets again.”
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[For your eyes only: improving Netflix video quality with neural networks](https://netflixtechblog.com/for-your-eyes-only-improving-netflix-video-quality-with-neural-networks-5b8d032da09c)
+{: .tech-news-link }
+
+__Frandi:__ “This interesting article describes how Netflix improves video quality with neural networks, the challenges they faced and what lies ahead.”
+{: .tech-news-info }

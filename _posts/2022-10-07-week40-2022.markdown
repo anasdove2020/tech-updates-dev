@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #40 2022 - Retiring Azure Services"
+week: 40
+title:  "Retiring Azure Services"
 date:   2022-10-07 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Retiring Azure Services
 
@@ -51,23 +56,49 @@ __Language Understanding (LUIS) - retiring on October 1, 2025__
 The Language Understanding (LUIS) service will be retired on the mentioned date. You can migrate the service to conversational language understanding, a capability of Azure Cognitive Services for Language. Conversational language understanding provides many of the capabilities of LUIS, plus enhancements. To avoid disruptions to your applications, you can follow the migration steps as explained [here](https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/conversational-language-understanding/how-to/migrate-from-luis?tabs=luis-portal). 
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Microsoft investigates Windows 11 22H2 Remote Desktop issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-windows-11-22h2-remote-desktop-issues/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: “The latest Windows Update, 22H2 is already available for users to download and use since 20 September 2022 with a number of great features coming with it. But recently there are several reports from users that this update has an issue with Remote Desktop on Windows 11 systems, including clients not being able to connect, randomly disconnecting, and freezing unexpectedly. So far, they already found the bug that caused the problem but the investigation still goes on until official mitigation measures are provided.”
+[Microsoft investigates Windows 11 22H2 Remote Desktop issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-windows-11-22h2-remote-desktop-issues/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Google Hangouts on the Web to Be Upgraded to Google Chat from November 1](https://gadgets360.com/apps/news/hangouts-web-upgrade-google-chat-from-november-1-transfer-conversations-3310655)*
+__Yoga:__ “The latest Windows Update, 22H2 is already available for users to download and use since 20 September 2022 with a number of great features coming with it. But recently there are several reports from users that this update has an issue with Remote Desktop on Windows 11 systems, including clients not being able to connect, randomly disconnecting, and freezing unexpectedly. So far, they already found the bug that caused the problem but the investigation still goes on until official mitigation measures are provided.”
+{: .tech-news-info }
 
-Rizqun: “Google Hangouts has already been discontinued and is being replaced by Google Chat. The Hangouts on the web and conversations on the platform will remain accessible in Hangouts until November 1, 2022. If we delete conversations from Google Hangouts, the corresponding content in Google Chat may also get deleted. Google says that Google Chat offers closer integration with other Google Workspace products as well as modern features.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[Makers of ad blockers and browser privacy extensions fear the end is near](https://www.theregister.com/2022/06/08/google_blocking_privacy_manifest/)*
+[Google Hangouts on the Web to Be Upgraded to Google Chat from November 1](https://gadgets360.com/apps/news/hangouts-web-upgrade-google-chat-from-november-1-transfer-conversations-3310655)
+{: .tech-news-link }
 
-Yoga: “This article tells us that Google will stop supporting its legacy extension platform, known as Manifest v2. It gives a huge impact on extensions that are designed to block adverts and privacy protection as they are still running on Manifest v2. Even if they can change it to Manifest v3, they will be less effective despite Google's claims that it will meet developers' needs.”
+__Rizqun:__ “Google Hangouts has already been discontinued and is being replaced by Google Chat. The Hangouts on the web and conversations on the platform will remain accessible in Hangouts until November 1, 2022. If we delete conversations from Google Hangouts, the corresponding content in Google Chat may also get deleted. Google says that Google Chat offers closer integration with other Google Workspace products as well as modern features.”
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Speech-to-Text With OpenAI’s Whisper](https://towardsdatascience.com/speech-to-text-with-openais-whisper-53d5cea9005e)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Rizqun: “OpenAI has recently released a new speech recognition model called Whisper. It is a free and open source model. It is said that Whisper is robust to accents, background noise, and technical language. In addition, it supports 99 different languages’ transcription and translation from those languages into English. In this article, the writer explains how to convert speech into text using the Whisper model and Python.”
+[Makers of ad blockers and browser privacy extensions fear the end is near](https://www.theregister.com/2022/06/08/google_blocking_privacy_manifest/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Google appears to have disabled Google Translate in parts of China](https://techcrunch.com/2022/09/30/google-appears-to-have-disabled-google-translate-in-parts-of-china/)*
+__Yoga:__ “This article tells us that Google will stop supporting its legacy extension platform, known as Manifest v2. It gives a huge impact on extensions that are designed to block adverts and privacy protection as they are still running on Manifest v2. Even if they can change it to Manifest v3, they will be less effective despite Google's claims that it will meet developers' needs.”
+{: .tech-news-info }
 
-Frandi: “The majority of Google services are not available to users in China, with Translate just being the latest to disappear. The Google spokesperson explained it was due to "low usage". But analysts believe it has something to do with the government censorship rules”.
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Speech-to-Text With OpenAI’s Whisper](https://towardsdatascience.com/speech-to-text-with-openais-whisper-53d5cea9005e)
+{: .tech-news-link }
+
+__Rizqun:__ “OpenAI has recently released a new speech recognition model called Whisper. It is a free and open source model. It is said that Whisper is robust to accents, background noise, and technical language. In addition, it supports 99 different languages’ transcription and translation from those languages into English. In this article, the writer explains how to convert speech into text using the Whisper model and Python.”
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Google appears to have disabled Google Translate in parts of China](https://techcrunch.com/2022/09/30/google-appears-to-have-disabled-google-translate-in-parts-of-china/)
+{: .tech-news-link }
+
+__Frandi:__ “The majority of Google services are not available to users in China, with Translate just being the latest to disappear. The Google spokesperson explained it was due to "low usage". But analysts believe it has something to do with the government censorship rules”.
+{: .tech-news-info }

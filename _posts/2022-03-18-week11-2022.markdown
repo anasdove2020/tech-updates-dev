@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #11 2022 - Tech Support"
+week: 11
+title:  "Tech Support"
 date:   2022-03-18 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Tech Support
 
@@ -21,13 +26,29 @@ Requesting your needs via the support page will ensure they are always visible a
 We are yet to create the "how-to" document about this new system, but I think you will not find a big problem if you want to use it now because the form is pretty straightforward. We'd also appreciate it if you could share any feedback on your experience using the support page so we can always make improvements in the future.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *Netflix: A culture of learning* (read [the article from Netflix Technology Blog](https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *Project RADAR: Intelligent early fraud detection system with humans in the loop* (read [the post from Uber Engineering Blog](https://eng.uber.com/project-radar-intelligent-early-fraud-detection/))
+*Netflix: A culture of learning* (read [the article from Netflix Technology Blog](https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c))
 
-![memo](/assets/images/memo16.png) *Rebuilding payment orchestration at Airbnb* (read [the post from The Airbnb Tech Blog](https://medium.com/airbnb-engineering/rebuilding-payment-orchestration-at-airbnb-341d194a781b))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *Next generation data insights using natural language queries* (read [the post from Twitter Engineering Blog](https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries))
+*Project RADAR: Intelligent early fraud detection system with humans in the loop* (read [the post from Uber Engineering Blog](https://eng.uber.com/project-radar-intelligent-early-fraud-detection/))
 
-![memo](/assets/images/memo16.png) *Leveraging machine learning to find security vulnerabilities* (read [the post from GitHub Engineering Blog](https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Rebuilding payment orchestration at Airbnb* (read [the post from The Airbnb Tech Blog](https://medium.com/airbnb-engineering/rebuilding-payment-orchestration-at-airbnb-341d194a781b))
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Next generation data insights using natural language queries* (read [the post from Twitter Engineering Blog](https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries))
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Leveraging machine learning to find security vulnerabilities* (read [the post from GitHub Engineering Blog](https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/))

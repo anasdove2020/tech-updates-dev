@@ -1,6 +1,6 @@
 ---
 layout: post
-week: "Week #11"
+week: 11
 title:  "Edge computing"
 date:   2023-03-17 20:00:00 +0700
 bannerUrl: "banner_default.png"
@@ -64,49 +64,49 @@ Several tools and technologies are available to organizations to support their b
 4. **Business Continuity Planning Software**: These tools can help organizations create and maintain a comprehensive BCDR plan, manage and track recovery efforts, and provide real-time status updates during a disruption. Some examples of the tools are Agility Recovery Planner, Archer Business Resiliency, Fusion Framework System, etc. 
 
 ## Tech News
-{: .post-content-news-title }
+{: .tech-news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .post-content-new-logo }
+{: .tech-news-logo }
 
 [GPT-4 is here](https://openai.com/product/gpt-4)
-{: .post-content-new-link }
+{: .tech-news-link }
 
-Brain: "OpenAI just released their most capable model, and they are starting to roll it out to the API users. GPT-4 can solve difficult problems more accurately, thanks to its broader general knowledge and advanced reasoning capabilities. The most exciting feature, I think, is image comprehension. We can feed a web design image and have it generate the HTML and CSS for us."
-{: .post-content-new-info }
+__Brain:__ "OpenAI just released their most capable model, and they are starting to roll it out to the API users. GPT-4 can solve difficult problems more accurately, thanks to its broader general knowledge and advanced reasoning capabilities. The most exciting feature, I think, is image comprehension. We can feed a web design image and have it generate the HTML and CSS for us."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .post-content-new-logo }
+{: .tech-news-logo }
 
 [Microsoft announces Copilot for office documents](https://youtu.be/Bf-dbS9CcRU)
-{: .post-content-new-link }
+{: .tech-news-link }
 
-Rizqun: "Microsoft just held a big AI event and announced a new AI-powered Copilot for its Microsoft 365 apps and services. Copilot will appear as an assistant that can be summoned to generate text in documents, create PowerPoint presentations from Word documents, and help with certain Excel functions. In addition, users can also summon Copilot to provide information regarding upcoming meetings and prepare people with updates on related projects."
-{: .post-content-new-info }
+__Rizqun:__ "Microsoft just held a big AI event and announced a new AI-powered Copilot for its Microsoft 365 apps and services. Copilot will appear as an assistant that can be summoned to generate text in documents, create PowerPoint presentations from Word documents, and help with certain Excel functions. In addition, users can also summon Copilot to provide information regarding upcoming meetings and prepare people with updates on related projects."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .post-content-new-logo }
+{: .tech-news-logo }
 
 [DuckDuckGo launches AI-powered search query answering tool](https://www.bleepingcomputer.com/news/security/duckduckgo-launches-ai-powered-search-query-answering-tool/)
-{: .post-content-new-link }
+{: .tech-news-link }
 
-Yoga: "DuckDuckGo has launched its first beta version of DuckAssist, a privacy-focused search engine that uses OpenAI's natural language technology. Unlike other language models, DuckAssist only sources information from Wikipedia and Britannica to prioritize accuracy over the breadth of information. The company expects mistakes in the beta version and encourages anonymous user feedback to improve the model."
-{: .post-content-new-info }
+__Yoga:__ "DuckDuckGo has launched its first beta version of DuckAssist, a privacy-focused search engine that uses OpenAI's natural language technology. Unlike other language models, DuckAssist only sources information from Wikipedia and Britannica to prioritize accuracy over the breadth of information. The company expects mistakes in the beta version and encourages anonymous user feedback to improve the model."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .post-content-new-logo }
+{: .tech-news-logo }
 
 [AWS Application Composer Now Generally Available](https://aws.amazon.com/blogs/aws/aws-application-composer-now-generally-available-visually-build-serverless-applications-quickly/)
-{: .post-content-new-link }
+{: .tech-news-link }
 
-Frandi: "AWS Application Composer is a visual designer that you can use to build serverless applications from multiple AWS services. You are presented with a canvas that allows you to drag and drop available resources and define their interactions. As you design, Application Composer automatically generates a ready-to-deploy IaC template that follows AWS best practices. It is now generally available in most AWS regions."
-{: .post-content-new-info }
+__Frandi:__ "AWS Application Composer is a visual designer that you can use to build serverless applications from multiple AWS services. You are presented with a canvas that allows you to drag and drop available resources and define their interactions. As you design, Application Composer automatically generates a ready-to-deploy IaC template that follows AWS best practices. It is now generally available in most AWS regions."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .post-content-new-logo }
+{: .tech-news-logo }
 
 [.NET 8 is on the way](https://medium.com/bytehide/net-8-is-on-the-way-discover-its-new-features-ecadc5590daf)
-{: .post-content-new-link }
+{: .tech-news-link }
 
-Dika: ".NET 8 is the successor to .NET 7, with three years of long-term support. The version has some improvements like in System.Test.Json serialization, performance Improvements, Native AOT, Code generation, and .NET Container Image. There are also several new features like GetItems and Shuffle."
-{: .post-content-new-info }
+__Dika:__ ".NET 8 is the successor to .NET 7, with three years of long-term support. The version has some improvements like in System.Test.Json serialization, performance Improvements, Native AOT, Code generation, and .NET Container Image. There are also several new features like GetItems and Shuffle."
+{: .tech-news-info }

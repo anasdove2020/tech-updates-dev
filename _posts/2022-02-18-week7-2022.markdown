@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #7 2022 - Security Protocols"
+week: 7
+title:  "Security Protocols"
 date:   2022-02-18 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Security Protocols
 
@@ -30,13 +35,29 @@ Enabling screen lock when our computer is idle might not be great for the user e
 Security protocols exist for reasons. So let's make it our culture to create a secure work environment together.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *Moving Beyond Monoliths and Microservices* (check [the talks from the GOTO book club](https://gotopia.tech/bookclub/episodes/moving-beyond-monoliths-microservices))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *Adobe XD 2022 Crash Course* (watch [the Youtube video](https://youtu.be/oo5EoelQ_DQ))
+*Moving Beyond Monoliths and Microservices* (check [the talks from the GOTO book club](https://gotopia.tech/bookclub/episodes/moving-beyond-monoliths-microservices))
 
-![memo](/assets/images/memo16.png) *The three top-paying tech roles in 2022 and the skills you need to land them* (read [the article](https://stackoverflow.blog/2022/02/09/the-three-top-paying-tech-roles-in-2022-and-the-skills-you-need-to-land-them/))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *OpenTelemetry in .NET* (read [the blog post](https://rafaelldi.blog/posts/open-telemetry-in-dotnet/))
+*Adobe XD 2022 Crash Course* (watch [the Youtube video](https://youtu.be/oo5EoelQ_DQ))
 
-![memo](/assets/images/memo16.png) *Modernize ASP.NET Framework to ASP.NET Core with the .NET Upgrade Assistant* (check [the learn module](https://docs.microsoft.com/en-us/learn/modules/modernize-aspnet-framework-to-core/))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*The three top-paying tech roles in 2022 and the skills you need to land them* (read [the article](https://stackoverflow.blog/2022/02/09/the-three-top-paying-tech-roles-in-2022-and-the-skills-you-need-to-land-them/))
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*OpenTelemetry in .NET* (read [the blog post](https://rafaelldi.blog/posts/open-telemetry-in-dotnet/))
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Modernize ASP.NET Framework to ASP.NET Core with the .NET Upgrade Assistant* (check [the learn module](https://docs.microsoft.com/en-us/learn/modules/modernize-aspnet-framework-to-core/))

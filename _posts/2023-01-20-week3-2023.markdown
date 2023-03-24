@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Week #3 2023 - Cybersecurity Mesh Architecture"
+week: 3
+title:  "Cybersecurity Mesh Architecture"
 date:   2023-01-20 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
 
 {% include post-header.html %}
@@ -51,23 +54,49 @@ __References__
 
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[C# IEnumerable vs. List and Array](https://medium.com/@ben.k.muller/c-ienumerable-vs-list-and-array-9f099f157f4f)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Dika: "Sometimes, we are confused about when we need to use IEnumerable and when we need to use List when we need to process some data collections. In this article, the author explained the difference between them and the best use case that fits both of them. And also, of course, the most important thing is that he gave us some code snippet that proves his explanation."
+[C# IEnumerable vs. List and Array](https://medium.com/@ben.k.muller/c-ienumerable-vs-list-and-array-9f099f157f4f)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Easy refactoring using ReSharper](https://www.jetbrains.com/resharper/)*
+__Dika:__ "Sometimes, we are confused about when we need to use IEnumerable and when we need to use List when we need to process some data collections. In this article, the author explained the difference between them and the best use case that fits both of them. And also, of course, the most important thing is that he gave us some code snippet that proves his explanation."
+{: .tech-news-info }
 
-Rizqun: "ReSharper is a Visual Studio extension that can help users in programming activities. ReSharper can assist users in conducting code analysis, assisting users in refactoring, navigation, and search, generating code, and performing clean-ups. When using ReSharper, users can customize the code formatting so that ReSharper can detect any discrepancies by referring to the format created by the user."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[New: Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/)*
+[Easy refactoring using ReSharper](https://www.jetbrains.com/resharper/)
+{: .tech-news-link }
 
-Brain: "As a programmer, we often need to jump into several intertwined code bases, and doing this fast and accurately is crucial to be an effective programmer. Visual Studio understands this and develops a better search method through our code. The ability to view & edit a specific part of the code without opening the file fascinates me. I certainly look forward to trying this new feature."
+__Rizqun:__ "ReSharper is a Visual Studio extension that can help users in programming activities. ReSharper can assist users in conducting code analysis, assisting users in refactoring, navigation, and search, generating code, and performing clean-ups. When using ReSharper, users can customize the code formatting so that ReSharper can detect any discrepancies by referring to the format created by the user."
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Nvidia and Microsoft team up to build massive AI cloud computer](https://arstechnica.com/information-technology/2022/11/nvidia-and-microsoft-team-up-to-build-massive-ai-cloud-computer/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: "Two big tech companies are collaborating to make one of the most powerful AI supercomputers, focused on deep learning and language models. They are Nvidia, which will provide its high-end GPU and networking platform to create a powerful cluster. While the other is Microsoft, which will contribute its Azure cloud infrastructure and virtual machines. They aim to improve generative AI, an unsupervised and self-learning algorithm to create new text, code, and digital images." 
+[New: Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Information About a Recent Mailchimp Security Incident](https://mailchimp.com/en-gb/january-2023-security-incident/)*
+__Brain:__ "As a programmer, we often need to jump into several intertwined code bases, and doing this fast and accurately is crucial to be an effective programmer. Visual Studio understands this and develops a better search method through our code. The ability to view & edit a specific part of the code without opening the file fascinates me. I certainly look forward to trying this new feature."
+{: .tech-news-info }
 
-Frandi: “On January 11, the Mailchimp Security team identified an unauthorized actor accessing one of their tools used by Mailchimp customer-facing teams for customer support and account administration. If you are MailChimp’s customer, it is recommended to watch the latest update from the blog post.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Nvidia and Microsoft team up to build massive AI cloud computer](https://arstechnica.com/information-technology/2022/11/nvidia-and-microsoft-team-up-to-build-massive-ai-cloud-computer/)
+{: .tech-news-link }
+
+__Yoga:__ "Two big tech companies are collaborating to make one of the most powerful AI supercomputers, focused on deep learning and language models. They are Nvidia, which will provide its high-end GPU and networking platform to create a powerful cluster. While the other is Microsoft, which will contribute its Azure cloud infrastructure and virtual machines. They aim to improve generative AI, an unsupervised and self-learning algorithm to create new text, code, and digital images." 
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Information About a Recent Mailchimp Security Incident](https://mailchimp.com/en-gb/january-2023-security-incident/)
+{: .tech-news-link }
+
+__Frandi:__ “On January 11, the Mailchimp Security team identified an unauthorized actor accessing one of their tools used by Mailchimp customer-facing teams for customer support and account administration. If you are MailChimp’s customer, it is recommended to watch the latest update from the blog post.”
+{: .tech-news-info }

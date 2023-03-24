@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #16 2022 - Microservice Challenges"
+week: 16
+title:  "Microservice Challenges"
 date:   2022-04-22 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Microservice Challenges
 
@@ -45,23 +50,44 @@ As the number of services increases, automated testing is essential to ensure al
 Thorough testing at each level confirms that services can run independently, in conjunction with other services, to support distributed transactions.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance* (Read [the new AI breakthrough from Google](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "OpenAI’s GPT3 has new competition. Google just released PaLM, an AI model that has been trained using 540 billion parameters. The demo seems quite impressive, showing how it can answer complex questions, connect cause & effect, and even explain a joke. As with GPT3, it can also be used to generate some code based on a prompt."
+*Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance* (Read [the new AI breakthrough from Google](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *Why Reliability Engineering Matters: an Analysis of Amazon's Dec 2021 US-East-1 Region Outage* (Read [the analysis related to the Amazon’s recent outage](https://www.gremlin.com/blog/analysis-amazon-dec-2021-us-east-1-region-outage/))
+__Brain:__ "OpenAI’s GPT3 has new competition. Google just released PaLM, an AI model that has been trained using 540 billion parameters. The demo seems quite impressive, showing how it can answer complex questions, connect cause & effect, and even explain a joke. As with GPT3, it can also be used to generate some code based on a prompt."
 
-Brain: "The article discusses what we can learn from the AWS 7-hour-long incident that happened in December last year. It talks about the importance of software monitoring, having a reliable and failsafe CI/CD pipeline, and implementing redundancies."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *That Time Sony Secretly Installed Rootkit Software on Hundreds of Thousands of Computers* (Watch [the video here](https://www.youtube.com/watch?v=imMRzBzQm1U))
+*Why Reliability Engineering Matters: an Analysis of Amazon's Dec 2021 US-East-1 Region Outage* (Read [the analysis related to the Amazon’s recent outage](https://www.gremlin.com/blog/analysis-amazon-dec-2021-us-east-1-region-outage/))
+{: .tech-news-link }
 
-Brain: "It turns out reading the whole license agreement does not guarantee you from being safe from company malicious intend. The video tells the story of how Sony installed dangerous malware without even stating it anywhere in the documentation. It teaches us to be cautious when installing any software, even if it’s from a well-known company."
+__Brain:__ "The article discusses what we can learn from the AWS 7-hour-long incident that happened in December last year. It talks about the importance of software monitoring, having a reliable and failsafe CI/CD pipeline, and implementing redundancies."
 
-![memo](/assets/images/memo16.png) *What I Learned From a Decade of Product Management Experience* (Read [the blog post from an experienced product manager](https://medium.com/serious-scrum/what-i-learned-from-a-decade-of-product-management-experience-c5b6415f9c5))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "The author share 5 key lessons learned from his Product management experience. This one is personally useful for my previous role as Director of Products. Product management is a whole different discipline from software development, and there’s so much more thought to learn on this."
+*That Time Sony Secretly Installed Rootkit Software on Hundreds of Thousands of Computers* (Watch [the video here](https://www.youtube.com/watch?v=imMRzBzQm1U))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *.NET MAUI Release Candidate – Ready for cross-platform app development* (Read [the announcement for what might replace Xamarin in the future](https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/))
+__Brain:__ "It turns out reading the whole license agreement does not guarantee you from being safe from company malicious intend. The video tells the story of how Sony installed dangerous malware without even stating it anywhere in the documentation. It teaches us to be cautious when installing any software, even if it’s from a well-known company."
 
-Brain: "Exciting news for cross-platform app developers. .NET MAUI finally has a release candidate, which means the stable version is near the horizon. .NET MAUI will provide all of the controls available in Xamarin, with additional controls such as BlazorWebView, Border, GraphicsView, MenuBar, Shadow, and Window. It can be considered for your next cross-platform apps."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*What I Learned From a Decade of Product Management Experience* (Read [the blog post from an experienced product manager](https://medium.com/serious-scrum/what-i-learned-from-a-decade-of-product-management-experience-c5b6415f9c5))
+{: .tech-news-link }
+
+__Brain:__ "The author share 5 key lessons learned from his Product management experience. This one is personally useful for my previous role as Director of Products. Product management is a whole different discipline from software development, and there’s so much more thought to learn on this."
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*.NET MAUI Release Candidate – Ready for cross-platform app development* (Read [the announcement for what might replace Xamarin in the future](https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/))
+{: .tech-news-link }
+
+__Brain:__ "Exciting news for cross-platform app developers. .NET MAUI finally has a release candidate, which means the stable version is near the horizon. .NET MAUI will provide all of the controls available in Xamarin, with additional controls such as BlazorWebView, Border, GraphicsView, MenuBar, Shadow, and Window. It can be considered for your next cross-platform apps."

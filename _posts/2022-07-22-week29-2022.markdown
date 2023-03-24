@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #29 2022 - HTTP/2"
+week: 29
+title:  "HTTP/2"
 date:   2022-07-22 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## HTTP/2
 
@@ -64,23 +69,49 @@ __HTTP/2 in ASP.NET__
 HTTP/2 has been supported since the release of [ASP.NET Core 2.2](https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-2.2?view=aspnetcore-6.0#http2-in-kestrel). To get the benefit of HTTP/2, both the client and server need to agree on the protocol to use. If one of the parties cannot work with HTTP/2, it will fall back to HTTP 1.x. You can find the list of HTTP/2 support on some servers [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/?view=aspnetcore-6.0&tabs=windows#http2-support).
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *REST vs GraphQL vs gRPC* (Read [the comparison to help you decide which to use in your project](https://medium.com/bitsrc/rest-vs-graphql-vs-grpc-684edfacf810))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "This article outlines each of the advantages, drawbacks, and when to choose between REST, GraphQL, and gRPC. It might be a good read if you want to switch from REST, consider GraphQL to have a dynamic API that the UI, or use gRPC to optimize performance".
+*REST vs GraphQL vs gRPC* (Read [the comparison to help you decide which to use in your project](https://medium.com/bitsrc/rest-vs-graphql-vs-grpc-684edfacf810))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *Dynamic Kubernetes Cluster Scaling at Airbnb* (Read [the company journey on migrating their container orchestration to Kubernetes](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132))
+__Brain:__ "This article outlines each of the advantages, drawbacks, and when to choose between REST, GraphQL, and gRPC. It might be a good read if you want to switch from REST, consider GraphQL to have a dynamic API that the UI, or use gRPC to optimize performance".
+{: .tech-news-info }
 
-Brain: "The article lists out the phases of implementing autoscaling in their Kubernetes clusters. From manually scaling a physical instance to providing a customized auto-scaling mechanism that fits into Airbnb’s own use case. It’s interesting how they create a customized solution and give out the solution to the open source platform they are using".
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *Service Monitoring Patterns* (Read [the types of monitoring patterns written by the engineers in the Hotstar streaming service](https://blog.hotstar.com/monitoring-at-scale-2021-d508cf0c4da8))
+*Dynamic Kubernetes Cluster Scaling at Airbnb* (Read [the company journey on migrating their container orchestration to Kubernetes](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132))
+{: .tech-news-link }
 
-Brain: "It's always useful to learn something from the real-world application. Especially in the case of service monitoring, which I think the learning material is still limited on usually really dependent on the platform that is used. In this article, the engineers in Hotstar streaming service share their decision to use a 3rd party reliability platform called Last9 to aggregate all of their monitoring data into a centralized platform. The features outlined are quite interesting, such as allowing us to view all of the systems in graphs, so we can visualize where the issue lies within our system".
+__Brain:__ "The article lists out the phases of implementing autoscaling in their Kubernetes clusters. From manually scaling a physical instance to providing a customized auto-scaling mechanism that fits into Airbnb’s own use case. It’s interesting how they create a customized solution and give out the solution to the open source platform they are using".
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *Attackers scan 1.6 million WordPress sites for vulnerable plugins* (Read [the explanation to learn how to secure your WordPress](https://www.bleepingcomputer.com/news/security/attackers-scan-16-million-wordpress-sites-for-vulnerable-plugin/))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: "The author reports that hackers find a vulnerable plugin that allows them to upload files without authentication to inject malicious script. It's worth reading if you have any WordPress projects".
+*Service Monitoring Patterns* (Read [the types of monitoring patterns written by the engineers in the Hotstar streaming service](https://blog.hotstar.com/monitoring-at-scale-2021-d508cf0c4da8))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *Canidev.tools, a tool that shows what your browser’s dev tools can do* (Browse [the feature available here](https://www.canidev.tools/))
+__Brain:__ "It's always useful to learn something from the real-world application. Especially in the case of service monitoring, which I think the learning material is still limited on usually really dependent on the platform that is used. In this article, the engineers in Hotstar streaming service share their decision to use a 3rd party reliability platform called Last9 to aggregate all of their monitoring data into a centralized platform. The features outlined are quite interesting, such as allowing us to view all of the systems in graphs, so we can visualize where the issue lies within our system".
+{: .tech-news-info }
 
-Brain: "Browsing through the feature list on this site introduces me to several useful features I didn’t know existed. This site lists all of the features of several browser’s dev tools and details how to access them. For example, I learned that you can simply emulate your website's light/dark color scheme by toggling one button in the dev tools without changing your computer’s color scheme".
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Attackers scan 1.6 million WordPress sites for vulnerable plugins* (Read [the explanation to learn how to secure your WordPress](https://www.bleepingcomputer.com/news/security/attackers-scan-16-million-wordpress-sites-for-vulnerable-plugin/))
+{: .tech-news-link }
+
+__Yoga:__ "The author reports that hackers find a vulnerable plugin that allows them to upload files without authentication to inject malicious script. It's worth reading if you have any WordPress projects".
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Canidev.tools, a tool that shows what your browser’s dev tools can do* (Browse [the feature available here](https://www.canidev.tools/))
+{: .tech-news-link }
+
+__Brain:__ "Browsing through the feature list on this site introduces me to several useful features I didn’t know existed. This site lists all of the features of several browser’s dev tools and details how to access them. For example, I learned that you can simply emulate your website's light/dark color scheme by toggling one button in the dev tools without changing your computer’s color scheme".
+{: .tech-news-info }

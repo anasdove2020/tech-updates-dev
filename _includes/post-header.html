@@ -1,6 +1,6 @@
 {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
 {% assign postDate = page.date | date: date_format %}
-{{ page.week | append: ' · ' | append: postDate }}
+Week #{{ page.week | append: ' · ' | append: postDate }}
 {: .post-content-metadata }
 
 # {{ page.title }}

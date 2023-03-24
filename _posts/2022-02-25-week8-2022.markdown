@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #8 2022 - Security in Polyrific"
+week: 8
+title:  "Security in Polyrific"
 date:   2022-02-25 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Security in Polyrific
 
@@ -15,13 +20,29 @@ With this writing, we want to stress out once again that we treat security serio
 None of the items in the onboarding list are only for the sake of formality on the paper. We would like you to take some time to read the policies carefully and understand how they will affect your daily workflow. If you find something that needs improvement, please don't hesitate to bring them to the table. We believe that your participation is the key to the success of the security policy implementation in Polyrific.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *NET 20th Anniversary* (watch [the live event](https://youtu.be/67tCWKnweso))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *Why shouldn't I choose the best language for the job?* (watch [what Tim Corey say about this](https://youtu.be/IeN4mrGBNQU))
+*NET 20th Anniversary* (watch [the live event](https://youtu.be/67tCWKnweso))
 
-![memo](/assets/images/memo16.png) *Design an office that people want to come back to* (read [the article from Harvard Business Review](https://hbr.org/2022/01/design-an-office-that-people-want-to-come-back-to))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *The Harsh Reality for JS Developers: If You Don't Study The Fundamentals You Will Be Just Another “Coder”* (read [the interesting article](https://dev.to/dragosnedelcu/the-harsh-reality-for-js-developers-master-the-fundamentals-or-you-will-be-just-a-coder-21ke))
+*Why shouldn't I choose the best language for the job?* (watch [what Tim Corey say about this](https://youtu.be/IeN4mrGBNQU))
 
-![memo](/assets/images/memo16.png) *A printable, PDF - Git cheatsheet* (get [the cheatsheet](https://dev.to/tqbit/a-printable-pdf-git-cheatsheet-33bd))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Design an office that people want to come back to* (read [the article from Harvard Business Review](https://hbr.org/2022/01/design-an-office-that-people-want-to-come-back-to))
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*The Harsh Reality for JS Developers: If You Don't Study The Fundamentals You Will Be Just Another “Coder”* (read [the interesting article](https://dev.to/dragosnedelcu/the-harsh-reality-for-js-developers-master-the-fundamentals-or-you-will-be-just-a-coder-21ke))
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*A printable, PDF - Git cheatsheet* (get [the cheatsheet](https://dev.to/tqbit/a-printable-pdf-git-cheatsheet-33bd))

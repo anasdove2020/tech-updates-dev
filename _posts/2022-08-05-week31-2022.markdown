@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #31 2022 - OIDC"
+week: 31
+title:  "OIDC"
 date:   2022-08-05 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## OIDC
 
@@ -52,23 +57,49 @@ Whatever the identity provider of your choice, you should always be aware of the
 - Always authenticate the user when connecting an existing OpenID-enabled account
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *Engineering Stack Overflow* (Listen to [the podcast from the director of Engineering in Stack overflow](https://hanselminutes.com/847/engineering-stack-overflow-with-roberta-arcoverde))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "Stack overflow is a site we all love. It receives 2 billion page views per month. You would think it uses some advanced cloud hosting with auto-scaling and consists of many microservices. It turns out it was built using a monolithic architecture, and the app is still hosted on-premises. In this podcast, the director of engineering in Stack overflow shares their view on their pragmatic approach to building a software architecture".
+*Engineering Stack Overflow* (Listen to [the podcast from the director of Engineering in Stack overflow](https://hanselminutes.com/847/engineering-stack-overflow-with-roberta-arcoverde))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *How facial recognition technology keeps you safe* (Read [the argument for facial recognition here](https://engineering.grab.com/facial-recognition))
+__Brain:__ "Stack overflow is a site we all love. It receives 2 billion page views per month. You would think it uses some advanced cloud hosting with auto-scaling and consists of many microservices. It turns out it was built using a monolithic architecture, and the app is still hosted on-premises. In this podcast, the director of engineering in Stack overflow shares their view on their pragmatic approach to building a software architecture".
+{: .tech-news-info }
 
-Brain: "In this article, Grab’s engineers share how they use facial recognition to protect their customer as well as their partner. They also go into detail about how to implement a facial recognition AI model and share the hurdles they face while building their own internal face recognition platform".
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *Deconstructing the Monolith: Designing Software that Maximizes Developer Productivity* (Read [how Shopify modularize their application without going extreme with the micro-service](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity))
+*How facial recognition technology keeps you safe* (Read [the argument for facial recognition here](https://engineering.grab.com/facial-recognition))
+{: .tech-news-link }
 
-Brain: "In this article, the Shopify engineers share their thought process of migrating their Monolithic architecture into Modular monolith. The article nicely explains their pain point with Monolithic architecture while also comparing the solution of using the trendy microservice architecture. They conclude that the problems that come with microservice architecture related to latency and operations overhead make them choose to modularize their monolithic code base instead. It’s interesting how they organize the module separately within the same code base, and how they plan to make it so incorrect dependency calls can trigger runtime error/failed unit tests".
+__Brain:__ "In this article, Grab’s engineers share how they use facial recognition to protect their customer as well as their partner. They also go into detail about how to implement a facial recognition AI model and share the hurdles they face while building their own internal face recognition platform".
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *35,000 code repos not hacked—but clones flood GitHub to serve malware* (Read [the Malware attacks on Github repositories](https://www.bleepingcomputer.com/news/security/35-000-code-repos-not-hacked-but-clones-flood-github-to-serve-malware/))
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: "This article reports that a software engineer discovered thousands of GitHub repositories were forked (copied) with their clones altered to include malware. The attackers plant remote access as a backdoor to gain access. This attacks open source projects and targets unaware developers with their malicious clones".
+*Deconstructing the Monolith: Designing Software that Maximizes Developer Productivity* (Read [how Shopify modularize their application without going extreme with the micro-service](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity))
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *Winamp releases new version after four years in development* (Read [the Winamp comeback with its new release](https://www.bleepingcomputer.com/news/software/winamp-releases-new-version-after-four-years-in-development/))
+__Brain:__ "In this article, the Shopify engineers share their thought process of migrating their Monolithic architecture into Modular monolith. The article nicely explains their pain point with Monolithic architecture while also comparing the solution of using the trendy microservice architecture. They conclude that the problems that come with microservice architecture related to latency and operations overhead make them choose to modularize their monolithic code base instead. It’s interesting how they organize the module separately within the same code base, and how they plan to make it so incorrect dependency calls can trigger runtime error/failed unit tests".
+{: .tech-news-info }
 
-Yoga: "Winamp, one of the most beloved media players, has released a new version. With cloud streaming support and more modern features, the actual main goal of this release was to upgrade their code base. We can expect more features in the future now that they're done with the upgrade".
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*35,000 code repos not hacked—but clones flood GitHub to serve malware* (Read [the Malware attacks on Github repositories](https://www.bleepingcomputer.com/news/security/35-000-code-repos-not-hacked-but-clones-flood-github-to-serve-malware/))
+{: .tech-news-link }
+
+__Yoga:__ "This article reports that a software engineer discovered thousands of GitHub repositories were forked (copied) with their clones altered to include malware. The attackers plant remote access as a backdoor to gain access. This attacks open source projects and targets unaware developers with their malicious clones".
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+*Winamp releases new version after four years in development* (Read [the Winamp comeback with its new release](https://www.bleepingcomputer.com/news/software/winamp-releases-new-version-after-four-years-in-development/))
+{: .tech-news-link }
+
+__Yoga:__ "Winamp, one of the most beloved media players, has released a new version. With cloud streaming support and more modern features, the actual main goal of this release was to upgrade their code base. We can expect more features in the future now that they're done with the upgrade".
+{: .tech-news-info }

@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Week #2 2023 - Minimum Viable Architecture"
+week: 2
+title:  "Minimum Viable Architecture"
 date:   2023-01-13 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
 
 {% include post-header.html %}
@@ -46,23 +49,49 @@ __References__
 - [https://www.protecto.ai/blog/what-is-minimum-viable-architecture-why-is-it-important](https://www.protecto.ai/blog/what-is-minimum-viable-architecture-why-is-it-important)
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Generate CSS with Code Magic](https://code-magic.vercel.app/)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Rizqun: "We've heard a lot about generators that help us write code in certain programming languages, but it seems generators for CSS are rarely discussed at this time. Code Magic is a CSS generator that provides various kinds of generators, such as for creating animations, creating text or objects with adjustable gradients, converting images into a set of text that forms an image, and so on."
+[Generate CSS with Code Magic](https://code-magic.vercel.app/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[A chain of security breaches happened and will likely go on](https://arstechnica.com/information-technology/2023/01/first-lastpass-now-slack-and-circleci-the-hacks-go-on-and-will-likely-worsen/)*
+__Rizqun:__ "We've heard a lot about generators that help us write code in certain programming languages, but it seems generators for CSS are rarely discussed at this time. Code Magic is a CSS generator that provides various kinds of generators, such as for creating animations, creating text or objects with adjustable gradients, converting images into a set of text that forms an image, and so on."
+{: .tech-news-info }
 
-Yoga: "Security issue and incident has become a serious concern recently following the latest security breaches in big companies. After LastPass's incident, now Slack and CircleCI reported that a security incident happened, prompting their users to rotate all of the secrets they store on their service. However, they similarly express that no customer data was accessed, either stolen or misused. The reporter said that these breaches are possibly related, similar to the last August attack that compromised more than 130 companies."
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[The Difference between HTTP PUT AND PATCH in REST API](https://medium.com/@niteshsinghal85/httpput-or-httppatch-in-asp-net-core-ceaae99e320b)*
+[A chain of security breaches happened and will likely go on](https://arstechnica.com/information-technology/2023/01/first-lastpass-now-slack-and-circleci-the-hacks-go-on-and-will-likely-worsen/)
+{: .tech-news-link }
 
-Dika: "What is the difference between HTTP PUT and PATCH requests? Maybe some developers still search for the answer since the use of both methods is similar, which is to update the value. In the article, we can see that the author tries to explain the difference between both. He also attached some code snippets and request-response examples to help us understand this topic."
+__Yoga:__ "Security issue and incident has become a serious concern recently following the latest security breaches in big companies. After LastPass's incident, now Slack and CircleCI reported that a security incident happened, prompting their users to rotate all of the secrets they store on their service. However, they similarly express that no customer data was accessed, either stolen or misused. The reporter said that these breaches are possibly related, similar to the last August attack that compromised more than 130 companies."
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Microsoft and OpenAI Working on ChatGPT-Powered Bing in Challenge to Google](https://www.theverge.com/2023/1/4/23538552/microsoft-bing-chatgpt-search-google-competition)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: "Many have predicted that ChatGPT would be a threat to Google and might replace the search giant as the Internet's "front gate." ChatGPT's ability to generate impressive contextual answers from a simple query might be a tough feature to beat. Microsoft has invested heavily in AI for the past years, including being the official partner of OpenAI, and it seems to be ready to reap the rewards."
+[The Difference between HTTP PUT AND PATCH in REST API](https://medium.com/@niteshsinghal85/httpput-or-httppatch-in-asp-net-core-ceaae99e320b)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Computer Scientist Explains One Concept in 5 Levels of Difficulty](https://www.youtube.com/watch?v=fOGdb1CTu5c)*
+__Dika:__ "What is the difference between HTTP PUT and PATCH requests? Maybe some developers still search for the answer since the use of both methods is similar, which is to update the value. In the article, we can see that the author tries to explain the difference between both. He also attached some code snippets and request-response examples to help us understand this topic."
+{: .tech-news-info }
 
-Frandi: “I find it hard to explain the zero-knowledge proof concept to non-technical people. That’s why I was amazed at this video where a Computer Science professor explained about the concept to five different people: a child, a teen, a college student, a grad student, and an expert. Go watch it yourself, and see if you understand the concept now.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Microsoft and OpenAI Working on ChatGPT-Powered Bing in Challenge to Google](https://www.theverge.com/2023/1/4/23538552/microsoft-bing-chatgpt-search-google-competition)
+{: .tech-news-link }
+
+__Brain:__ "Many have predicted that ChatGPT would be a threat to Google and might replace the search giant as the Internet's "front gate." ChatGPT's ability to generate impressive contextual answers from a simple query might be a tough feature to beat. Microsoft has invested heavily in AI for the past years, including being the official partner of OpenAI, and it seems to be ready to reap the rewards."
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Computer Scientist Explains One Concept in 5 Levels of Difficulty](https://www.youtube.com/watch?v=fOGdb1CTu5c)
+{: .tech-news-link }
+
+__Frandi:__ “I find it hard to explain the zero-knowledge proof concept to non-technical people. That’s why I was amazed at this video where a Computer Science professor explained about the concept to five different people: a child, a teen, a college student, a grad student, and an expert. Go watch it yourself, and see if you understand the concept now.”
+{: .tech-news-info }

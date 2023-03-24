@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #46 2022 - Similar Services on Azure"
+week: 46
+title:  "Similar Services on Azure"
 date:   2022-11-18 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Similar Services on Azure
 
@@ -64,23 +69,49 @@ Azure provides various load-balancing services that you can use to distribute yo
 [Azure Load Balancer](https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview) is a high-performance, ultra-low-latency Layer 4 load-balancing service (inbound and outbound) for all UDP and TCP protocols. It is built to handle millions of requests per second while ensuring your solution is highly available. Azure Load Balancer is zone-redundant, ensuring high availability across Availability Zones.
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Angular 15 is now available](https://blog.angular.io/angular-v15-is-now-available-df7be7f2f4c8)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Dika: “The new version of Angular was announced on Nov 17 this year. There are some improvements that lead to better developer experience and performance, like stable standalone APIs, stable Image Directive, Better stack trace, Automatic imports in language service and etc. The announcement also stated some deprecation patterns that are rarely used based on analyzing thousands of projects within Google.”
+[Angular 15 is now available](https://blog.angular.io/angular-v15-is-now-available-df7be7f2f4c8)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Thousands of GitHub repositories deliver fake PoC exploits with malware](https://www.bleepingcomputer.com/news/security/thousands-of-github-repositories-deliver-fake-poc-exploits-with-malware/)*
+__Dika:__ “The new version of Angular was announced on Nov 17 this year. There are some improvements that lead to better developer experience and performance, like stable standalone APIs, stable Image Directive, Better stack trace, Automatic imports in language service and etc. The announcement also stated some deprecation patterns that are rarely used based on analyzing thousands of projects within Google.”
+{: .tech-news-info }
 
-Yoga: “This article reports that there is a finding about another malicious exploitation in GitHub, which is from exploiting POC repositories. The repositories were meant for researchers to publish PoC exploits to help the community verify vulnerabilities or to determine the impact and scope. But, lately, they found that many of them contain malware and harmful scripts, even an info-stealer. We are advised to carefully check before downloading and executing PoC provided by an unverified source.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[Exploring Ghostwriter, a GitHub Copilot alternative](https://blog.logrocket.com/ghostwriter-github-copilot-alternative/)*
+[Thousands of GitHub repositories deliver fake PoC exploits with malware](https://www.bleepingcomputer.com/news/security/thousands-of-github-repositories-deliver-fake-poc-exploits-with-malware/)
+{: .tech-news-link }
 
-Rizqun: “Ghostwriter is an AI engine that helps with code autocompletion and development by recommending code based on our operations. Ghostwriter suggests our subsequent lines and statements of code by analyzing previous lines we've written in the language, the packages we installed, and other interactions. It's actually similar to many other programming AI applications, but Ghostwriter includes some improvements and features that we won't find in other AI tools like code suggestion and autocompletion, code generation, code explanations, and semantic search.”
+__Yoga:__ “This article reports that there is a finding about another malicious exploitation in GitHub, which is from exploiting POC repositories. The repositories were meant for researchers to publish PoC exploits to help the community verify vulnerabilities or to determine the impact and scope. But, lately, they found that many of them contain malware and harmful scripts, even an info-stealer. We are advised to carefully check before downloading and executing PoC provided by an unverified source.”
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[The Distributed Computing Manifesto](https://www.allthingsdistributed.com/2022/11/amazon-1998-distributed-computing-manifesto.html)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Frandi: “Werner Vogels, the CTO of Amazon, shared an interesting document from the early days of Amazon that transformed the architecture of Amazon’s e-commerce platform. I found it interesting because I can learn the thoughts behind the architecture that might be seen as ‘normal’ nowadays.”
+[Exploring Ghostwriter, a GitHub Copilot alternative](https://blog.logrocket.com/ghostwriter-github-copilot-alternative/)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Astro is the new interesting UI Framework](https://docs.astro.build/en/concepts/why-astro/)*
+__Rizqun:__ “Ghostwriter is an AI engine that helps with code autocompletion and development by recommending code based on our operations. Ghostwriter suggests our subsequent lines and statements of code by analyzing previous lines we've written in the language, the packages we installed, and other interactions. It's actually similar to many other programming AI applications, but Ghostwriter includes some improvements and features that we won't find in other AI tools like code suggestion and autocompletion, code generation, code explanations, and semantic search.”
+{: .tech-news-info }
 
-Brain: “It’s interesting how technology can rotate like fashion. At first, Multi Page Apps (MPA) was the standard. Then SPA came, and every UI framework is a SPA framework. Now the trend might shift again as we found it’s more efficient to render javascript in the server like what the Next.js server component has done. Astro is the new UI framework that tries to make MPA cool again. Though it also tries to bring the best of both worlds by introducing a concept called Astro island, which enables interactivity without sacrificing too much performance. I think this UI framework is worth looking into.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[The Distributed Computing Manifesto](https://www.allthingsdistributed.com/2022/11/amazon-1998-distributed-computing-manifesto.html)
+{: .tech-news-link }
+
+__Frandi:__ “Werner Vogels, the CTO of Amazon, shared an interesting document from the early days of Amazon that transformed the architecture of Amazon’s e-commerce platform. I found it interesting because I can learn the thoughts behind the architecture that might be seen as ‘normal’ nowadays.”
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Astro is the new interesting UI Framework](https://docs.astro.build/en/concepts/why-astro/)
+{: .tech-news-link }
+
+__Brain:__ “It’s interesting how technology can rotate like fashion. At first, Multi Page Apps (MPA) was the standard. Then SPA came, and every UI framework is a SPA framework. Now the trend might shift again as we found it’s more efficient to render javascript in the server like what the Next.js server component has done. Astro is the new UI framework that tries to make MPA cool again. Though it also tries to bring the best of both worlds by introducing a concept called Astro island, which enables interactivity without sacrificing too much performance. I think this UI framework is worth looking into.”
+{: .tech-news-info }

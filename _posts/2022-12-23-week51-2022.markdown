@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "Week #51 2022 - Data Mesh"
+week: 51
+title:  "Data Mesh"
 date:   2022-12-23 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
 ---
+
+{% include post-header.html %}
 
 ## Data Mesh
 
@@ -51,23 +56,49 @@ __References__
 - [https://www.ibm.com/topics/data-mesh](https://www.ibm.com/topics/data-mesh)
 
 ## Tech News
+{: .tech-news-title }
 
-![memo](/assets/images/memo16.png) *[Announcing OSV-Scanner: Vulnerability Scanner for Open Source](https://security.googleblog.com/2022/12/announcing-osv-scanner-vulnerability.html)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Yoga: “A new tool has been launched by Google that helps developers to scan their project that uses open-source software as their dependencies for vulnerabilities. It's kind of a difficult and tiring task to track and evaluate the impact on each build if the program uses a lot of dependencies. This is where the new tool, called OSV-Scanner, comes into play by automatically matching code in all dependencies used in their project with OSV's data and notifying them when a security update is required.”
+[Announcing OSV-Scanner: Vulnerability Scanner for Open Source](https://security.googleblog.com/2022/12/announcing-osv-scanner-vulnerability.html)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[JavaScript Debounce vs. Throttle](https://www.syncfusion.com/blogs/post/javascript-debounce-vs-throttle.aspx)*
+__Yoga:__ “A new tool has been launched by Google that helps developers to scan their project that uses open-source software as their dependencies for vulnerabilities. It's kind of a difficult and tiring task to track and evaluate the impact on each build if the program uses a lot of dependencies. This is where the new tool, called OSV-Scanner, comes into play by automatically matching code in all dependencies used in their project with OSV's data and notifying them when a security update is required.”
+{: .tech-news-info }
 
-Rizqun: “This article provides us with knowledge about the concepts of debounce and throttles in Javascript. Simply put, debounce will delay the function invocation by a defined period of time to avoid unnecessary invocations, whereas throttle, instead of delaying, invokes the callback function at regular intervals as long as the event trigger is active.”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-![memo](/assets/images/memo16.png) *[Docker new Resource Usage Extension](https://hub.docker.com/extensions/docker/resource-usage-extension)*
+[JavaScript Debounce vs. Throttle](https://www.syncfusion.com/blogs/post/javascript-debounce-vs-throttle.aspx)
+{: .tech-news-link }
 
-Dika: “A couple of weeks ago, docker introduced a new extension to monitor resources called Resource Usage Extension. It will be useful to monitor containers that consume most resources like CPU, Memory, Network, and Disk space.”
+__Rizqun:__ “This article provides us with knowledge about the concepts of debounce and throttles in Javascript. Simply put, debounce will delay the function invocation by a defined period of time to avoid unnecessary invocations, whereas throttle, instead of delaying, invokes the callback function at regular intervals as long as the event trigger is active.”
+{: .tech-news-info }
 
-![memo](/assets/images/memo16.png) *[Linux Foundation Announces Overture Maps Foundation to Build Interoperable Open Map Data](https://www.linuxfoundation.org/press/linux-foundation-announces-overture-maps-foundation-to-build-interoperable-open-map-data)*
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
 
-Brain: “Amazon Web Services Inc., Microsoft Corp., Meta Platforms Inc., and GPS navigator maker TomTom NV today launched a new industry group focused on making map data more accessible. Hopefully, this collaboration will create a product that can rival Google’s map services. Our experience so far is Google Maps service tends to be expensive, and a notable competitor is certainly required in this market.”
+[Docker new Resource Usage Extension](https://hub.docker.com/extensions/docker/resource-usage-extension)
+{: .tech-news-link }
 
-![memo](/assets/images/memo16.png) *[Google can now read your doctor’s bad handwriting](https://techcrunch.com/2022/12/18/google-can-now-decode-doctors-bad-handwriting/)*
+__Dika:__ “A couple of weeks ago, docker introduced a new extension to monitor resources called Resource Usage Extension. It will be useful to monitor containers that consume most resources like CPU, Memory, Network, and Disk space.”
+{: .tech-news-info }
 
-Frandi: “A large number of doctors write medicine prescriptions in haste, making it nearly impossible for their patients to understand what they scribbled. Now Google is having a go at translating those unfathomable texts”
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Linux Foundation Announces Overture Maps Foundation to Build Interoperable Open Map Data](https://www.linuxfoundation.org/press/linux-foundation-announces-overture-maps-foundation-to-build-interoperable-open-map-data)
+{: .tech-news-link }
+
+__Brain:__ “Amazon Web Services Inc., Microsoft Corp., Meta Platforms Inc., and GPS navigator maker TomTom NV today launched a new industry group focused on making map data more accessible. Hopefully, this collaboration will create a product that can rival Google’s map services. Our experience so far is Google Maps service tends to be expensive, and a notable competitor is certainly required in this market.”
+{: .tech-news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .tech-news-logo }
+
+[Google can now read your doctor’s bad handwriting](https://techcrunch.com/2022/12/18/google-can-now-decode-doctors-bad-handwriting/)
+{: .tech-news-link }
+
+__Frandi:__ “A large number of doctors write medicine prescriptions in haste, making it nearly impossible for their patients to understand what they scribbled. Now Google is having a go at translating those unfathomable texts”
+{: .tech-news-info }
