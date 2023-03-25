@@ -5,6 +5,9 @@ title:  "Chaos Engineering"
 date:   2022-12-09 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Engineering
+  - Computer
 ---
 
 {% include post-header.html %}

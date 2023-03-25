@@ -5,6 +5,9 @@ title:  "Internal Developer Platform"
 date:   2022-11-04 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
+  - Networking
 ---
 
 {% include post-header.html %}

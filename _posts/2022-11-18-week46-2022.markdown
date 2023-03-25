@@ -5,6 +5,10 @@ title:  "Similar Services on Azure"
 date:   2022-11-18 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - CI/CD
+  - Networking
+  - Azure
 ---
 
 {% include post-header.html %}

@@ -5,6 +5,10 @@ title:  "Data Mesh"
 date:   2022-12-23 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Data
+  - Database
+  - Computer
 ---
 
 {% include post-header.html %}

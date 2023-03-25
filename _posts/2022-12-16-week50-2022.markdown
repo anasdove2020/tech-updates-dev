@@ -5,6 +5,8 @@ title:  "Database DevOps"
 date:   2022-12-16 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Database
 ---
 
 {% include post-header.html %}
