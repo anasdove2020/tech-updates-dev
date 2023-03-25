@@ -737,6 +737,62 @@
   letter-spacing: 0.5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .post-content {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .post-content-metadata {
+    color: #020B13;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .post-content-title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 12px;
+  }
+  
+  .post-content-briefdescription {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+  
+  .post-content-image {
+    margin-bottom: 24px !important;
+  }
+  
+  .post-content-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-content h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .post-content p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+  
+  .post-content li {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+}
+
 /** NEWS **/
 
 .news-title {
@@ -775,6 +831,13 @@
   padding-left: 24px;
   border-left: 3px solid #1D94D2;
   margin-bottom: 44px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .news-title {
+    margin-top: 32px;
+    margin-bottom: 24px !important;
+  }
 }
 
 /** POST SUGGESTED **/
@@ -829,6 +892,55 @@
   letter-spacing: 0.5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .post-suggesteds {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .post-suggesteds a:hover {
+    text-decoration: none;
+  }
+  
+  .post-suggesteds-title {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .post-suggested-image {
+    margin-bottom: 16px;
+  }
+  
+  .post-suggested-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-suggested-metadata {
+    margin-bottom: 4px;
+    padding-left: 4px;
+  }
+  
+  .post-suggested-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    padding-left: 4px;
+  }
+  
+  .post-suggested-briefdescription {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    padding-left: 4px;
+  }
+}
+
 /** ROW & COLUMN **/
 
 .column {
@@ -847,4 +959,24 @@
   display: table;
   clear: both;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    box-sizing: border-box;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+  }
 }
