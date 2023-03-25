@@ -23,7 +23,7 @@
               {% assign my_page = site.pages | where: "path", path | first %}
               {% if my_page.title %}
                 {% if my_page.buttonHighlighted %}
-                  <a class="page-link page-link-highlighted" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  <a class="page-link page-link-highlighted" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
                 {% else %}
                   <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {% endif %}
