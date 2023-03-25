@@ -5,6 +5,8 @@ title:  "CI/CD Best Practices"
 date:   2022-09-09 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
 ---
 
 {% include post-header.html %}

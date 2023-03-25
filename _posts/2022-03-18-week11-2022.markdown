@@ -5,6 +5,8 @@ title:  "Tech Support"
 date:   2022-03-18 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Networking
 ---
 
 {% include post-header.html %}

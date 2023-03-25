@@ -5,6 +5,8 @@ title:  "WAI-ARIA"
 date:   2022-06-10 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
 ---
 
 {% include post-header.html %}

@@ -5,6 +5,8 @@ title:  "GitOps"
 date:   2022-07-29 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
 ---
 
 {% include post-header.html %}

@@ -5,6 +5,8 @@ title:  "World Password Day"
 date:   2022-05-06 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
 ---
 
 {% include post-header.html %}

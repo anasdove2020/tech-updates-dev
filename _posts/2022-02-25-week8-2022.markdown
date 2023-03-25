@@ -5,6 +5,9 @@ title:  "Security in Polyrific"
 date:   2022-02-25 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Polyrific
+  - Security
 ---
 
 {% include post-header.html %}

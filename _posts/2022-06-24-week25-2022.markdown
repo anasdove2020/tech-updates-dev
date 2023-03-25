@@ -5,6 +5,8 @@ title:  "WebAssembly"
 date:   2022-06-24 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
 ---
 
 {% include post-header.html %}

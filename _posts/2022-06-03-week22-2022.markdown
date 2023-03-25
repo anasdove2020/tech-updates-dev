@@ -5,6 +5,8 @@ title:  "Week #22 2022 - .NET Family"
 date:   2022-06-03 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+  - Computer
 ---
 
 {% include post-header.html %}
