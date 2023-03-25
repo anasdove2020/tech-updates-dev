@@ -57,6 +57,14 @@
   margin-right: -5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
 /** HEADER **/
 
 .site-header {
@@ -80,12 +88,6 @@
   padding-top: 9px;
   width: 352px;
   float: left;
-}
-
-@media screen and (max-width: 800px) {
-  .search-box {
-    display: none;
-  }
 }
 
 .search-input {
@@ -125,6 +127,23 @@
   outline: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .search-box {
+    padding-left: 40px;
+    width: 200px;
+  }
+
+  .search-input {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .search-box {
+    display: none;
+  }
+}
+
 /** FOOTER **/
 
 .site-footer {
@@ -138,21 +157,6 @@
   height: 439px;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 1366px) and (min-width: 900px) {
-  .site-footer-banner {
-    background-image: url("/assets/images/footer-banner.svg");
-    width: 100%;
-    height: 439px;
-    background-repeat: no-repeat;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .site-footer-banner {
-    display: none;
-  }
 }
 
 .site-footer-box {
@@ -251,24 +255,6 @@
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 800px) {
-  .site-footer-text {
-    display: block;
-    padding-bottom: 16px;
-    height: unset;
-  }
-
-  .site-footer-text-right {
-    display: block;
-    position: unset;
-  }
-
-  .site-footer-url {
-    display: block;
-    margin-bottom: 8px;
-  }
-}
-
 .site-footer-text-right span {
   color: #1D94D2;
   font-size: 16px;
@@ -298,6 +284,86 @@
 .site-footer-url:hover,
 .site-footer-twitter:hover {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1028px) {
+  .site-footer-banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .site-footer-box {
+    top: 24px;
+    left: 44%;
+    width: 400px;
+    height: 250px;
+  }
+  
+  .site-footer-box-title {
+    width: 250px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .site-footer-box-text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .site-footer-box-control {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 41px;
+    background: #FFFFFF;
+  }
+  
+  .site-footer-box-input {
+    height: 39px;
+    width: 200px;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 16px;
+  }
+  
+  .site-footer-box-button {
+    width: 135px;
+    height: 33px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-footer-banner {
+    display: none;
+  }
+  
+  .site-footer-text {
+    display: block;
+    padding-bottom: 16px;
+    height: unset;
+    text-align: center;
+  }
+
+  .site-footer-text-right {
+    display: block;
+    position: unset;
+  }
+
+  .site-footer-url {
+    display: block;
+  }
+
+  .site-footer-twitter {
+    background: #1D94D2;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 29px;
+    padding: 4px 14px;
+  }
 }
 
 /** HOME PAGE **/
@@ -366,6 +432,91 @@
   padding-right: 85px;
 }
 
+@media screen and (max-width: 1024px) {
+  .home-description {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 44px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .home-banner-detail {
+    top: 52px;
+  }
+
+  .home-banner-detail-header {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .home-banner-detail-title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .home-banner-detail-description {
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-description {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .home-banner {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .home-banner-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .home-banner-detail {
+    position: unset;
+    top: unset;
+    left: unset;
+    width: 100%;
+    top: unset;
+    margin-top: 16px;
+    padding-left: 4px;
+  }
+  
+  .home-banner-detail-header {
+    color: #020B13;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .home-banner-detail-title {
+    color: #020B13;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .home-banner-detail-description {
+    color: #020B13;
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 0;
+  }
+}
+
+/** HOME POSTS **/
+
 .home-posts {
   text-align: left;
 }
@@ -427,6 +578,90 @@
   font-size: 14px;
   line-height: 16px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .home-post-image img {
+    height: 120px;
+  }
+
+  .home-post-detail {
+    padding-top: 4px;
+  }
+  
+  .home-post-detail-header {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .home-post-detail-title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .home-post-detail-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .home-load-more {
+    padding: 12px 26px; 
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-post {
+    margin-bottom: 24px;
+    display: block;
+  }
+  
+  .home-post-image {
+    text-align: left;
+  }
+  
+  .home-post-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .home-post-detail {
+    text-align: left;
+    padding-left: 4px;
+    padding-top: 16px;
+  }
+  
+  .home-post-detail-header {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .home-post-detail-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .home-post-detail-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .home-load-more {
+    border: none;
+    border-radius: 24px;
+    background: #002966;
+    padding: 12px 26px; 
+    color: #FFFFFF;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+  }
 }
 
 /** POST CONTENT **/
