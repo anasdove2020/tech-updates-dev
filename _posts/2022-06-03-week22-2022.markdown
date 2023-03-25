@@ -1,5 +1,6 @@
 ---
 layout: post
+week: 22
 title:  "Week #22 2022 - .NET Family"
 date:   2022-06-03 20:00:00 +0700
 bannerUrl: "banner_default.png"
@@ -50,6 +51,7 @@ In Polyrific, we have been using .NET as the leading technology for a long time.
 {: .tech-news-link }
 
 __Brain:__ "The researcher at Carnegie Mellon University tries to improve how we interact with our smartphones. They want to utilize our gaze and simple hand gesture to make our interaction with the phone more natural. I hope this technology can also be adopted in the PC though, so I can code and move between tabs and windows without having to use the mouse and move my hand from my keyboard."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -58,6 +60,7 @@ __Brain:__ "The researcher at Carnegie Mellon University tries to improve how we
 {: .tech-news-link }
 
 __Brain:__ "Cloudflare recently reported a record number of 15.3 million requests per second DDOS attack, delivered through HTTPS requests, which had the potential to put much more strain on the target. The attackers are getting stronger which means we also need to tighten our defense in terms of cyber security."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -66,6 +69,7 @@ __Brain:__ "Cloudflare recently reported a record number of 15.3 million request
 {: .tech-news-link }
 
 __Brain:__ "UI developers might just have additional work to do. Google just announced a new API to allow page transition in web applications. It’s interesting how little improvement like this is continuously made to the Web even today. I wonder how the Web will look 10 years from now."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -74,6 +78,7 @@ __Brain:__ "UI developers might just have additional work to do. Google just ann
 {: .tech-news-link }
 
 __Brain:__ "Having the same understanding of a term is important within a development team. The article explained in a simple and visually clear way the difference between Commands and Events in async messaging. TLDR: commands are for invoking behavior, and events are for telling other parts of the application that something has happened."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -82,3 +87,4 @@ __Brain:__ "Having the same understanding of a term is important within a develo
 {: .tech-news-link }
 
 __Brain:__ "It’s good to hear when a company commits to improving the developer experience. The article drill through the roadmap of a more modern C# adoption. If you have tried coding with Unity before, you’ll notice that the source code was using quite an old C# version, making us unable to use some great features such as async/await."
+{: .tech-news-info }

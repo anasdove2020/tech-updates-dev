@@ -39,6 +39,7 @@ By having a bit of knowledge of this time-series database, now we have one more 
 {: .tech-news-link }
 
 __Brain:__ "It’s a bit refreshing to hear that a big company like Paypal is also doing what we are trying to do. They are utilizing code automation to achieve efficiency and high-quality products, which is similar to what we are trying to achieve with Open Catapult. I wonder how many companies are trying to have the same approach, and how catapult can help them have an established framework, instead of having to build it all from scratch."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -47,6 +48,7 @@ __Brain:__ "It’s a bit refreshing to hear that a big company like Paypal is al
 {: .tech-news-link }
 
 __Brain:__ "We’ve been discussing application monitoring, and I think this article brings up some new perspectives on how to implement tracing and monitoring. It’s also good news that Microsoft Azure has also been supporting the open telemetry that enables this distributed tracing"
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -55,6 +57,7 @@ __Brain:__ "We’ve been discussing application monitoring, and I think this art
 {: .tech-news-link }
 
 __Brain:__ "Several cautionary tales that can help us be more careful in our online interactions. It's particularly interesting technology such as deep fake video/audio is utilized to trick unsuspecting victims"
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -63,6 +66,7 @@ __Brain:__ "Several cautionary tales that can help us be more careful in our onl
 {: .tech-news-link }
 
 __Brain:__ "Microsoft provided some guidelines and best practices to protect our Azure resources against the DDoS attacks. It gives pointers on how we can do the monitoring and alerts, as well as how to simulate the DDoS attack to see how our app would respond to such an attack."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -71,3 +75,4 @@ __Brain:__ "Microsoft provided some guidelines and best practices to protect our
 {: .tech-news-link }
 
 __Brain:__ "Mike Cohn shares his tips on how to help complete important backlog items that often get buried on a super busy sprint, where everything that comes to us seems to be all urgent."
+{: .tech-news-info }

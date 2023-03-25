@@ -26,23 +26,28 @@ The other exciting part of this POC project is, of course, the technology stack.
 {: .tech-news-logo }
 
 *Sustainable architectures in a world of Agile, DevOps, and cloud* (read [the article from StackOverflow blog](https://stackoverflow.blog/2022/02/24/sustainable-architectures-in-a-world-of-agile-devops-and-cloud/))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Build a greener web* (watch [the insightful talk video](https://youtu.be/OdiSM9wLPAM))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Monorepo explained* (apparently there's a dedicated website that explained this - check [the website](https://monorepo.tools/))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Key criteria for evaluating DevSecOps tools* (watch [the Pluralsight webinar](https://youtu.be/2gGbJa_pGbM))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *How to safely share business passwords* (read [the article from LastPass blog](https://blog.lastpass.com/2022/02/how-to-safely-share-business-passwords/))
+{: .tech-news-link-no-info }

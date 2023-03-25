@@ -26,23 +26,28 @@ None of the items in the onboarding list are only for the sake of formality on t
 {: .tech-news-logo }
 
 *NET 20th Anniversary* (watch [the live event](https://youtu.be/67tCWKnweso))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Why shouldn't I choose the best language for the job?* (watch [what Tim Corey say about this](https://youtu.be/IeN4mrGBNQU))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Design an office that people want to come back to* (read [the article from Harvard Business Review](https://hbr.org/2022/01/design-an-office-that-people-want-to-come-back-to))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *The Harsh Reality for JS Developers: If You Don't Study The Fundamentals You Will Be Just Another “Coder”* (read [the interesting article](https://dev.to/dragosnedelcu/the-harsh-reality-for-js-developers-master-the-fundamentals-or-you-will-be-just-a-coder-21ke))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *A printable, PDF - Git cheatsheet* (get [the cheatsheet](https://dev.to/tqbit/a-printable-pdf-git-cheatsheet-33bd))
+{: .tech-news-link-no-info }

@@ -59,6 +59,7 @@ Thorough testing at each level confirms that services can run independently, in 
 {: .tech-news-link }
 
 __Brain:__ "OpenAI’s GPT3 has new competition. Google just released PaLM, an AI model that has been trained using 540 billion parameters. The demo seems quite impressive, showing how it can answer complex questions, connect cause & effect, and even explain a joke. As with GPT3, it can also be used to generate some code based on a prompt."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -67,6 +68,7 @@ __Brain:__ "OpenAI’s GPT3 has new competition. Google just released PaLM, an A
 {: .tech-news-link }
 
 __Brain:__ "The article discusses what we can learn from the AWS 7-hour-long incident that happened in December last year. It talks about the importance of software monitoring, having a reliable and failsafe CI/CD pipeline, and implementing redundancies."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -75,6 +77,7 @@ __Brain:__ "The article discusses what we can learn from the AWS 7-hour-long inc
 {: .tech-news-link }
 
 __Brain:__ "It turns out reading the whole license agreement does not guarantee you from being safe from company malicious intend. The video tells the story of how Sony installed dangerous malware without even stating it anywhere in the documentation. It teaches us to be cautious when installing any software, even if it’s from a well-known company."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -83,6 +86,7 @@ __Brain:__ "It turns out reading the whole license agreement does not guarantee 
 {: .tech-news-link }
 
 __Brain:__ "The author share 5 key lessons learned from his Product management experience. This one is personally useful for my previous role as Director of Products. Product management is a whole different discipline from software development, and there’s so much more thought to learn on this."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -91,3 +95,4 @@ __Brain:__ "The author share 5 key lessons learned from his Product management e
 {: .tech-news-link }
 
 __Brain:__ "Exciting news for cross-platform app developers. .NET MAUI finally has a release candidate, which means the stable version is near the horizon. .NET MAUI will provide all of the controls available in Xamarin, with additional controls such as BlazorWebView, Border, GraphicsView, MenuBar, Shadow, and Window. It can be considered for your next cross-platform apps."
+{: .tech-news-info }

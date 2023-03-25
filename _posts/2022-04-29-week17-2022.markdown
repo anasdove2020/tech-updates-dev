@@ -42,6 +42,7 @@ Therefore we need your cooperation to:
 {: .tech-news-link }
 
 __Brain:__ "Andrew Ng is one of the big names in the AI space. In the interview, he talks about data-centric AI, where we don’t only focus on big data, but also how to organize the data to be good data so even a small amount of data can produce a good AI model."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -50,6 +51,7 @@ __Brain:__ "Andrew Ng is one of the big names in the AI space. In the interview,
 {: .tech-news-link }
 
 __Brain:__ "The article explains in detail how Slack's engineers optimize the DOM’s memory usage. As most web developers have experienced, complicated apps can have a large amount of DOMs which can hugely burden the computer’s memory. The strategy by moving the load of the client to the server is particularly interesting, because that’s basically what’s been done in the past before the hell broke loose with all the heavyweight JavaScript client frameworks. I guess we can  always learn from the past."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -58,6 +60,7 @@ __Brain:__ "The article explains in detail how Slack's engineers optimize the DO
 {: .tech-news-link }
 
 __Brain:__ "An interesting blogpost on how we can approach our git commit when coding. It suggests to commit as often as you can so you can have as many safe step stored in the commit, instead of having to navigate through a “broken” state for a long time. I think I’ll try to implement it in my daily work, as I see how it can be beneficial to think about the code in chunks, and ease the burden on our mind from having to carefully think about all aspects of the code without breaking things as we move."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -66,6 +69,7 @@ __Brain:__ "An interesting blogpost on how we can approach our git commit when c
 {: .tech-news-link }
 
 __Brain:__ "If you ever have some concurrency issue when building an application, I think you’ll appreciate this unit testing tool. It’ll guard you by default from common pitfalls on concurrency issues. I think this type of issue can be hard to detect because it usually occurs intermittently, and only with a specific rare case."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -74,3 +78,4 @@ __Brain:__ "If you ever have some concurrency issue when building an application
 {: .tech-news-link }
 
 __Brain:__ "The blog post offers an alternative way of doing the interview for engineering candidates. Instead of asking them to solve some coding problem, which can be time consuming to prepare, and can inaccurately measure candidate talent, the author proposes to have the candidate read an actual code and share their insights, which can probe the most fundamental skills in programming."
+{: .tech-news-info }

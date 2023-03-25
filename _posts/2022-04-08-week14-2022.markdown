@@ -48,6 +48,7 @@ These are the example of the monitoring & observability services:
 {: .tech-news-link }
 
 __Brain:__ "The article explains in detail the reports you see in the PageSpeed Insights assessment, and offers some tips and how to do the optimization. I think it’s a good read if you often have to optimize the page speed on the website you build."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -56,6 +57,7 @@ __Brain:__ "The article explains in detail the reports you see in the PageSpeed 
 {: .tech-news-link }
 
 __Brain:__ "The presenter gives some insight as a founder of a Cyber Security company on how communicating the security awareness or guidance through humor can be more effective in nudging people to be more aware of cyber security in their daily work activities, since they are more engaged when presented with such info that is also making them laugh. I have a few good chuckles when listening to some anecdotes that the presenter shared."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -64,6 +66,7 @@ __Brain:__ "The presenter gives some insight as a founder of a Cyber Security co
 {: .tech-news-link }
 
 __Brain:__ "GitHub shares a new VS Code extension that has experimental features that utilize machine learning, such as allowing it to explain the code you select into a natural language, and translate the code to other programming languages. It’s still available as a technical preview, so you might need to register first before trying it out."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -72,6 +75,7 @@ __Brain:__ "GitHub shares a new VS Code extension that has experimental features
 {: .tech-news-link }
 
 __Brain:__ "Please don’t take offense at how the article suggests that managers should think of their workers as crops. But I think the analogy between environmental sustainability and workplace productivity has quite a good point."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -80,3 +84,4 @@ __Brain:__ "Please don’t take offense at how the article suggests that manager
 {: .tech-news-link }
 
 __Brain:__ "Sorry if it's a bit too technical for the wide audience. I just started learning React when working on recent projects, and I found this article to be quite enlightening on the concept I was struggling with before."
+{: .tech-news-info }

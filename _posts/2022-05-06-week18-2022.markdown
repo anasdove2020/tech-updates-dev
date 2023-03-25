@@ -65,3 +65,4 @@ __Brain:__ "An advancement is made yet again in the field of AI vision systems. 
 {: .tech-news-link }
 
 __Brain:__ "For our US based employees that want to have a feel on what Metaverse is all about, they soon can go to the “Meta Store” to experience it first hand. Let us know how it goes if one of you ever stumbled upon it".
+{: .tech-news-info }

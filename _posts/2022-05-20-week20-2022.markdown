@@ -51,6 +51,7 @@ The dev team needs to learn about the exact requirements of the applications (ch
 {: .tech-news-link }
 
 __Brain:__ "This free e-book contains engineering practices utilized at Google to make their codebase sustainable and healthy. This could be a good read for aspiring software architects and tech leads. I haven’t got the chance to read it myself, but I’m definitely putting it on my reading list."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -59,6 +60,7 @@ __Brain:__ "This free e-book contains engineering practices utilized at Google t
 {: .tech-news-link }
 
 __Brain:__ "We already use Serilog in our apps like Catapult, Go Wandering, and other apps we built for our client. If you want to dig deeper into the world of application logging, this tutorial will cover the most basic and advanced cases."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -67,6 +69,7 @@ __Brain:__ "We already use Serilog in our apps like Catapult, Go Wandering, and 
 {: .tech-news-link }
 
 __Brain:__ "The article lists out several best practices you can follow to better protect yourself from cyber threats. I think it’s good news that we’ve applied most of the best practices in our company policies, such as enabling MFA and using password managers."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -75,6 +78,7 @@ __Brain:__ "The article lists out several best practices you can follow to bette
 {: .tech-news-link }
 
 __Brain:__ "The article detailed the improvement that has been made over the year in each new dotnet version, in regards to the Azure Cosmos DB SDK. The performance improvements are quite exciting. For example, one of the improvements allows for lower CPU utilization and improves latency requests by up to 1500%. It’s nice that we already use this Azure Cosmos DB in our project, some of which are already in .NET 6 (i.e. our new Friday update application)"
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -83,3 +87,4 @@ __Brain:__ "The article detailed the improvement that has been made over the yea
 {: .tech-news-link }
 
 __Brain:__ "If you happened to have US$1 Million in $Luna tokens last month, today it may go down to a mere US$10k. The token just plummeted 99% in value, making it one of the huge crypto crashes in recent memory. Although the underlying technology of crypto is still a promising feat, it’s still good to be wary since the area is still heavily unregulated, inviting many fraudsters & scammers to the field."
+{: .tech-news-info }

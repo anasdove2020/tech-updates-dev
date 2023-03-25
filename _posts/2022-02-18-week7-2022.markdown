@@ -41,23 +41,28 @@ Security protocols exist for reasons. So let's make it our culture to create a s
 {: .tech-news-logo }
 
 *Moving Beyond Monoliths and Microservices* (check [the talks from the GOTO book club](https://gotopia.tech/bookclub/episodes/moving-beyond-monoliths-microservices))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Adobe XD 2022 Crash Course* (watch [the Youtube video](https://youtu.be/oo5EoelQ_DQ))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *The three top-paying tech roles in 2022 and the skills you need to land them* (read [the article](https://stackoverflow.blog/2022/02/09/the-three-top-paying-tech-roles-in-2022-and-the-skills-you-need-to-land-them/))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *OpenTelemetry in .NET* (read [the blog post](https://rafaelldi.blog/posts/open-telemetry-in-dotnet/))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Modernize ASP.NET Framework to ASP.NET Core with the .NET Upgrade Assistant* (check [the learn module](https://docs.microsoft.com/en-us/learn/modules/modernize-aspnet-framework-to-core/))
+{: .tech-news-link-no-info }

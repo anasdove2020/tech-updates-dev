@@ -62,6 +62,7 @@ Azure Monitoring is a powerful tool and a bit complex at the same time because i
 {: .tech-news-link }
 
 __Brain:__ "The link is a live report on the situation regarding the Lapsus$ breach to Okta, an identity platform company. It is interesting to see the investigation process, how they identify the root cause and how they mitigate the breach that’s already happened."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -70,6 +71,7 @@ __Brain:__ "The link is a live report on the situation regarding the Lapsus$ bre
 {: .tech-news-link }
 
 __Brain:__ "As new technology such as cloud services or IoT emerges, new vulnerabilities that can be exploited by cyber attackers have also been discovered. Read on the threats that are listed in this article, to help you prepare and be aware of this security issue."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -78,6 +80,7 @@ __Brain:__ "As new technology such as cloud services or IoT emerges, new vulnera
 {: .tech-news-link }
 
 __Brain:__ "The article shows the real-world scenario where AI and nanotechnology are combined, to solve problems like how to pass/maintain Moore’s law, or how to do chemical modeling for bioscience and drug development. High tech stuff!"
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -86,6 +89,7 @@ __Brain:__ "The article shows the real-world scenario where AI and nanotechnolog
 {: .tech-news-link }
 
 __Brain:__ "An in-depth look at one of the big tech startups implementing their real-time data analysis for fraud detection. It shows what technology they use, the infrastructure they are using, and the tradeoff they are facing when deploying the solution to production."
+{: .tech-news-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
@@ -94,3 +98,4 @@ __Brain:__ "An in-depth look at one of the big tech startups implementing their 
 {: .tech-news-link }
 
 __Brain:__ "It seems the day we no longer have to add some “special” code in our HTML/CSS has come. Microsoft has announced that they will be retiring the Internet Explorer. Pass this news along to your fellow UI developers."
+{: .tech-news-info }

@@ -32,23 +32,28 @@ We are yet to create the "how-to" document about this new system, but I think yo
 {: .tech-news-logo }
 
 *Netflix: A culture of learning* (read [the article from Netflix Technology Blog](https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Project RADAR: Intelligent early fraud detection system with humans in the loop* (read [the post from Uber Engineering Blog](https://eng.uber.com/project-radar-intelligent-early-fraud-detection/))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Rebuilding payment orchestration at Airbnb* (read [the post from The Airbnb Tech Blog](https://medium.com/airbnb-engineering/rebuilding-payment-orchestration-at-airbnb-341d194a781b))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Next generation data insights using natural language queries* (read [the post from Twitter Engineering Blog](https://blog.twitter.com/engineering/en_us/topics/insights/2022/next-generation-data-insights-using-natural-language-queries))
+{: .tech-news-link-no-info }
 
 ![memo](/assets/images/tech-news.svg)
 {: .tech-news-logo }
 
 *Leveraging machine learning to find security vulnerabilities* (read [the post from GitHub Engineering Blog](https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/))
+{: .tech-news-link-no-info }
