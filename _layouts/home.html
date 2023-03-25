@@ -17,7 +17,7 @@ layout: default
         <div class="home-banner-detail">
           {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
           {% assign topSiteDate = topSite.date | date: date_format %}
-          <div class="home-banner-detail-header">{{ topSite.week | append: ' · ' | append: topSiteDate }}</div>
+          <div class="home-banner-detail-header">Week #{{ topSite.week | append: ' · ' | append: topSiteDate }}</div>
           <div class="home-banner-detail-title">{{ topSite.title }}</div>
           <div class="home-banner-detail-description">{{ topSite.briefDescription }}</div>
         </div>
@@ -40,7 +40,7 @@ layout: default
               <div class="home-post-detail">
                 {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
                 {% assign postDate = post.date | date: date_format %}
-                <div class="home-post-detail-header">{{ post.week | append: ' · ' | append: postDate }}</div>
+                <div class="home-post-detail-header">Week #{{ post.week | append: ' · ' | append: postDate }}</div>
                 <div class="home-post-detail-title">{{ post.title }}</div>
                 <div class="home-post-detail-description">{{ post.briefDescription }}</div>
               </div>
@@ -53,3 +53,5 @@ layout: default
   {% endif %}
 
 </div>
+
+<script src="/js/loadmore.js"></script>

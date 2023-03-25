@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Week #38 2022 - DAPR"
+week: 38
+title:  "DAPR"
 date:   2022-09-23 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
+keywords:
+  - Computer
 ---
+
+{% include post-header.html %}
 
 ## DAPR
 
@@ -43,23 +50,51 @@ In the local environment, you need the DAPR CLI to access the DAPR APIs. It can 
 In the remote deployment, DAPR is typically hosted in a containerized environment. It can be the self-hosted Kubernetes setup on a VM, the Kubernetes as a Service like Azure Kubernetes Service or Google Kubernetes Engine, or serverless platforms like Azure Container Apps.
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *[Update on Recent Security Incident in LastPass](https://blog.lastpass.com/2022/08/notice-of-recent-security-incident/)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Frandi: “After the first announcement on August 25 regarding the security incident, LastPass released a new investigation update on September 15. They said the threat actor had access to the Development environment for four days but assured that no Production data are compromised.”
+[Update on Recent Security Incident in LastPass](https://blog.lastpass.com/2022/08/notice-of-recent-security-incident/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Hackers gained access to Samsung customer data](https://www.zdnet.com/article/hackers-gained-access-to-samsung-customer-data/)*
+__Frandi:__ “After the first announcement on August 25 regarding the security incident, LastPass released a new investigation update on September 15. They said the threat actor had access to the Development environment for four days but assured that no Production data are compromised.”
+{: .news-info }
 
-Rizqun: “Last month, Samsung discovered that customer information was taken. The hackers didn’t gain access to Social Security numbers, credit cards, or debit card numbers. Samsung said the affected information included names, contact and demographic information, date of birth, and product registration information. Samsung also noted that consumer devices were not affected in this incident, and customers can continue to use Samsung products and services as usual.”
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *[AI wins state fair art contest, annoys humans](https://arstechnica.com/information-technology/2022/08/ai-wins-state-fair-art-contest-annoys-humans/)*
+[Hackers gained access to Samsung customer data](https://www.zdnet.com/article/hackers-gained-access-to-samsung-customer-data/)
+{: .news-url }
 
-Yoga: “AI has rapidly developed nowadays, and thanks to that, it can help our work in various ways, no exception for creating art. This article shows us that a synthetic media artist recently won first place in a Digital Arts competition using the Image Synthesis Model, an AI-assisted image generator tool. The result was good enough to fool human artists and give rise to various debates.”
+__Rizqun:__ “Last month, Samsung discovered that customer information was taken. The hackers didn’t gain access to Social Security numbers, credit cards, or debit card numbers. Samsung said the affected information included names, contact and demographic information, date of birth, and product registration information. Samsung also noted that consumer devices were not affected in this incident, and customers can continue to use Samsung products and services as usual.”
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *[The Site is HTTPS, so I’m Safe, Right?](https://betterprogramming.pub/the-site-is-https-so-im-safe-right-fc452ce79da7)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Rizqun: “This article provides information about the man-in-the-middle attack (MITM), explains how MITM works, as well as provides tips for readers to avoid it. Good reading to increase our knowledge and awareness of something.”
+[AI wins state fair art contest, annoys humans](https://arstechnica.com/information-technology/2022/08/ai-wins-state-fair-art-contest-annoys-humans/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)*
+__Yoga:__ “AI has rapidly developed nowadays, and thanks to that, it can help our work in various ways, no exception for creating art. This article shows us that a synthetic media artist recently won first place in a Digital Arts competition using the Image Synthesis Model, an AI-assisted image generator tool. The result was good enough to fool human artists and give rise to various debates.”
+{: .news-info }
 
-Yoga: “This article tells us that time spent by new developers is mostly for reading the code, holding them back by being not as productive as they should be. Reading and understanding codes require skill and the right method and tools to be effective. There are several tips and also suggestions to make it more effective in the future.”
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[The Site is HTTPS, so I’m Safe, Right?](https://betterprogramming.pub/the-site-is-https-so-im-safe-right-fc452ce79da7)
+{: .news-url }
+
+__Rizqun:__ “This article provides information about the man-in-the-middle attack (MITM), explains how MITM works, as well as provides tips for readers to avoid it. Good reading to increase our knowledge and awareness of something.”
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[How to interrogate unfamiliar code](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)
+{: .news-url }
+
+__Yoga:__ “This article tells us that time spent by new developers is mostly for reading the code, holding them back by being not as productive as they should be. Reading and understanding codes require skill and the right method and tools to be effective. There are several tips and also suggestions to make it more effective in the future.”
+{: .news-info }
+
+{% include post-suggested.html %}

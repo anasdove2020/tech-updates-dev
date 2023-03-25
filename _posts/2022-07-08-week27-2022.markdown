@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Week #27 2022 - Kubernetes"
+week: 27
+title:  "Kubernetes"
 date:   2022-07-08 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
+keywords:
+  - Computer
 ---
+
+{% include post-header.html %}
 
 ## Kubernetes
 
@@ -43,23 +50,51 @@ There is an expanding number of platforms available depending on your needs. Som
 - DigitalOcean Kubernetes
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *Exchange Online Journey to .NET Core* (Read [the story of the Exchange Online rewrite](https://devblogs.microsoft.com/dotnet/exchange-online-journey-to-net-core/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Brain: "This article shares the journey of the team in Microsoft converting the Microsoft Exchange application to .NET Core. It shows how all of the conversion results in performance improvements to as high as a 90% increase. This proves Microsoft’s direction to move on from enterprise .NET Framework to open source .NET core to be a really good idea."
+*Exchange Online Journey to .NET Core* (Read [the story of the Exchange Online rewrite](https://devblogs.microsoft.com/dotnet/exchange-online-journey-to-net-core/))
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *How to use Twilio SMS and Voice with a .NET 6 Minimal API* (Read [the tutorial for sending SMS and Voice with dotnet 6](https://www.twilio.com/blog/sms-voice-dotnet-6-minimal-api))
+__Brain:__ "This article shares the journey of the team in Microsoft converting the Microsoft Exchange application to .NET Core. It shows how all of the conversion results in performance improvements to as high as a 90% increase. This proves Microsoft’s direction to move on from enterprise .NET Framework to open source .NET core to be a really good idea."
+{: .news-info }
 
-Brain: "Minimal API seems very interesting. Instead of having a bloated boilerplate code to set up the controllers and routing, we can instead have all of the endpoints set up in a single file. If you are interested in learning more about this, you can try this tutorial, while also learning about the Twilio API."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *Coding and ADHD - ADHD Brains* (Read [this interesting series from a developer that deals with ADHD](https://dev.to/abbeyperini/coding-and-adhd-adhd-brains-im1))
+*How to use Twilio SMS and Voice with a .NET 6 Minimal API* (Read [the tutorial for sending SMS and Voice with dotnet 6](https://www.twilio.com/blog/sms-voice-dotnet-6-minimal-api))
+{: .news-url }
 
-Brain: "This developer shares her story and strategy for dealing with ADHD. Whether you have it or not, I think some of us have dealt with procrastination or difficulty focusing on certain tasks. The strategies laid out in this article might be useful for the general audience."
+__Brain:__ "Minimal API seems very interesting. Instead of having a bloated boilerplate code to set up the controllers and routing, we can instead have all of the endpoints set up in a single file. If you are interested in learning more about this, you can try this tutorial, while also learning about the Twilio API."
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *Anatomy of a DDoS amplification attack* (Read [the explanation about one of the most common DDoS techniques](https://www.microsoft.com/security/blog/2022/05/23/anatomy-of-ddos-amplification-attacks/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Brain: "The article explains the detail of a DDoS attack, and the strategy typically used to mitigate it. It shows how different attack vectors require different treatments, and how it’s important to also maintain a highly scalable mitigation pipeline to be able to cope with the largest attacks. Thankfully all of these protections can easily be enabled in our azure resources."
+*Coding and ADHD - ADHD Brains* (Read [this interesting series from a developer that deals with ADHD](https://dev.to/abbeyperini/coding-and-adhd-adhd-brains-im1))
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *The Ultimate List of Developer Newsletters* (Read [the comprehensive list of developer newsletters](https://draft.dev/learn/the-ultimate-list-of-developer-newsletters))
+__Brain:__ "This developer shares her story and strategy for dealing with ADHD. Whether you have it or not, I think some of us have dealt with procrastination or difficulty focusing on certain tasks. The strategies laid out in this article might be useful for the general audience."
+{: .news-info }
 
-Brain: "Do you find yourself in need of more tech news than what we offer here weekly? You can subscribe to other newsletters that are listed here. It listed several categories such as Tech leadership, web development, C#, and many more."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*Anatomy of a DDoS amplification attack* (Read [the explanation about one of the most common DDoS techniques](https://www.microsoft.com/security/blog/2022/05/23/anatomy-of-ddos-amplification-attacks/))
+{: .news-url }
+
+__Brain:__ "The article explains the detail of a DDoS attack, and the strategy typically used to mitigate it. It shows how different attack vectors require different treatments, and how it’s important to also maintain a highly scalable mitigation pipeline to be able to cope with the largest attacks. Thankfully all of these protections can easily be enabled in our azure resources."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*The Ultimate List of Developer Newsletters* (Read [the comprehensive list of developer newsletters](https://draft.dev/learn/the-ultimate-list-of-developer-newsletters))
+{: .news-url }
+
+__Brain:__ "Do you find yourself in need of more tech news than what we offer here weekly? You can subscribe to other newsletters that are listed here. It listed several categories such as Tech leadership, web development, C#, and many more."
+{: .news-info }
+
+{% include post-suggested.html %}

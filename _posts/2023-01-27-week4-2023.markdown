@@ -1,8 +1,16 @@
 ---
 layout: post
-title:  "Week #4 2023 - Observability-Driven Development"
+week: 4
+title:  "Observability-Driven Development"
 date:   2023-01-27 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
+keywords:
+ - OOP
+ - Computer
 ---
+
+{% include post-header.html %}
 
 ## Observability-Driven Development
 
@@ -79,23 +87,51 @@ __References__
 - [https://stackoverflow.blog/2022/10/12/how-observability-driven-development-creates-elite-performers](https://stackoverflow.blog/2022/10/12/how-observability-driven-development-creates-elite-performers)
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *[Easy malware tracker using VirusTotal recent cheat sheet](https://www.bleepingcomputer.com/news/security/virustotal-cheat-sheet-makes-it-easy-to-search-for-specific-results/)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Yoga: "Nowadays, it is difficult to identify and track malware that is already widespread and numerous. But thanks to VirusTotal, this issue has been made easier. Recently, they published a cheat sheet to help researchers create queries leading to more specific results like finding files connected to certain groups, documents, or networks. This also allows tracking related threats by combining or narrowing the queries down. This tool will be updated to be easier, quicker, and more targeted in the future."
+[Easy malware tracker using VirusTotal recent cheat sheet](https://www.bleepingcomputer.com/news/security/virustotal-cheat-sheet-makes-it-easy-to-search-for-specific-results/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Google introduces new google meet emoji](https://www.techradar.com/news/new-google-meet-emoji-reactions-will-let-your-co-workers-know-exactly-how-you-feel)*
+__Yoga:__ "Nowadays, it is difficult to identify and track malware that is already widespread and numerous. But thanks to VirusTotal, this issue has been made easier. Recently, they published a cheat sheet to help researchers create queries leading to more specific results like finding files connected to certain groups, documents, or networks. This also allows tracking related threats by combining or narrowing the queries down. This tool will be updated to be easier, quicker, and more targeted in the future."
+{: .news-info }
 
-Dika: "Now, the Google Meet video conferencing tools are adding in-meeting reactions using emojis. Of course, this feature is very useful for participating in meeting to express their feeling in terms of participating in meetings without interrupting the speaker. The emojis contain heart, thumbs up, party, clap, joy, open mouth, cry, think, and thumbs down. Can’t wait to try it."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *[Reveal technologies behind websites](https://ray.st/)*
+[Google introduces new google meet emoji](https://www.techradar.com/news/new-google-meet-emoji-reactions-will-let-your-co-workers-know-exactly-how-you-feel)
+{: .news-url }
 
-Rizqun: "Rayst is a chrome extension that can be used to dig up company information (location, year founded, etc.), statistical data (monthly visit, average visit duration), and technology used on a website such as programming languages, frameworks, databases, hosting providers, and so on. If we hover over the displayed technology, Rayst will give a brief explanation about the technology, and we will be redirected to the website of the technology when we click on it."
+__Dika:__ "Now, the Google Meet video conferencing tools are adding in-meeting reactions using emojis. Of course, this feature is very useful for participating in meeting to express their feeling in terms of participating in meetings without interrupting the speaker. The emojis contain heart, thumbs up, party, clap, joy, open mouth, cry, think, and thumbs down. Can’t wait to try it."
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *[Astro 2.0 released](https://astro.build/blog/astro-2/)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Brain: "The rather new UI framework just announced they are releasing a new version this week. One of the highlights is the introduction of Hybrid rendering, where the app can both support static and server-side rendering. If you have been thinking about trying out this new framework, now might be a good time to do it."
+[Reveal technologies behind websites](https://ray.st/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Cloud Resource Explorer using simple ChatOps](https://blog.hotstar.com/chatops-cloud-resource-explorer-739363c93856)*
+__Rizqun:__ "Rayst is a chrome extension that can be used to dig up company information (location, year founded, etc.), statistical data (monthly visit, average visit duration), and technology used on a website such as programming languages, frameworks, databases, hosting providers, and so on. If we hover over the displayed technology, Rayst will give a brief explanation about the technology, and we will be redirected to the website of the technology when we click on it."
+{: .news-info }
 
-Frandi: "What do you usually use Slack for? It is obvious as a communication tool, right? What if I say that you can explore your cloud resources right from a Slack channel now? Well, apparently, the engineering team at Disney+ Hotstar has made it into reality. Cool!"
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Astro 2.0 released](https://astro.build/blog/astro-2/)
+{: .news-url }
+
+__Brain:__ "The rather new UI framework just announced they are releasing a new version this week. One of the highlights is the introduction of Hybrid rendering, where the app can both support static and server-side rendering. If you have been thinking about trying out this new framework, now might be a good time to do it."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Cloud Resource Explorer using simple ChatOps](https://blog.hotstar.com/chatops-cloud-resource-explorer-739363c93856)
+{: .news-url }
+
+__Frandi:__ "What do you usually use Slack for? It is obvious as a communication tool, right? What if I say that you can explore your cloud resources right from a Slack channel now? Well, apparently, the engineering team at Disney+ Hotstar has made it into reality. Cool!"
+{: .news-info }
+
+{% include post-suggested.html %}

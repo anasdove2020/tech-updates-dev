@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Week #21 2022 - IE 11 End of Support"
+week: 21
+title:  "IE 11 End of Support"
 date:   2022-05-27 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
+keywords:
+  - Computer
 ---
+
+{% include post-header.html %}
 
 ## IE 11 End of Support
 
@@ -17,23 +24,51 @@ Last year, Microsoft officially [announced](https://blogs.windows.com/windowsexp
 RIP IE11! Oh btw, someone has creatively created a countdown for this event [https://death-to-ie11.com/](https://death-to-ie11.com/).
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *Microsoft Build 2022* (Watch [the keynotes or browse through the talk on this Microsoft’s developer annual event page](https://news.microsoft.com/build2022/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Brain: "This year’s Microsoft event announces several new products and services. My favorite is how they are planning to bring GitHub co-pilot to a wide audience this summer. There are also other exciting things, such as Cloud PC - which enables you to switch your work from PC to iPad seamlessly, Express design - which allows you to create a web form by capturing the design you draw on a paper, and Mesh - the Microsoft’s own metaverse. See it for yourself, I promise it’s worth your time."
+*Microsoft Build 2022* (Watch [the keynotes or browse through the talk on this Microsoft’s developer annual event page](https://news.microsoft.com/build2022/))
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *IBM unveils its roadmap for the era of quantum-centric supercomputing* (Read [the latest news about quantum computing](https://thenextweb.com/news/ibm-unveils-its-roadmap-era-quantum-centric-supercomputing))
+__Brain:__ "This year’s Microsoft event announces several new products and services. My favorite is how they are planning to bring GitHub co-pilot to a wide audience this summer. There are also other exciting things, such as Cloud PC - which enables you to switch your work from PC to iPad seamlessly, Express design - which allows you to create a web form by capturing the design you draw on a paper, and Mesh - the Microsoft’s own metaverse. See it for yourself, I promise it’s worth your time."
+{: .news-info }
 
-Brain: "During their annual “Think” conference, IBM announced they have unflinchingly decided it’s going all-in on quantum computing. You can view the roadmap yourself in the article, but what’s fascinating is that they are planning to have a 4,000-qubit quantum computer by the end of 2025. The quantum computer is getting more powerful!"
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *The Surprising Truth About Pixels and Accessibility* (Read [the detailed article about which to use between em, rem, or px in CSS](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/))
+*IBM unveils its roadmap for the era of quantum-centric supercomputing* (Read [the latest news about quantum computing](https://thenextweb.com/news/ibm-unveils-its-roadmap-era-quantum-centric-supercomputing))
+{: .news-url }
 
-Brain: "This in-depth article shows various insightful knowledge about the CSS units. It shows many use case scenarios to build high-quality UI that take into account accessibility and responsiveness."
+__Brain:__ "During their annual “Think” conference, IBM announced they have unflinchingly decided it’s going all-in on quantum computing. You can view the roadmap yourself in the article, but what’s fascinating is that they are planning to have a 4,000-qubit quantum computer by the end of 2025. The quantum computer is getting more powerful!"
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *The Modern JavaScript Tutorial* (Read [the complete tutorial](https://javascript.info/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Brain: "For our Junior Engineer, this might be a good starting point to learn the Javascript. It comprehensively covers basic and advanced subjects. It also allows you to edit and re-run the code samples provided in the tutorial, so you can experiment and gain a better understanding of the language."
+*The Surprising Truth About Pixels and Accessibility* (Read [the detailed article about which to use between em, rem, or px in CSS](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/))
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *Polymorphic Serialization with .NET System.Text.Json* (Read [the short yet pretty useful tutorial](https://khalidabuhakmeh.com/polymorphic-serialization-with-dotnet-system-text-json))
+__Brain:__ "This in-depth article shows various insightful knowledge about the CSS units. It shows many use case scenarios to build high-quality UI that take into account accessibility and responsiveness."
+{: .news-info }
 
-Brain: "Since .NET 6 is using the native System.Text.Json for serialization instead of Newtonsoft.Json, we often run into some serialization issues due to some differences in the libraries. You can refer to this article if you run into some problem related to serializing arrays with different child types."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*The Modern JavaScript Tutorial* (Read [the complete tutorial](https://javascript.info/))
+{: .news-url }
+
+__Brain:__ "For our Junior Engineer, this might be a good starting point to learn the Javascript. It comprehensively covers basic and advanced subjects. It also allows you to edit and re-run the code samples provided in the tutorial, so you can experiment and gain a better understanding of the language."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*Polymorphic Serialization with .NET System.Text.Json* (Read [the short yet pretty useful tutorial](https://khalidabuhakmeh.com/polymorphic-serialization-with-dotnet-system-text-json))
+{: .news-url }
+
+__Brain:__ "Since .NET 6 is using the native System.Text.Json for serialization instead of Newtonsoft.Json, we often run into some serialization issues due to some differences in the libraries. You can refer to this article if you run into some problem related to serializing arrays with different child types."
+{: .news-info }
+
+{% include post-suggested.html %}

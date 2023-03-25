@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Week #9 2022 - IaC Web Interface"
+week: 9
+title:  "IaC Web Interface"
 date:   2022-03-04 20:00:00 +0700
+bannerUrl: "banner_default.png"
+briefDescription: 
+keywords:
+  - Computer
 ---
+
+{% include post-header.html %}
 
 ## IaC Web Interface
 
@@ -15,13 +22,36 @@ This project raises some challenges. We need to provide a friendly user interfac
 The other exciting part of this POC project is, of course, the technology stack. We are building it with the "Software as a Service" offers in mind, which allows us to be flexible on the chosen technology. You will find exciting technology like Event Hubs, SignalR, CosmosDB, Azure Functions, etc., involved in this project. So not only the final product itself, but this project is also interesting to be considered as learning materials on its chosen technology stack.
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *Sustainable architectures in a world of Agile, DevOps, and cloud* (read [the article from StackOverflow blog](https://stackoverflow.blog/2022/02/24/sustainable-architectures-in-a-world-of-agile-devops-and-cloud/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *Build a greener web* (watch [the insightful talk video](https://youtu.be/OdiSM9wLPAM))
+*Sustainable architectures in a world of Agile, DevOps, and cloud* (read [the article from StackOverflow blog](https://stackoverflow.blog/2022/02/24/sustainable-architectures-in-a-world-of-agile-devops-and-cloud/))
+{: .news-url-no-info }
 
-![memo](/assets/images/memo16.png) *Monorepo explained* (apparently there's a dedicated website that explained this - check [the website](https://monorepo.tools/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *Key criteria for evaluating DevSecOps tools* (watch [the Pluralsight webinar](https://youtu.be/2gGbJa_pGbM))
+*Build a greener web* (watch [the insightful talk video](https://youtu.be/OdiSM9wLPAM))
+{: .news-url-no-info }
 
-![memo](/assets/images/memo16.png) *How to safely share business passwords* (read [the article from LastPass blog](https://blog.lastpass.com/2022/02/how-to-safely-share-business-passwords/))
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*Monorepo explained* (apparently there's a dedicated website that explained this - check [the website](https://monorepo.tools/))
+{: .news-url-no-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*Key criteria for evaluating DevSecOps tools* (watch [the Pluralsight webinar](https://youtu.be/2gGbJa_pGbM))
+{: .news-url-no-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+*How to safely share business passwords* (read [the article from LastPass blog](https://blog.lastpass.com/2022/02/how-to-safely-share-business-passwords/))
+{: .news-url-no-info }
+
+{% include post-suggested.html %}

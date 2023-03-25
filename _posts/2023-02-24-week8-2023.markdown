@@ -1,11 +1,15 @@
 ---
 layout: post
-week: "Week #8"
+week: 8
 title:  "ChatGPT"
 date:   2023-02-24 20:00:00 +0700
 bannerUrl: "chat_gpt.png"
 briefDescription: "A popular language model that has been receiving massive spotlight lately."
+keywords:
+ - Computer
 ---
+
+{% include post-header.html %}
 
 ## Edge Computing
 
@@ -75,23 +79,51 @@ Edge computing is a rapidly growing field that offers numerous benefits for orga
 The future of edge computing looks promising, with increasing adoption and innovation in various industries and use cases. However, challenges such as security and standardization must also be addressed. As edge computing evolves and matures, it will likely become a key enabler of the next generation of digital transformation, providing organizations with new opportunities to leverage data for insights and innovation.
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *[OpenAI releases tool to detect AI-written text](https://www.bleepingcomputer.com/news/technology/openai-releases-tool-to-detect-ai-written-text/)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Yoga: "Artificial Intelligence tools like ChatGPT have been fastly growing, drawing attention from many internet users. The company that created it, OpenAI, is now releasing a tool to detect AI-written text named AI text classifier. This release happened following numerous reports that universities and schools are banning the company's ChatGPT due to its ability to complete students' homework. OpenAI warns that it is still unreliable enough to detect AI-generated content for now but will likely improve as time passes and is trained with further data."
+[OpenAI releases tool to detect AI-written text](https://www.bleepingcomputer.com/news/technology/openai-releases-tool-to-detect-ai-written-text/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Announcing .NET 8 Preview 1](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-1/)*
+__Yoga:__ "Artificial Intelligence tools like ChatGPT have been fastly growing, drawing attention from many internet users. The company that created it, OpenAI, is now releasing a tool to detect AI-written text named AI text classifier. This release happened following numerous reports that universities and schools are banning the company's ChatGPT due to its ability to complete students' homework. OpenAI warns that it is still unreliable enough to detect AI-generated content for now but will likely improve as time passes and is trained with further data."
+{: .news-info }
 
-Brain: "Microsoft announced a preview of .NET 8, an upcoming long-term support (LTS) release. It came with incremental performance improvements, bug fixes, and better Linux support. It also has some upgrades in SDK and tooling of MAUI for cross-platform mobile and desktop development. It's great to hear that this framework continues to grow and improve."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *[Why you should no longer use var in C#](https://medium.com/medialesson/why-you-should-no-longer-use-var-in-c-965380408de6)*
+[Announcing .NET 8 Preview 1](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-1/)
+{: .news-url }
 
-Dika: "In this article, the author tries to express his opinion related to the disadvantages of using var C#, like unnecessary allocation of the list as soon as the condition occurs that cause a bad code, difficulty to guess the strong type for some cases, and difficulty to review the code if that's open outside of IDE like the visual studio that has IntelliSense inside them. The explanation and example seem to make sense and make us reconsider using var in C#."
+__Brain:__ "Microsoft announced a preview of .NET 8, an upcoming long-term support (LTS) release. It came with incremental performance improvements, bug fixes, and better Linux support. It also has some upgrades in SDK and tooling of MAUI for cross-platform mobile and desktop development. It's great to hear that this framework continues to grow and improve."
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *[Transporting your components anywhere with React Portals](https://hackernoon.com/how-to-transport-your-components-anywhere-with-react-portals)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Rizqun: "In this article, the author provides a tutorial on using React Portals to transfer the components we create anywhere. The author explained that createPortals() accepts two arguments, the DOM element we want to return and the DOM element we want to teleport our DOM element to. Portals are a pretty powerful tool in React. They are a useful way to solve the main issue with component-based systems, transporting certain elements above all the rest."
+[Why you should no longer use var in C#](https://medium.com/medialesson/why-you-should-no-longer-use-var-in-c-965380408de6)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Down the Cloudflare / Stripe / OWASP Rabbit Hole: A Tale of 6 Rabbits Deep](https://www.troyhunt.com/down-the-cloudflare-stripe-owasp-rabbit-hole-a-tale-of-6-rabbits-deep/)*
+__Dika:__ "In this article, the author tries to express his opinion related to the disadvantages of using var C#, like unnecessary allocation of the list as soon as the condition occurs that cause a bad code, difficulty to guess the strong type for some cases, and difficulty to review the code if that's open outside of IDE like the visual studio that has IntelliSense inside them. The explanation and example seem to make sense and make us reconsider using var in C#."
+{: .news-info }
 
-Frandi: "Troy Hunt, the creator of [Have I Been Pwned](https://haveibeenpwned.com/), told a story about his experience in digging through the root cause of an issue in HIBP where a user paid for a subscription successfully through Stripe, but, unfortunately, the status was not updated correctly in the site. I personally learned a lot about how a simple update on OWASP rules potentially gives unexpected results on different applications."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Transporting your components anywhere with React Portals](https://hackernoon.com/how-to-transport-your-components-anywhere-with-react-portals)
+{: .news-url }
+
+__Rizqun:__ "In this article, the author provides a tutorial on using React Portals to transfer the components we create anywhere. The author explained that createPortals() accepts two arguments, the DOM element we want to return and the DOM element we want to teleport our DOM element to. Portals are a pretty powerful tool in React. They are a useful way to solve the main issue with component-based systems, transporting certain elements above all the rest."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Down the Cloudflare / Stripe / OWASP Rabbit Hole: A Tale of 6 Rabbits Deep](https://www.troyhunt.com/down-the-cloudflare-stripe-owasp-rabbit-hole-a-tale-of-6-rabbits-deep/)
+{: .news-url }
+
+__Frandi:__ "Troy Hunt, the creator of [Have I Been Pwned](https://haveibeenpwned.com/), told a story about his experience in digging through the root cause of an issue in HIBP where a user paid for a subscription successfully through Stripe, but, unfortunately, the status was not updated correctly in the site. I personally learned a lot about how a simple update on OWASP rules potentially gives unexpected results on different applications."
+{: .news-info }
+
+{% include post-suggested.html %}
