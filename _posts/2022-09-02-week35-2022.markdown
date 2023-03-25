@@ -109,3 +109,5 @@ Juniada: “The Spotify model focuses on how businesses can structure an organiz
 
 __Yoga:__ “The majority of us might not know the differences between Malware, Virus, and Worm. We all are at risk of security threats because of them as long as we are connected to the Internet. This article explains what they are and how they work.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

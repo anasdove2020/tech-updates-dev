@@ -1,0 +1,95 @@
+{% assign uniqSuggestedPosts = "" | split: "," %}
+
+{% if page.keywords %}
+  {% assign suggestedPosts = "" | split: "," %}
+  {% for keyword in page.keywords %}
+    {% assign postsByKeyword = site.posts | where: "keywords", keyword %}
+    {% assign suggestedPosts = suggestedPosts | push: postsByKeyword %}
+  {% endfor %}
+
+  {% assign uniqSuggestedPosts = suggestedPosts | uniq %}
+  {% assign uniqSuggestedPosts = uniqSuggestedPosts | where_exp: "item", "item.url != page.url"  %}
+{% endif %}
+
+{% if uniqSuggestedPosts.size != 0 %}
+<div class="post-suggesteds">
+  <div class="post-suggesteds-title">Suggested articles</div>
+    <div class="row">
+      {% for suggestedPost in uniqSuggestedPosts limit:3 %}
+        {% assign suggestedImage = "/assets/images/" | append: suggestedPost.bannerUrl %}
+        <div class="column">
+          <a href="{{ suggestedPost.url | relative_url }}">
+            <div class="post-suggested-image">
+              <img src="{{suggestedImage}}" alt="banner">
+            </div>
+            <div class="post-suggested-metadata">
+              {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
+              {% assign postDate = suggestedPost.date | date: date_format %}
+              Week #{{ suggestedPost.week | append: ' · ' | append: postDate }}
+            </div>
+            <div class="post-suggested-title">
+              {{ suggestedPost.title }}
+            </div>
+            <div class="post-suggested-briefdescription">
+              {{ suggestedPost.briefDescription }}
+            </div>
+          </a> 
+        </div>
+      {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+
+<!-- {% assign availableCategories = "Technology,Programming,OOP,IT" | split: "," %}
+{% assign suggestedPosts = "" | split: "," %}
+
+{% for availableCategory in availableCategories %}
+  {% if site.categories[availableCategory] %}
+    {% for post in site.categories[availableCategory] %}
+      {% if post.url != page.url %}
+        {% assign suggestedPosts = suggestedPosts | push: post %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign uniqSuggestedPosts = suggestedPosts | uniq %}
+
+<div class="post-suggesteds">
+  <div class="post-suggesteds-title">Suggested articles {{page.categories}}</div>
+    <div class="row">
+      {% for suggestedPost in uniqSuggestedPosts limit:3 %}
+        {% if suggestedPost.url != page.url %}
+          {% assign suggestedImage = "/assets/images/" | append: suggestedPost.bannerUrl %}
+          <div class="column">
+            <a href="{{ suggestedPost.url | relative_url }}">
+              <div class="post-suggested-image">
+                <img src="{{suggestedImage}}" alt="banner">
+              </div>
+              <div class="post-suggested-metadata">
+                {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
+                {% assign postDate = suggestedPost.date | date: date_format %}
+                Week #{{ suggestedPost.week | append: ' · ' | append: postDate }}
+              </div>
+              <div class="post-suggested-title">
+                {{ suggestedPost.title }}
+              </div>
+              <div class="post-suggested-briefdescription">
+                {{ suggestedPost.briefDescription }}
+              </div>
+            </a> 
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+</div> -->
+
+<!-- Anas
+{% for post in site.posts %}
+  {% for tag in post.tags %}
+    
+<p>{{tag}}</p>
+
+  {% endfor %}
+{% endfor %} -->

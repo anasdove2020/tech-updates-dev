@@ -5,6 +5,9 @@ title:  "Serverless Functions"
 date:   2023-03-10 20:00:00 +0700
 bannerUrl: "serverless_function_banner.png"
 briefDescription: "The cloud platform that allows you to focus on developing your app’s functionality instead of worrying about the underlying infrastructure."
+keywords:
+ - Networking
+ - CI/CD
 ---
 
 {% include post-header.html %}
@@ -116,3 +119,5 @@ ____Brain:____ "We already have GitHub co-pilot for developers. Now Microsoft is
 
 ____Frandi:____ "Haptic holography is a technology that combines haptic feedback and holographic imagery to create a realistic sense of touch in virtual environments. It is a type of augmented reality that allows users to feel and interact with digital objects in a physical way. But, a new study reveals a surprising physical obstacle that will need to be overcome."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

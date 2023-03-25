@@ -82,3 +82,5 @@ __Brain:__ "This long article, the first part of a 3 parts series, tries to give
 
 __Brain:__ "The wait is over, you can now try to install GitHub Copilot for trial in your local dev environment. Go ahead and try it, and share your experience with your friends."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

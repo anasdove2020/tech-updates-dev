@@ -102,3 +102,5 @@ __Rizqun:__ “OpenAI has recently released a new speech recognition model calle
 
 __Frandi:__ “The majority of Google services are not available to users in China, with Translate just being the latest to disappear. The Google spokesperson explained it was due to "low usage". But analysts believe it has something to do with the government censorship rules”.
 {: .tech-news-info }
+
+{% include post-suggested.html %}

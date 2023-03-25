@@ -86,3 +86,5 @@ __Yoga:__ "This article reports that Windows11 now automatically blocks brute-fo
 
 __Brain:__ "I’ve been meaning to learn about CSS grid since I heard it’s even more powerful than CSS flexbox. This site sure makes it easier. In the game, you are positioning your water with where the crops are using the CSS grid feature. Quite fun actually".
 {: .tech-news-info }
+
+{% include post-suggested.html %}

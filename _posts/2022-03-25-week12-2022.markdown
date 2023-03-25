@@ -99,3 +99,5 @@ __Brain:__ "An in-depth look at one of the big tech startups implementing their 
 
 __Brain:__ "It seems the day we no longer have to add some “special” code in our HTML/CSS has come. Microsoft has announced that they will be retiring the Internet Explorer. Pass this news along to your fellow UI developers."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

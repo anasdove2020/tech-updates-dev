@@ -57,3 +57,5 @@ We are yet to create the "how-to" document about this new system, but I think yo
 
 *Leveraging machine learning to find security vulnerabilities* (read [the post from GitHub Engineering Blog](https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

@@ -103,3 +103,5 @@ __Yoga:__ "This article reports that a software engineer discovered thousands of
 
 __Yoga:__ "Winamp, one of the most beloved media players, has released a new version. With cloud streaming support and more modern features, the actual main goal of this release was to upgrade their code base. We can expect more features in the future now that they're done with the upgrade".
 {: .tech-news-info }
+
+{% include post-suggested.html %}

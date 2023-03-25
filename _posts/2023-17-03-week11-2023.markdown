@@ -5,6 +5,9 @@ title:  "Edge computing"
 date:   2023-03-17 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: "This week, we will discuss Edge Computing, a distributed computing model that processes and analyzes data closer to the network’s edge."
+keywords:
+ - Computer
+ - Networking
 ---
 
 {% include post-header.html %}
@@ -110,3 +113,5 @@ __Frandi:__ "AWS Application Composer is a visual designer that you can use to b
 
 __Dika:__ ".NET 8 is the successor to .NET 7, with three years of long-term support. The version has some improvements like in System.Test.Json serialization, performance Improvements, Native AOT, Code generation, and .NET Container Image. There are also several new features like GetItems and Shuffle."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

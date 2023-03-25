@@ -96,3 +96,5 @@ __Brain:__ "The author share 5 key lessons learned from his Product management e
 
 __Brain:__ "Exciting news for cross-platform app developers. .NET MAUI finally has a release candidate, which means the stable version is near the horizon. .NET MAUI will provide all of the controls available in Xamarin, with additional controls such as BlazorWebView, Border, GraphicsView, MenuBar, Shadow, and Window. It can be considered for your next cross-platform apps."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

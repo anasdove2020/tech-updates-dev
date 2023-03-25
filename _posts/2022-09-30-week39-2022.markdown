@@ -94,3 +94,5 @@ __Yoga:__ “Majority of internet domains contain top-level domains (TLD) like c
 
 __Rizqun:__ “This article provides an explanation of server-side rendering (SSR) and compares Remix with Next.js. This article provides a fairly complete comparison ranging from routing, styling, data handling, error handling, and so on.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

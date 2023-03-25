@@ -41,3 +41,5 @@ briefDescription:
 
 *2021 Landscape of API Traffic* (read0 [Cloudflare report](https://blog.cloudflare.com/landscape-of-api-traffic/))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

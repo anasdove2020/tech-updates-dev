@@ -85,3 +85,5 @@ __Brain:__ "Please don’t take offense at how the article suggests that manager
 
 __Brain:__ "Sorry if it's a bit too technical for the wide audience. I just started learning React when working on recent projects, and I found this article to be quite enlightening on the concept I was struggling with before."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

@@ -68,3 +68,5 @@ __Brain:__ "For our Junior Engineer, this might be a good starting point to lear
 
 __Brain:__ "Since .NET 6 is using the native System.Text.Json for serialization instead of Newtonsoft.Json, we often run into some serialization issues due to some differences in the libraries. You can refer to this article if you run into some problem related to serializing arrays with different child types."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

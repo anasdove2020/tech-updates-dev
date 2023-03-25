@@ -5,6 +5,8 @@ title:  "Cybersecurity Mesh Architecture"
 date:   2023-01-20 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+ - Networking
 ---
 
 {% include post-header.html %}
@@ -100,3 +102,5 @@ __Yoga:__ "Two big tech companies are collaborating to make one of the most powe
 
 __Frandi:__ “On January 11, the Mailchimp Security team identified an unauthorized actor accessing one of their tools used by Mailchimp customer-facing teams for customer support and account administration. If you are MailChimp’s customer, it is recommended to watch the latest update from the blog post.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

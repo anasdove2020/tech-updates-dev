@@ -82,3 +82,5 @@ __Rizqun:__ “LALAL.AI is a web app that allows us to split a recording of musi
 
 __Frandi:__ “C# for Babies is a fun and easy way to introduce your family to the world of programming. You might find it useful to understand C# too, even if you're grown-up. With simple illustrations and easy-to-understand explanations, anyone can learn the .NET C# programming language from A to Z. The ebook is free to download from Leanpub.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

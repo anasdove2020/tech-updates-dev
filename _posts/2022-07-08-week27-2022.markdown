@@ -94,3 +94,5 @@ __Brain:__ "The article explains the detail of a DDoS attack, and the strategy t
 
 __Brain:__ "Do you find yourself in need of more tech news than what we offer here weekly? You can subscribe to other newsletters that are listed here. It listed several categories such as Tech leadership, web development, C#, and many more."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

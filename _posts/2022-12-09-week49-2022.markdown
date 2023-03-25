@@ -113,3 +113,5 @@ __Frandi:__ “Dr. Werner Vogels, Amazon.com VP and CTO, talks about the benefit
 
 __Dika:__ “Codespace is a very interesting tool now since it offers flexibility during coding. As a remote development environment platform, we can just move to another computer and be ready to code without any effort to re-set up our new environment. However, as the code is hosted in a remote environment, the security risk will be big if handled or set up incorrectly. This article explained the security best practices for Github Codespace.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

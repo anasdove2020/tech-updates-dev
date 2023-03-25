@@ -90,3 +90,5 @@ __Yoga:__ “The just-released Android 13 comes with a new security feature that
 
 __Rizqun:__ “Minification allows us to strip down our code to a minimal file size which doesn’t affect the code and yet reduces the file size. Minification is needed to reduce website loading time. To minify, there are several tools available online which help us reduce the code base.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

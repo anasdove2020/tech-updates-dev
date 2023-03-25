@@ -79,3 +79,5 @@ __Brain:__ "If you ever have some concurrency issue when building an application
 
 __Brain:__ "The blog post offers an alternative way of doing the interview for engineering candidates. Instead of asking them to solve some coding problem, which can be time consuming to prepare, and can inaccurately measure candidate talent, the author proposes to have the candidate read an actual code and share their insights, which can probe the most fundamental skills in programming."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

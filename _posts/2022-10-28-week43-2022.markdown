@@ -91,3 +91,5 @@ __Rizqun:__ “Shoelace is a component library that defines all standard UX comp
 
 __Frandi:__ “I’m sure we’ve been familiar with barcodes. But do you know the types of barcodes and how they are usually used in the products? You might want to bookmark this article for future reference if you want to develop a product with barcodes.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

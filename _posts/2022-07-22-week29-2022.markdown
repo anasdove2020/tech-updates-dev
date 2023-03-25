@@ -115,3 +115,5 @@ __Yoga:__ "The author reports that hackers find a vulnerable plugin that allows 
 
 __Brain:__ "Browsing through the feature list on this site introduces me to several useful features I didn’t know existed. This site lists all of the features of several browser’s dev tools and details how to access them. For example, I learned that you can simply emulate your website's light/dark color scheme by toggling one button in the dev tools without changing your computer’s color scheme".
 {: .tech-news-info }
+
+{% include post-suggested.html %}

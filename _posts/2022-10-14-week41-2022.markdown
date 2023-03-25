@@ -96,3 +96,5 @@ __Yoga:__ “This article reports that a new and stable Linux version is out. Th
 
 __Frandi:__ “This is a good presentation by Steve Sanderson in this year’s NDC Sydney. He presented a summary of the web history, from the first time it was born until recent years, and what to expect in the future. He even showed the original code of web server implementation that Tim Berners-Lee wrote back then in 1990. It’s so interesting.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

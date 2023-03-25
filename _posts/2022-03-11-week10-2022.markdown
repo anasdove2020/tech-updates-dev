@@ -55,3 +55,5 @@ So, what about the application that you are currently working on? Has it equippe
 
 *What are reactive systems?* (watch [Dave Farley's talk in the GOTO 2021](https://youtu.be/Ysn6eInApYM))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

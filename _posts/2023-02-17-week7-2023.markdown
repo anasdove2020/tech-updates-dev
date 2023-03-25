@@ -5,6 +5,9 @@ title:  "Serverless Functions"
 date:   2023-02-17 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+ - Networking
+ - CI/CD
 ---
 
 {% include post-header.html %}
@@ -112,3 +115,5 @@ __Frandi:__ "It's been interesting to see how big companies are competing in AI 
 
 __Dika:__ "This week, Microsoft introduced the visual studio extension that has the functionality to Upgrade .NET Framework or .NET Core web and desktop applications. This tool will make developers easier to upgrade their applications to a newer framework since the newer version like .NET 6 (Long Term Support version), and .NET 7 (Standard Term Support version) have better performance and give access to the latest feature and capabilities. For now, it supports ASP.NET, Class Libraries, Console, WPF, and WinForm. For the next, it will support porting from Xamarin to .NET MAUI, UWP to WINUI, and WCF to WCF Core."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

@@ -41,3 +41,5 @@ briefDescription:
 
 *Efficiency vs Effectiveness in Agile* (check [the talk from the GOTO Copenhagen 2021](https://gotopia.tech/articles/efficiency-vs-effectiveness-in-agile))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

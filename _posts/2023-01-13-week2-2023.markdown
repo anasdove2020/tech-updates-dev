@@ -95,3 +95,5 @@ __Brain:__ "Many have predicted that ChatGPT would be a threat to Google and mig
 
 __Frandi:__ “I find it hard to explain the zero-knowledge proof concept to non-technical people. That’s why I was amazed at this video where a Computer Science professor explained about the concept to five different people: a child, a teen, a college student, a grad student, and an expert. Go watch it yourself, and see if you understand the concept now.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

@@ -100,3 +100,5 @@ __Yoga:__ "This article reminds us that improving our security awareness is alwa
 
 __Brain:__ "This article from GitHub suggests we write better commits by making the order and messages of the commits follow an easy-to-follow structure and narrative. It would be like writing a novel to your reviewer, teammates, or your future self so that it can help us better understand the history of the project’s code. While it might be tedious to do exactly what the article suggests, I think it would be more beneficial to improve our commit messages or have a clear outline when starting a branch."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

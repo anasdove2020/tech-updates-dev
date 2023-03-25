@@ -91,3 +91,5 @@ __Yoga:__ "This article tells us some of Slack's users are having their password
 
 __Rizqun:__ "Azure Skills Navigator comes to help developers strengthen their knowledge of Azure. The guide in Azure Skills Navigator is divided into 3 phases: Ramp up to discover core skills and language fundamentals, App development to learn how to build cloud-native apps, and In Production to explore monitoring and logging services instrumentation and authorization".
 {: .tech-news-info }
+
+{% include post-suggested.html %}

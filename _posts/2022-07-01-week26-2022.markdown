@@ -84,3 +84,5 @@ __Brain:__ "Providing a server that can take up billions of requests used to nee
 
 __Brain:__ "This article gives a pretty good insight on 5G capabilities while introducing Microsoft’s plan to help enable developers to use those capabilities by introducing a carrier-agnostic platform. This article is good for developers to read, to learn about exciting new technologies. For business people, this article might give you insight or ideas on the opportunities for business applications that require 5G. As mentioned in the article, companies are projected to spend $20 billion USD over the next 5 years for these applications."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

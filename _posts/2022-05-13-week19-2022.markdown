@@ -80,3 +80,5 @@ __Brain:__ "Airbnb shares their experience with migrating their monolithic codeb
 
 __Brain:__ "Google has some exciting announcements in this year's event. They are announcing a bunch of new hardware, including one I find most exciting: google glass. I’m quite blown away by their demo for using google glass as a live translator, and showing the translation like a subtitle in a movie. It’s emerging tech being combined in action: AI & AR."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

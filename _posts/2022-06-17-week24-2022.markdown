@@ -78,3 +78,5 @@ __Brain:__ "In this blog post, Andrew NG explains several important algorithms i
 
 __Brain:__ "Interested in expanding your knowledge on UX? This site hosts a variety of UX best practices. We’ve known that clients often care about UI/UX a lot. Perhaps learning a bit more about these laws can benefit us in our day-to-day development."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

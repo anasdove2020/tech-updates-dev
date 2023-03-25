@@ -88,3 +88,5 @@ __Yoga:__ "Windows is about to release updates that come with a great feature th
 
 __Rizqun:__ "Windows Sandbox is a temporary virtual machine built into Windows 10 and Windows 11 that allows us to run software without affecting our system. If any malware or other dangerous content rears its head, it's restricted to the Sandbox. After we are done with the application and close the Sandbox, everything is gone and forgotten with no lasting residue".
 {: .tech-news-info }
+
+{% include post-suggested.html %}

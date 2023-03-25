@@ -99,3 +99,5 @@ __Dika:__ “SonarQube is a static code analysis tool that provides a detailed r
 
 __Frandi:__ “I found this article interesting because it resonates with my experience that being a Software Engineer shouldn’t be just about coding and programming. We need to understand why decisions are made, how users will actually use the product, or how to improve this feature.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

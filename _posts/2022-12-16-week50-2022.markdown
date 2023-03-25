@@ -94,3 +94,5 @@ __Yoga:__ “A complex malware called KmsdBot, which was used for crypto-mining 
 
 __Frandi:__ “This interesting article describes how Netflix improves video quality with neural networks, the challenges they faced and what lies ahead.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

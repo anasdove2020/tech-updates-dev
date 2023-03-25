@@ -66,3 +66,5 @@ Security protocols exist for reasons. So let's make it our culture to create a s
 
 *Modernize ASP.NET Framework to ASP.NET Core with the .NET Upgrade Assistant* (check [the learn module](https://docs.microsoft.com/en-us/learn/modules/modernize-aspnet-framework-to-core/))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

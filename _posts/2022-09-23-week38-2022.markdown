@@ -94,3 +94,5 @@ __Rizqun:__ “This article provides information about the man-in-the-middle att
 
 __Yoga:__ “This article tells us that time spent by new developers is mostly for reading the code, holding them back by being not as productive as they should be. Reading and understanding codes require skill and the right method and tools to be effective. There are several tips and also suggestions to make it more effective in the future.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

@@ -102,3 +102,5 @@ __Brain:__ “Amazon Web Services Inc., Microsoft Corp., Meta Platforms Inc., an
 
 __Frandi:__ “A large number of doctors write medicine prescriptions in haste, making it nearly impossible for their patients to understand what they scribbled. Now Google is having a go at translating those unfathomable texts”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

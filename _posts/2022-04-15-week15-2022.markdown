@@ -88,3 +88,5 @@ __Brain:__ "For our dotnet programmer, this article is good at explaining how we
 
 __Brain:__ "Microsoft announced a new Azure Front Door, with new features that also include CDN capabilities in addition to the existing traffic management & load balancing feature. It also offers a simplified cost model which makes it easier for us to budget our resources. The previous product of Azure Front Door and Azure CDN will now be known as Azure Front Door (classic) and Azure CDN from Microsoft (classic) moving forward".
 {: .tech-news-info }
+
+{% include post-suggested.html %}

@@ -51,3 +51,5 @@ The other exciting part of this POC project is, of course, the technology stack.
 
 *How to safely share business passwords* (read [the article from LastPass blog](https://blog.lastpass.com/2022/02/how-to-safely-share-business-passwords/))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

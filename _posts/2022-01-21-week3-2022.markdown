@@ -41,3 +41,5 @@ briefDescription:
 
 *Again about DevOps? Do you really understand it?* (watch [the video](https://youtu.be/0yWAtQ6wYNM))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

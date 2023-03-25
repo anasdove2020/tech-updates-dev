@@ -92,3 +92,5 @@ __Rizqun:__ “Imagic takes such a diffusion-based model able to take text and g
 
 __Frandi:__ “GitHub Universe 2022 was conducted this week on November 9-10. There were many announcements during the event ranging from different topics. GitHub seems to move its focus away from the social coding platform it is predominantly today and towards an all-included developer and organization environment in the cloud.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

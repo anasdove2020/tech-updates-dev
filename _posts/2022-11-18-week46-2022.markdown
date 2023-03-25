@@ -115,3 +115,5 @@ __Frandi:__ “Werner Vogels, the CTO of Amazon, shared an interesting document 
 
 __Brain:__ “It’s interesting how technology can rotate like fashion. At first, Multi Page Apps (MPA) was the standard. Then SPA came, and every UI framework is a SPA framework. Now the trend might shift again as we found it’s more efficient to render javascript in the server like what the Next.js server component has done. Astro is the new UI framework that tries to make MPA cool again. Though it also tries to bring the best of both worlds by introducing a concept called Astro island, which enables interactivity without sacrificing too much performance. I think this UI framework is worth looking into.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

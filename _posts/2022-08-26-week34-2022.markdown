@@ -98,3 +98,5 @@ Juniada: "In the embracement of business intelligence, artificial intelligence, 
 
 __Yoga:__ "Postman has been helping a lot of developers with their API lifecycle needs by providing a number of features and functions that can assist the development and quality team for early testing. This article shows us how Postman helps the development and quality practices."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

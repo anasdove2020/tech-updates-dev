@@ -5,6 +5,8 @@ title:  "ChatGPT"
 date:   2023-02-24 20:00:00 +0700
 bannerUrl: "chat_gpt.png"
 briefDescription: "A popular language model that has been receiving massive spotlight lately."
+keywords:
+ - Computer
 ---
 
 {% include post-header.html %}
@@ -123,3 +125,5 @@ __Rizqun:__ "In this article, the author provides a tutorial on using React Port
 
 __Frandi:__ "Troy Hunt, the creator of [Have I Been Pwned](https://haveibeenpwned.com/), told a story about his experience in digging through the root cause of an issue in HIBP where a user paid for a subscription successfully through Stripe, but, unfortunately, the status was not updated correctly in the site. I personally learned a lot about how a simple update on OWASP rules potentially gives unexpected results on different applications."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

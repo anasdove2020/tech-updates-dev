@@ -51,3 +51,5 @@ None of the items in the onboarding list are only for the sake of formality on t
 
 *A printable, PDF - Git cheatsheet* (get [the cheatsheet](https://dev.to/tqbit/a-printable-pdf-git-cheatsheet-33bd))
 {: .tech-news-link-no-info }
+
+{% include post-suggested.html %}

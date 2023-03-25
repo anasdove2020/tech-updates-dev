@@ -94,3 +94,5 @@ __Brain:__ “Diplomacy is a game where you negotiate between several parties to
 {: .tech-news-link }
 
 __Frandi:__ “SIM swapping, also known as SIM jacking, is a technique used by attackers to gain access to a person’s phone number. This is very concerning because if an attacker has access to your phone number, they also have access to any codes you receive via SMS or automated phone call. This negates the extra security they’re meant to provide and puts any account tied to or protected by your phone number at risk.”
+
+{% include post-suggested.html %}

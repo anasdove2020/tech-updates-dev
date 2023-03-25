@@ -103,3 +103,5 @@ __Rizqun:__ “New kind of Windows worm, known as Raspberry Robin has been sprea
 
 __Frandi:__ “Go Security team announced the release of the vulnerability management. It provides tooling to analyze your codebase from known vulnerabilities. I think it is a good move to show that security awareness should start from the beginning. I can’t wait to see the similar support is given by the other code frameworks too.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

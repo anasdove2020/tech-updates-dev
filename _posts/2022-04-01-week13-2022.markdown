@@ -76,3 +76,5 @@ __Brain:__ "Microsoft provided some guidelines and best practices to protect our
 
 __Brain:__ "Mike Cohn shares his tips on how to help complete important backlog items that often get buried on a super busy sprint, where everything that comes to us seems to be all urgent."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

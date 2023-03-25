@@ -88,3 +88,5 @@ __Brain:__ "Remember a few weeks ago we shared the news about .NET MAUI in relea
 
 __Brain:__ "The author argues that with the improvement of several UX improvements in the browser such as paint holding and Service Workers, the advantage of building a Single page application might not be worth the trouble of loading the bloated JS scripts at the initial load. I think it is sometimes good to read such articles that act as devil’s advocate to the current industry standard."
 {: .tech-news-info }
+
+{% include post-suggested.html %}

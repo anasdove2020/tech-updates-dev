@@ -109,3 +109,5 @@ __Dika:__ "In this article, we can see so many reasons that remote development i
 
 __Frandi:__ “Have you ever heard of Anatomically Plausible Facial System (APFS)? Well, don’t be sad if you haven’t. But if you have watched Avatar 2 film, you have seen an example of how the APFS is implemented. This article explains some technical things on how the VFX animation is created.”
 {: .tech-news-info }
+
+{% include post-suggested.html %}

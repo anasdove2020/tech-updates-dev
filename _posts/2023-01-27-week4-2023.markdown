@@ -1,10 +1,13 @@
 ---
 layout: post
 week: 4
-title:  "Week #4 2023 - Observability-Driven Development"
+title:  "Observability-Driven Development"
 date:   2023-01-27 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+ - OOP
+ - Computer
 ---
 
 {% include post-header.html %}
@@ -130,3 +133,5 @@ __Brain:__ "The rather new UI framework just announced they are releasing a new 
 
 __Frandi:__ "What do you usually use Slack for? It is obvious as a communication tool, right? What if I say that you can explore your cloud resources right from a Slack channel now? Well, apparently, the engineering team at Disney+ Hotstar has made it into reality. Cool!"
 {: .tech-news-info }
+
+{% include post-suggested.html %}

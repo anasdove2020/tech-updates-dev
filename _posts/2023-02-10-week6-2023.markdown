@@ -5,6 +5,8 @@ title:  "Prompt Engineering"
 date:   2023-02-10 20:00:00 +0700
 bannerUrl: "banner_default.png"
 briefDescription: 
+keywords:
+ - Computer
 ---
 
 {% include post-header.html %}
@@ -120,3 +122,5 @@ __Frandi:__ “Many security breaches occur from known vulnerabilities being lef
 
 __Rizqun:__ "OpenAI has finally officially released the paid version of ChatGPT. This paid ChatGPT is called ChatGPT Plus and will be available for $20/month. ChatGPT Plus offers a faster response, general access even during peak times, and priority access to new features and improvements."
 {: .tech-news-info }
+
+{% include post-suggested.html %}
