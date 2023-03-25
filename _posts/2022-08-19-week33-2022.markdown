@@ -42,51 +42,51 @@ The most recent update to the Top 10 list was done on 2021 and contained the fol
 10. [Server-Side Request Forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) - It occurs when a web application pulls data from a remote resource based on a user-specified URL without validating the URL. Even servers protected by a firewall, VPN, or network access control list (ACL) can be vulnerable to this attack if they accept unvalidated URLs as user inputs.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Carbon, a new programming language from Google* (Read about [the language aimed by Google to be the successor of C++](https://9to5google.com/2022/07/19/carbon-programming-language-google-cpp/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Most of us likely have a tiny experience coding with C++, probably during our college years. We shiver from the memory of having to garbage collect the memory or trying to grasp the concept of pointer(*) or even pointer of pointer (**). Well, Google tries to improve the developer experience by bringing modern programming features into C++ and creating a new language called Carbon. It is not the first time Google introduced a new programming language. Google previously released Go into the world and got quite a number of adoption. Probably the same will happen to Carbon, so it’s interesting to keep an eye on".
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *New Linux malware brute-forces SSH servers to breach networks* (Read [New botnet attack threatens Linux users](https://www.bleepingcomputer.com/news/security/new-linux-malware-brute-forces-ssh-servers-to-breach-networks/))
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "A new botnet, based on Mirai trojan has arisen, threatening Linux users by brute-forcing SSH servers to gain access. This botnet is likely to be used as a stepping stone for further, more dangerous attacks. Even so, awareness of this botnet must not be underestimated as it still performing DDoS attacks that could destabilize the server's performance".
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Graph concepts and applications* (Read [this good introduction for Graph](https://engineering.grab.com/graph-concepts))
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "A graph is a structure that consists of vertices and edges. Vertices, or nodes, are the objects in a problem, while edges are the links that connect vertices in a graph. Graphs are a great way to represent complex systems visually and can be used to detect patterns or relationships between entities easily".
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Windows 10 22H2 is coming, here's everything we know* (Read [this Next version of Windows comes with a handy feature](https://www.bleepingcomputer.com/news/microsoft/windows-10-22h2-is-coming-heres-everything-we-know/))
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "Windows is about to release updates that come with a great feature that will surely come in handy for most of us, that is an option to receive important notifications when focus assist is on. A problem that may occur to some of us when we turn on focus assist might be resolved. Great news for those whose still using Windows 10!"
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Windows Sandbox: How to safely test software without ruining your computer* (Read [Using Windows Sandbox to Test Software](https://www.pcmag.com/how-to/windows-sandbox-how-to-safely-test-software-without-ruining-your-computer))
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "Windows Sandbox is a temporary virtual machine built into Windows 10 and Windows 11 that allows us to run software without affecting our system. If any malware or other dangerous content rears its head, it's restricted to the Sandbox. After we are done with the application and close the Sandbox, everything is gone and forgotten with no lasting residue".
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

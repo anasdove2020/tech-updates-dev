@@ -63,51 +63,51 @@ Cost Management works with Azure Advisor to provide cost optimization recommenda
 The list of recommendations identifies usage inefficiencies or shows purchase recommendations that can help us save additional money. The **Impact** category, along with the **Potential yearly savings**, is designed to help identify recommendations that have the potential to save as much as possible.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Why AI and machine learning are drifting away from the cloud](https://www.protocol.com/enterprise/ai-machine-learning-cloud-data)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “It sounded like a controversial statement at first, moving away from the cloud? Is this just clickbait? Apparently, after you read the whole arguments in the article, you will get this new perspective that not everything can be blindly pushed into the cloud and hoping everything just magically works as in a dream. For me, it’s a reminder that we need to always think critically about every decision we make. What seems to be “normal” isn’t always the best option for our unique requirements.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Microsoft Azure outage knocks Ubuntu VMs offline after buggy update](https://www.bleepingcomputer.com/news/microsoft/microsoft-azure-outage-knocks-ubuntu-vms-offline-after-buggy-update/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “This article reports a recent outage caused by a faulty systemd update in Microsoft Azure and only affected VMs running on Ubuntu 18.04. This impacted several Azure services across multiple regions. Microsoft has already worked on this issue by switching to a fallback DNS server and rebooting the VM instances to get fresh DHCP lease and new DNS resolvers.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [A look at running Python in a web browser with PyScript](https://www.hashbangcode.com/article/look-running-python-web-browser-pyscript)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “PyScript is a new framework that allows users to use python inside HTML code. It’s also very easy to use. Users just need to include the CSS and JavaScript files in the header of the HTML document. Users can either include remote files or use them locally by downloading the file. PyScript will be interesting for web developers, especially those who use Python and HTML.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [The Spotify model for scaling Agile](https://www.atlassian.com/agile/agile-at-scale/spotify)
-{: .tech-news-logo }
+{: .news-logo }
 
 Juniada: “The Spotify model focuses on how businesses can structure an organization to enable agility. Each team within the organization selects their own agile framework while keeping people aligned and cross-pollinate knowledge.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Difference between malware, virus & computer worm](https://dev.to/techbmc/difference-between-malware-virus-computer-worm-587m)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “The majority of us might not know the differences between Malware, Virus, and Worm. We all are at risk of security threats because of them as long as we are connected to the Internet. This article explains what they are and how they work.”
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

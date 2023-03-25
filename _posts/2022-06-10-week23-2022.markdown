@@ -42,51 +42,51 @@ While WAI-ARIA seems to be an important thing in a website, there are some thing
 - Implementing WAI-ARIA attributes extensively may lead to complex HTML structure and unexpected behavior. It is a good idea to define the exact need and the level of accessibility before going in with full implementation.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *The journey of moving from C++/WinRT to C# in the Microsoft Store* (Read [the story of yet another rewrite project](https://devblogs.microsoft.com/ifdef-windows/the-journey-of-moving-from-cpp-winrt-to-csharp-in-the-microsoft-store/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "One of the announcements in this year’s Microsoft build is this new version of the Microsoft Store. This article deep-dived into the process of rewriting the application to use C# with the UWP framework. It’s particularly challenging because the app needs to access some low-level features while C# on its own is a high-level language. The article demonstrates the usage of some advanced features in C# like .NET interop, .NET Native, COM, etc."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Bringing WebAssembly to the .NET Mainstream* (Watch [the progress on web assembly adoption in Microsoft products](https://www.youtube.com/watch?v=PIeYw7kJUIg))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "WebAssembly, which allows you to run various languages like C# in the web browser, it turns out already has a rising adoption in mainstream work. With the release of Blazor as part of the ASP NET Core, the toolset, community, and developer experience has never been better. The talk shows the demo of an application built with Blazor. It’s awesome to see full stack C# applications in action."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Using Deep Learning to Annotate the Protein Universe* (Read [the AI application in biology](https://ai.googleblog.com/2022/03/using-deep-learning-to-annotate-protein.html))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "This might be a bit of a heavy read. Google has successfully added about 6.8 million entries to Pfam’s well-known and trusted set of protein function annotations, about equivalent to the sum of progress over the last decade. While I kind of struggle to understand the ML technique described in the article, it’s still fascinating to me how AI is implemented in other fields such as Biology."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Introducing .NET MAUI – One Codebase, Many Platforms* (Read [the release news of the new Microsoft UI framework](https://devblogs.microsoft.com/dotnet/introducing-dotnet-maui-one-codebase-many-platforms/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Remember a few weeks ago we shared the news about .NET MAUI in release candidates? Well, now it’s been released for good. Read into the features that this platform offers, and see if you are interested to try this one out. I’m particularly excited by the Hot Reload feature, which I found really helpful in UI development."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *The balance has shifted away from SPAs* (Read [this author’s opinion about how Multi-Page Application might be making a comeback](https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The author argues that with the improvement of several UX improvements in the browser such as paint holding and Service Workers, the advantage of building a Single page application might not be worth the trouble of loading the bloated JS scripts at the initial load. I think it is sometimes good to read such articles that act as devil’s advocate to the current industry standard."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

@@ -65,55 +65,55 @@ The big three cloud providers offer serverless functions as part of their leadin
 Some other cloud providers also join the competition: [IBM Cloud Functions](https://cloud.ibm.com/functions), [Alibaba Function Compute](https://www.alibabacloud.com/product/function-compute), [Cloudflare Workers](https://www.cloudflare.com/products/workers/), [Digital Ocean Functions](https://www.digitalocean.com/products/functions), [Netlify Functions](https://functions.netlify.com/), [Vercel Functions](https://vercel.com/docs/concepts/functions/serverless-functions), and more.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
-{: .tech-news-logo }
+{: .news-logo }
 
 [Malicious Dota 2 game mods infected players with malware](https://decoded.avast.io/janvojtesek/dota-2-under-attack-how-a-v8-bug-was-exploited-in-the-game/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "Cyber-threat using malicious software can affect anyone and from anywhere, and games are no exception. Recently, researchers have found malicious attacks spread through game mods for one of the biggest online competitive video games, Dota 2. Threat actors included a new file to provide them with a backdoor to permit them to install further malware on the infected users. It happened because Dota 2 used an outdated build of v8.dll that was compiled four years ago and is vulnerable to a wide range of exploits. The game has already updated the V8 version, took down the malicious game mods, and alerted all players impacted by the attack."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
-{: .tech-news-logo }
+{: .news-logo }
 
 [GitHub Copilot for Business is now available](https://github.blog/2023-02-14-github-copilot-for-business-is-now-available/)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "GitHub announced a new GitHub Copilot offering that targets the enterprise. The price is almost twice the individual plan. Still, it offers more exciting features, such as a more powerful AI model, AI-based security vulnerability filtering, and organization-wide policy management."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [GitHub built a new search engine for code from scratch in Rust](https://www.zdnet.com/article/github-builds-a-search-engine-for-code-from-scratch-in-rust/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "The Rust programming language continues to grow in popularity, and now developer platform GitHub has used it to build its new code-focused search engine, Blackbird. Instead of perusing forums for answers, GitHub wants users to use its search engine, which is currently in beta. GitHub's Blackbird now supports searching across about 45 million repositories, providing only partial coverage. However, it still enables code searching across 15 terabytes of code and 15.5 billion documents for programs written in Python, Java, and JavaScript."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Google AI updates: Bard and new AI features in Search](https://blog.google/technology/ai/bard-google-ai-search-updates/)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ "It's been interesting to see how big companies are competing in AI development lately. After Microsoft announced the integration of ChatGPT with Bing last week, there was this announcement from Google regarding their newest conversational AI service, Bard."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Upgrading your .NET projects with Visual Studio](https://devblogs.microsoft.com/dotnet/upgrade-assistant-now-in-visual-studio/)
-{: .tech-news-link }
+{: .news-url }
 
 __Dika:__ "This week, Microsoft introduced the visual studio extension that has the functionality to Upgrade .NET Framework or .NET Core web and desktop applications. This tool will make developers easier to upgrade their applications to a newer framework since the newer version like .NET 6 (Long Term Support version), and .NET 7 (Standard Term Support version) have better performance and give access to the latest feature and capabilities. For now, it supports ASP.NET, Class Libraries, Console, WPF, and WinForm. For the next, it will support porting from Xamarin to .NET MAUI, UWP to WINUI, and WCF to WCF Core."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

@@ -50,51 +50,51 @@ The following stages will help you to plan the implementation of the Zero Trust 
 3. **Optimize**: you need to extend protection to every aspect of the IT infrastructure regardless of the location
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Microsoft’s Arm-based Azure VMs are ready to roll](https://www.zdnet.com/article/microsofts-arm-based-azure-vms-are-ready-to-roll/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “In April, Microsoft announced a preview of Arm support on Azure VMs, and this week, officials said these Arm-based VMs would be generally available starting September 1. Microsoft brought Arm to Azure VMs via its work with Ampere Computing, a startup that makes server chips. The Azure VMs on Arm are meant to run Windows 11 Professional and Enterprise on Arm. They also support a variety of Linux OS distributions.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Hackers steal Steam accounts in new Browser-in-the-Browser attacks](https://www.bleepingcomputer.com/news/security/hackers-steal-steam-accounts-in-new-browser-in-the-browser-attacks/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “This article reports that a new attack is launched targetting Steam users using a Browser-in-the-Browser attack. That attack is a phishing technique to acquire Steam user's credentials by baiting them with online tournament registration, and that's where the victim is required to log in with their Steam including entering the 2FA code provided by Steam Guard.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Announcing Turnstile, a user-friendly, privacy-preserving alternative to CAPTCHA](https://blog.cloudflare.com/turnstile-private-captcha-alternative/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “Cloudflare is testing a new kind of CAPTCHA called Turnstile that tests our browser instead of ourselves. According to a press release, it will get rid of the interactive challenges used to verify people. Instead of presenting a visual puzzle to a user, Turnstile applies one of many browser challenges that it rotates through to look for human behavior, amping up the difficulty if a visitor exhibits non-human behaviors.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Linux 6.0 arrives with support for newer chips, core fixes, and oddities](https://arstechnica.com/gadgets/2022/10/linux-6-0-arrives-with-support-for-newer-chips-core-fixes-and-oddities/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “This article reports that a new and stable Linux version is out. This version has several compatibilities with hardware drivers, including a patch that may prevent slowdown for AMD chips for more use of CPU core counts. With that said, more exciting patches will be expected along with Linux supports on other hardware like Intel chips, AMD GPU, and even their Audio drivers.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Keynote: Why web tech is like it is](https://youtu.be/3QEoJRjxnxQ)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “This is a good presentation by Steve Sanderson in this year’s NDC Sydney. He presented a summary of the web history, from the first time it was born until recent years, and what to expect in the future. He even showed the original code of web server implementation that Tim Berners-Lee wrote back then in 1990. It’s so interesting.”
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

@@ -45,51 +45,51 @@ You might want to consider implementing the gRPC model in the following use case
 - **Low power, low bandwidth network**: gRPC uses serialized Protocol Buffer messages to provide lightweight messaging and increased efficiency. These features are suitable for IoT networks.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *The History of the Web* (Browse [the web’s timeline on this website](https://thehistoryoftheweb.com/timeline/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "This little site lets you browse through the history of the web, from when HTML was invented in CERN, right until Adobe announced the end of Flash. Looking through the items of the historical invention listed here makes me wonder whether we can also put our names in this history of the web :)".
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Modeling your SaaS business with Products and Prices* (Read [this Stripe integration for SaaS business modeling](https://dev.to/stripe/modeling-your-saas-business-with-products-and-prices-59e0))
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "This article shows us how to model SaaS business, take advantage of the customer portal by providing how to create and manage products and price using Stripe. Worth reading to add references if you want to build a SaaS business".
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *The Visual Studio Code Server* (Read [how you can host your own remote VS Code](https://code.visualstudio.com/blogs/2022/07/07/vscode-server))
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "This article introduces us to VS Code Server and shows us how to get started with it. After installing VS Code Server, we can access it securely through the browser using VS Code for the Web (also known as vscode.dev) without worrying about setting up SSH or HTTPS. It allows us to develop on a machine that doesn't support the installation of VS Code desktops, such as iPad / tablet or Chromebook."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Slack resets passwords after exposing hashes in invitation links* (Read [a bug causing Slack to have reset several users' passwords](https://www.bleepingcomputer.com/news/security/slack-resets-passwords-after-exposing-hashes-in-invitation-links/))
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "This article tells us some of Slack's users are having their password reset due to a bug. The bug is causing users to send their hashed passwords when creating or revoking shared invitation links for workspaces. Although it's in hashed form, it could still be potentially reversed with brute force. Fortunately, Slack has already taken action for that."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Introducing the new ramp-up guide for developers, Azure Skills Navigator* (Read [this new Azure guide to help you master azure services](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/introducing-the-new-ramp-up-guide-for-developers-azure-skills/ba-p/3431731))
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "Azure Skills Navigator comes to help developers strengthen their knowledge of Azure. The guide in Azure Skills Navigator is divided into 3 phases: Ramp up to discover core skills and language fundamentals, App development to learn how to build cloud-native apps, and In Production to explore monitoring and logging services instrumentation and authorization".
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

@@ -36,51 +36,51 @@ These are the options that you want to consider when moving your applications to
 - **Rearchitect**: moving to the cloud allows you to adopt modern architecture like microservices, containers, or serverless architecture. If it benefits your application, give it a go. Please be careful, though, because it will be more costly, labor-intensive, and time-consuming upfront.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Lastpass says hackers accessed customer data in a new breach](https://blog.lastpass.com/2022/11/notice-of-recent-security-incident/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “Another news comes from Lastpass about security breaches that happened in the past months. This time concerns third-party cloud storage service breaches and the aftermath of the previous accident. Though the customer's passwords have not been compromised, unusual activities have been detected within cloud storage, which is shared by both Lastpass and its affiliate, GoTo. This is the second security incident that happened to Lastpass this year after they confirmed in August that they have been breached via a compromised developer account.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Heroku sunsets their free product plans this week](https://blog.heroku.com/next-chapter)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ “Many developers use Heroku to host their projects since they are user-friendly and developer-friendly. However, as announced three months ago, they are discontinuing the free product plans. So if you depend on their free tier on your projects, it’s time to think about alternatives.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Introducing the Microsoft Graph Developer Proxy community preview](https://devblogs.microsoft.com/microsoft365dev/introducing-the-microsoft-graph-developer-proxy-community-preview/)
-{: .tech-news-link }
+{: .news-url }
 
 __Dika:__ “Microsoft launched the Microsoft Graph Developer proxy today as the answer to many issues that developers faced last year related to the intermittent issue that happens only in specific circumstances, often when the application is under heavy load. Some useful features like simulating different errors, mock response for testing purposes, etc., seem interesting to try.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Music Tech Aside - LALAL.AI Is Still The AI Vocal Split King](https://dev.to/elliotmangini/music-tech-aside-lalalai-is-still-the-ai-vocal-split-king-2e2)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “LALAL.AI is a web app that allows us to split a recording of music into its comprising parts. I've tried it by myself, and the result was pretty good. It's free to use and has a paid option to provide a larger upload size limit and a longer duration. Not only being able to separate vocals and instruments, but LALAL.AI also has a feature to separate instruments specifically such as drums, piano, and so on.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [C# for Babies](https://leanpub.com/csharp-for-babies)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “C# for Babies is a fun and easy way to introduce your family to the world of programming. You might find it useful to understand C# too, even if you're grown-up. With simple illustrations and easy-to-understand explanations, anyone can learn the .NET C# programming language from A to Z. The ebook is free to download from Leanpub.”
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

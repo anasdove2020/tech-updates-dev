@@ -57,51 +57,51 @@ To address these challenges, the team began to transition towards a more modular
 As a result of these changes, Shopify was able to scale their application and add new features more quickly and with less risk. The development team was also able to work more efficiently, as they could focus on their specific areas of expertise without needing to understand the entire application.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Introducing ChatGPT and Whisper APIs](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Open AI just launched two new APIs. ChatGPT API provides the same functionality as the ChatGPT app, with a 10x lower price than the original subscription. Whisper is OpenAI's state-of-the-art speech-to-text model. With these two new APIs, we expect tons of innovative apps to come out using it."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Meta is building AI-powered tools for WhatsApp, Messenger, and Instagram](https://www.theverge.com/2023/2/27/23617477/mark-zuckerberg-meta-ai-tools-personas)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "As OpenAI's ChatGPT surges in popularity, more companies, including Meta, are exploring opportunities in the generative AI space. Meta now has a team dedicated to building tools powered by artificial intelligence. More specifically, Zuckerberg says the company is working on AI experiences with text, such as chat with Messenger and WhatsApp, experiences with images for things like creative Instagram filters and ad formats, as well as video and multi-modal experiences."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Visual Studio 2022 - 17.5 Released](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/)
-{: .tech-news-link }
+{: .news-url }
 
 __Dika:__ "Visual Studio 2022 version 17.5 is now generally available. So many updates are available in this release that contains some feature that makes it easier for us to do daily workflow with Visual Studio, one of the interesting features is the Debugger test visualizer that has the functionality to manipulate text, for example, when we want to encode or decode base64 string during debugging, and another interesting new feature that worth to try."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Hackers use fake ChatGPT apps to push Windows, Android malware](https://www.bleepingcomputer.com/news/security/hackers-use-fake-chatgpt-apps-to-push-windows-android-malware/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "ChatGPT gains immense traction quickly, becoming the growing consumer application reaching more than 100 million users by January 2023. This growth surely attracts attackers to manipulate users into exploitation now that OpenAI launched ChatGPT Plus at $20/month. The attackers offer a false promise of uninterrupted and free access to the premium ChatGPT. By creating apps that run on websites and android phones, attackers trick users into installing malware on their devices and providing account credentials."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Introducing Service Weaver: A Framework for Writing Distributed Applications](https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ "This week, Google announced the release of Service Weaver, their latest open-source framework for building and deploying distributed applications. This framework is interesting because it puts the deployer tools right next to the application modules. It is said that this framework has the best of two worlds: the development velocity of a monolith, with the scalability, security, and fault-tolerance of microservices."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

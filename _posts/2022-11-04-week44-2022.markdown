@@ -53,51 +53,51 @@ While we can take inspiration from the IDP implementation used in a well-establi
 According to Gartner, "platforms don't enforce a specific toolset or approach – it is about making it easy for developers to build and deliver software while not abstracting away useful and differentiated capabilities of the underlying core services."
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [New Linux malware evades detection using multi-stage deployment](https://www.bleepingcomputer.com/news/security/new-linux-malware-evades-detection-using-multi-stage-deployment/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “This article reports that researchers have discovered a new Linux malware infecting computers and IoT devices using a multi-step infection chain where each layer delivers only a few hundred bytes, activating a simple module and then moving to the next one. Attackers use legitimate cloud hosting services to host their command and control infrastructure, avoiding alarm to rise by risking themselves being easily traced and identified.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Lapce is a Fast, Lightweight Open-Source Code Editor in Making](https://news.itsfoss.com/lapce-code-editor/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “Lapce is an open-source code editor built in Rust. Although still in development, Lapce looks promising with the features already in the pre-alpha build. These features include a command palette, customizable UI, built-in terminal, remote computer connection, plugin system, and so on.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [CNCF Survey Predicts Growing Wasm Momentum](https://www.cncf.io/blog/2022/10/24/cncf-wasm-microsurvey-a-transformative-technology-yes-but-time-to-get-serious/)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ “While Next.js tries to move your Front-end code to the backend using Server Components, WebAssembly(Wasm) tries to do the opposite by allowing you to execute backend code in the browser. A recent survey by CNCF found more than a quarter (28%) are using Wasm in their cloud-native development projects. It seems the technology is gaining momentum. Microsoft has released its own Web framework called Blazor, which utilizes this Wasm technology, and some of us here in Polyrific have used it in real projects.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [SonarQube 9.7 is now available with so many additional features](https://www.sonarqube.org/sonarqube-9-7/)
-{: .tech-news-link }
+{: .news-url }
 
 __Dika:__ “SonarQube is a static code analysis tool that provides a detailed report of bugs, code smells, vulnerabilities, and code duplications. It supports 25+ major programming languages. In this latest version, they have some improvements on Javascript/Typescript performance analysis speed, Github security vulnerabilities and OWAPS report, some new test rules for Python to help more Python bugs analysis from a static code perspective, User experience improvement, etc.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “I found this article interesting because it resonates with my experience that being a Software Engineer shouldn’t be just about coding and programming. We need to understand why decisions are made, how users will actually use the product, or how to improve this feature.”
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

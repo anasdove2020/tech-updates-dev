@@ -49,49 +49,49 @@ Let's see again how SRE benefits your organization:
 - **Build a modern network operations center** by combining an in-depth understanding of IT operations with machine learning and automation to send alerts directly to the person responsible for addressing the issue.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [API Authentication - JWT vs. OAuth](https://dev.to/angha_ramdohokar_0b6505c2/api-authentication-jwt-vs-oauth-802)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “API authentication is important to keep our system safe by proving or verifying the user's identity. This article explains API authentication methods, especially JSON Web Token and OAuth Authentication. Both methods have their ups and downs regarding securing and authentication levels, so developers must know what's best to use depending on their system's requirement, using all of them or each independently of the others.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Difference between var, let, and const keywords in JavaScript](https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “In JavaScript, users can declare a variable using three keywords that are var, let, and const. The author explains the differences between using var, let, and const in JavaScript in this article. The author provides an explanation accompanied by real examples of its application in the program, then shows the output of each condition to help us understand the difference between using var, let, and const.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Any developer can be a space developer](https://azure.microsoft.com/en-us/blog/any-developer-can-be-a-space-developer-with-the-new-azure-orbital-space-sdk/)
-{: .tech-news-link }
+{: .news-url }
 
 __Dika:__ “It’s always awesome to be a space developer. That’s cool, but not everyone can do that since it requires mastery in several disciplines like physics, math, etc. But now Microsoft claims that any developer can be a space developer with the new Azure Orbital Space SDK. It seems promising since they claimed that the SDK could run on any spacecraft and provide a secure hosting platform and application kit to create, deploy, and operate applications in orbit. They also have partnerships with some big companies like Airbus, SpaceX, Thales Alenia Space, and many more.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [CICERO: The first AI to play Diplomacy at a human level](https://www.youtube.com/watch?v=lNtBiZaLA0k)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ “Diplomacy is a game where you negotiate between several parties to achieve a certain goal. It requires you to communicate effectively and sometimes do some strategic lying. AI can do this at the human level using strategic reasoning and natural language processing. The application of this can be huge, such as enabling AI to walk you through a long conversation to teach you some complicated subject.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [What are SIM swap attacks, and how can you prevent them?](https://blog.1password.com/what-is-sim-swapping/)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “SIM swapping, also known as SIM jacking, is a technique used by attackers to gain access to a person’s phone number. This is very concerning because if an attacker has access to your phone number, they also have access to any codes you receive via SMS or automated phone call. This negates the extra security they’re meant to provide and puts any account tied to or protected by your phone number at risk.”
 

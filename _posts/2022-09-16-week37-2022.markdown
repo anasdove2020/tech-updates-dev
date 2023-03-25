@@ -57,51 +57,51 @@ Many vendors support OpenTelemetry. The following are well-known vendors that yo
 - [NewRelic](https://newrelic.com/solutions/opentelemetry)
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Adobe to Acquire Figma](https://news.adobe.com/news/news-details/2022/Adobe-to-Acquire-Figma/default.aspx)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ “If you are currently enjoying free usage of Figma, you might not like the news so much. Adobe has just acquired its competitor in design tools for approximately $20 billion in cash and stock. Unfortunately, this would mean It’ll be a possibility that you would need Adobe subscription in order to use your favorite design tool”.
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Difference Between Digital Signature and Electronic Signature](http://www.differencebetween.net/technology/difference-between-digital-signature-and-electronic-signature/)
-{: .tech-news-link }
+{: .news-url }
 
 Aris: “Signature nowadays is not only used on paper, but also used in digital documents. You might have heard about eSignature (Electronic Signature) and also Digital Signature. Both terms are different; please don't be confused. The electronic signature is used to verify the document and digital signature is used to secure the document.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [The end is near - Thanos.js Tutorial (Not a parody)](https://thewebtech.hashnode.dev/the-end-is-near-thanosjs-tutorial-not-a-parody)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ “Thanos.js is a Node.js app that actually lets you disintegrate your project. This interesting article shows us how this app works, deleting half of your files randomly in the current directory by using the "snap" command.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Researchers Warn of a Dangerous Raspberry Robin Worm Targeting Windows Users](https://www.makeuseof.com/dangerous-raspberry-robin-worm-targeting-windows-users/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ “New kind of Windows worm, known as Raspberry Robin has been spreading from victim to victim mainly via USB devices. An infected device will show the victim a .LNK file upon insertion, which infects the device through the command prompt. Windows users must be aware about USB drives that they choose to insert into any of their devices.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Vulnerability Management for Go](https://go.dev/blog/vuln)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “Go Security team announced the release of the vulnerability management. It provides tooling to analyze your codebase from known vulnerabilities. I think it is a good move to show that security awareness should start from the beginning. I can’t wait to see the similar support is given by the other code frameworks too.”
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

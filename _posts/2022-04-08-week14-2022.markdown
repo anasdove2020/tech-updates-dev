@@ -39,51 +39,51 @@ These are the example of the monitoring & observability services:
 - [LogicMonitor](https://www.logicmonitor.com/): it provides an agentless SaaS-based monitoring platform. LogicMonitor provides prebuilt integrations and an open API and monitoring across networks, servers, applications, websites, and containers, including insights and reporting capabilities.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Acing Google's PageSpeed Insights Assessment* (Read [these tips if you often face this task in your work](https://www.toptal.com/site-speed-optimization/pagespeed-insights-best-practices))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The article explains in detail the reports you see in the PageSpeed Insights assessment, and offers some tips and how to do the optimization. I think it’s a good read if you often have to optimize the page speed on the website you build."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Webinar recording: The Importance of humor in Cyber Security* (Watch [the webinar here](https://lp.goto.com/lastpass-webinar-Importance-of-humour-in-Cyber-Security_TYP.html))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The presenter gives some insight as a founder of a Cyber Security company on how communicating the security awareness or guidance through humor can be more effective in nudging people to be more aware of cyber security in their daily work activities, since they are more engaged when presented with such info that is also making them laugh. I have a few good chuckles when listening to some anecdotes that the presenter shared."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *GitHub Copilot Labs, an ML-powered editor features for developers* (Read [the advanced VS code extension features here](https://next.github.com/projects/copilot-labs/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "GitHub shares a new VS Code extension that has experimental features that utilize machine learning, such as allowing it to explain the code you select into a natural language, and translate the code to other programming languages. It’s still available as a technical preview, so you might need to register first before trying it out."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Want to Be More Productive? Think about Sustainability* (Read [Microsoft’s interesting take about management & productivity](https://www.microsoft.com/en-us/worklab/want-to-be-more-productive-think-about-sustainability))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Please don’t take offense at how the article suggests that managers should think of their workers as crops. But I think the analogy between environmental sustainability and workplace productivity has quite a good point."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *How to use Props in React* (it's good to read [this if you are starting on learning React](https://www.robinwieruch.de/react-pass-props-to-component/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Sorry if it's a bit too technical for the wide audience. I just started learning React when working on recent projects, and I found this article to be quite enlightening on the concept I was struggling with before."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

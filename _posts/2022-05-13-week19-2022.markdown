@@ -34,51 +34,51 @@ The subdomain takeover might result in:
 We usually sweep out for the dangling domains by regularly checking directly on the DNS records. We also utilize a PowerShell tool called [Get-DanglingDnsRecords](https://github.com/Azure/Azure-Network-Security/tree/master/Cross%20Product/DNS%20-%20Find%20Dangling%20DNS%20Records) for Azure resources to ease the identification process.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *5 Reasons Unreal Engine 5 is a BIG DEAL* (Watch [the video explaining the “unreal” new feature of the game engine](https://www.youtube.com/watch?v=cRLnR4Kot2M))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The video explains the cool features of Unreal Engine 5. I think the breakthrough of this new engine can really enable the Metaverse so developers can create a high-quality virtual environment more easily."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *You Don’t Need A UI Framework* (Read [the article that argues against your favorite UI framework](https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The author discusses his opinion that oftentimes it is best to build our styling code from scratch. This is quite similar to our new approach of creating our own design system, rather than being fully dependent on some UI framework such as bootstrap or material design. The author is one of the highly regarded UI developers and I think his argument is worth reading here."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Apple, Google, Microsoft Back 'FIDO' Tech to Dump Passwords on Websites and Apps* (Read [the story on how big companies plan to remove passwords for their authentication](https://www.cnet.com/tech/services-and-software/apple-google-microsoft-back-fido-tech-to-dump-passwords-on-websites-and-apps/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The FIDO Alliance -- FIDO is short for "fast identity online", announced that they are working to create a passwordless technology for websites and apps. So instead of using passwords, users will be using other methods such as fingerprint readers, face scanners, or even your phone. While I think it’ll be convenient to not have to remember passwords, I still think it’s the safest way if done properly, since the passwords can reside only in your mind, while your fingerprint or phone can sometimes be stolen."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Continuous Delivery at Airbnb* (Read [the story on how Airbnb implements microservice, and the DevOps to support it within the company](https://medium.com/airbnb-engineering/continuous-delivery-at-airbnb-6ac042bc7876))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Airbnb shares their experience with migrating their monolithic codebase into a service-oriented architecture, particularly in relation to migrating their DevOps into one that supports microservice architecture. It tells their strategy on how to engage engineers to adopt the new process and the challenge to make all 100% of their process migrated."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Google I/O 2022 keynote in 18 minutes* (Watch [the shortened version of keynotes on Google's biggest annual events](https://www.youtube.com/watch?v=U82aw8WEYAM))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Google has some exciting announcements in this year's event. They are announcing a bunch of new hardware, including one I find most exciting: google glass. I’m quite blown away by their demo for using google glass as a live translator, and showing the translation like a subtitle in a movie. It’s emerging tech being combined in action: AI & AR."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

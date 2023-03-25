@@ -24,36 +24,36 @@ Automatic alerts are also essential to set up in the monitoring system. It helps
 So, what about the application that you are currently working on? Has it equipped with a proper monitoring system? Please discuss it with your team to get the best implementation strategy if it hasn't. Or if you need some ideas or advice, please don't hesitate to contact us in the Department of Technology.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Stop aggregating away the signal in your data* (read [the article from StackOverflow blog](https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data))
-{: .tech-news-link-no-info }
+{: .news-url-no-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *How everything we're told about website identity assurance is wrong* (read [Troy Hunt's post](https://www.troyhunt.com/how-everything-were-told-about-website-identity-assurance-is-wrong))
-{: .tech-news-link-no-info }
+{: .news-url-no-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Supporting multi-tenant in SQL Server databases* (read from [the Microsoft docs](https://docs.microsoft.com/en-us/ef/core/miscellaneous/multitenancy))
-{: .tech-news-link-no-info }
+{: .news-url-no-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Shaping the culture of learning in Gojek Design* (read [the article from Gojek's blog](https://www.gojek.io/blog/design-mentorship-program))
-{: .tech-news-link-no-info }
+{: .news-url-no-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *What are reactive systems?* (watch [Dave Farley's talk in the GOTO 2021](https://youtu.be/Ysn6eInApYM))
-{: .tech-news-link-no-info }
+{: .news-url-no-info }
 
 {% include post-suggested.html %}

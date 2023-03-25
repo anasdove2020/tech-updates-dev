@@ -38,7 +38,7 @@ __About Open-Source__
 ![4](/images/chatgpt/4.png)
 
 It is not open-source software at the moment, but who knows :)
-{: .tech-news-link }
+{: .news-url }
 
 __GPT Technology__
 
@@ -51,7 +51,7 @@ __Training Data__
 ![6](/images/chatgpt/6.png)
 
 Not too recent, apparently. So I guess it is not aware if Argentina has won World Cup 2022 :)
-{: .tech-news-link }
+{: .news-url }
 
 __Current Data__
 
@@ -73,51 +73,51 @@ Wot wot..thanks for the suggestion, I will surely try them. But, I'm a little bi
 
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Turn design into production-ready frontend code with Locofy.ai](https://www.locofy.ai/)
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "Locofy.ai is a plugin for Figma and Adobe XD that can convert designs into code. For now, Locofy.ai can convert Figma and Adobe XD designs into React, HTML/CSS, Next.js, and also Gatsby code. It is currently in free beta right now, and the free trial can be extended every 3 weeks by giving feedback to Locofy.ai."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Glass AI: AI medical diagnosis that utilizes GPT3](https://glass.health/ai)
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Last week, there’s news that ChatGPT Passed the US Medical Licensing Exam. So someone created a smooth UI that utilizes the GPT3 model to generate differential diagnoses and clinical plans based on a problem representation. It’s interesting how the technology is applicable to many industries, including medicine."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Massive Microsoft 365 outage caused by WAN router IP change](https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-caused-by-wan-router-ip-change/)
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "A router IP address change led to a packet forwarding issue impacting one of the Microsoft services, Microsoft 365, causing a worldwide outage for five hours. Microsoft stated that the IP address change was planned, but the one which caused the issue was the command given to the router, causing it to send messages to all other routers resulting in all of them recomputing adjacency and forwarding tables. Microsoft is now blocking highly impactful commands from being executed and needs to follow guidelines for safe configuration changes to avoid the same issue from occurring in the future."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Understanding CVEs and CVSS Scores](https://www.openlogic.com/blog/understanding-cves-cvss-scores)
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ “Many security breaches occur from known vulnerabilities being left unmitigated. CVSS scores are a shorthand way to communicate the severity of known vulnerabilities (CVEs) so that users can take steps to protect and secure their systems. Understanding how the scoring works will help you to set priorities in maintaining dependencies of your applications.”
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 [Performance Improvements in .NET 7](https://medium.com/@tobias.streng/net-performance-series-1-performance-improvements-in-net-7-fb793f8f5f71)
-{: .tech-news-link }
+{: .news-url }
 
 __Dika:__ "Microsoft provides some big performance improvements in .NET 7, one of the biggest improvements is in LINQ, which is we can see in this article the performance improvements are quite drastic in Min Max methods, Average, Sum, and Order. The other improvements is in System.IO, Guid Equality Check, and some parsing methods. Also, the System.Diagnostic have interesting performance improvements in some methods."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

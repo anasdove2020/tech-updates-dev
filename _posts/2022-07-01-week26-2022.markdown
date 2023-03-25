@@ -38,51 +38,51 @@ __Docker__
 Docker is an open-source platform that enables developers to build, deploy, run, update, and manage containers. While it is possible to create containers without Docker by working directly with the built-in OS capabilities, Docker makes containerization faster, easier, and safer. It is currently used by [over 13 million developers](https://www.docker.com/) to work with containerization.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Cloudflare outage on June 21, 2022* (Read [the company’s statement on the recent outage](https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Despite the outage, it’s admirable that Cloudflare can create a detailed post-incident report 6 hours after the outage. For comparison, Atlassian had an outage in early April, and it took weeks to release the report. Cloudflare's report concisely explains the cause and the motivation behind the deployment that causes the outage, laid out the timeline from the time outage happened to when it was resolved, while also giving a detailed technical explanation of the error and the remediation plan. There are many things we can learn from this report."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Understanding PathBase in ASP.NET Core* (Read [how to use this lesser know property in the ASPNet HttpRequest class](https://andrewlock.net/understanding-pathbase-in-aspnetcore/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "This article shares some useful use cases when using the ASP feature of PathBase. It demonstrates how we can dynamically ignore a certain prefix in the URL to your routing path, for example when we are using some proxy in our server. I think it’s useful to keep this feature in mind."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *CQRS Repository with EF Core* (Read [this interesting article on how to design your base repository in EF Core](https://thirty25.com/posts/2020/08/cqrs-ef-core-repository-pattern))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Command and Query Responsibility Segregation (CQRS for short), is a design pattern that can help organize your code by separating between queries and commands. The article shows how it’s done in EF Core. Might be a good reference if we want to use it as the base repository design for our projects."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Capturing A Billion Emo(j)i-ons* (Read [how the engineers in Disney+ Hotstar architect their system to handle this many requests](https://blog.hotstar.com/capturing-a-billion-emojis-62114cc0b440))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Providing a server that can take up billions of requests used to need a very expensive infrastructure. With recent advances in cloud technology and messaging service, we can now provide a cost-effective solution with an intuitive architecture. In this article, the author shares the high-level design to achieve such challenging non-functional requirements."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *How developers can benefit from the new 5G paradigm* (Read [Microsoft’s vision on the 5G revolution](https://azure.microsoft.com/en-gb/blog/how-developers-can-benefit-from-the-new-5g-paradigm/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "This article gives a pretty good insight on 5G capabilities while introducing Microsoft’s plan to help enable developers to use those capabilities by introducing a carrier-agnostic platform. This article is good for developers to read, to learn about exciting new technologies. For business people, this article might give you insight or ideas on the opportunities for business applications that require 5G. As mentioned in the article, companies are projected to spend $20 billion USD over the next 5 years for these applications."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

@@ -36,51 +36,51 @@ Blazor is a framework for building an interactive client-side web interface with
 Blazor WebAssembly is a perfect alternative to JavaScript-based Single Page Application frameworks like Angular, React, or Vue.
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Machine Learning for Beginners - A Curriculum* (Take up [the free course provided by Microsoft](https://github.com/microsoft/ML-For-Beginners))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "Microsoft created a complete curriculum for data science with Python. In case you want to do some career switching, the material provided here is a pretty good start since it covers basic and advanced material, along with real-world implementation."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Rust Is Hard, Or: The Misery of Mainstream Programming* (Read [this interesting piece on the young and increasingly popular programming language](https://hirrolot.github.io/posts/rust-is-hard-or-the-misery-of-mainstream-programming.html))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "I’ve been trying to learn Rust recently because my Twitter timeline keeps telling me how awesome it is, and this article kind of opened my eyes to how low-level programming can bring up certain complexity that rarely happens in a high-level programming language. I guess even with the huge advancement in computer science, there are still many fundamental problems such as concurrency handling in programming languages yet to be solved for future generations to tinker with."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Over 3.6 million MySQL servers were found exposed on the Internet* (Read [the report by a cybersecurity research group that discovered this vulnerability](https://www.bleepingcomputer.com/news/security/over-36-million-mysql-servers-found-exposed-on-the-internet/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "It’s good that most of our projects are using a cloud provider like Azure, which provides firewall security by default. In the case that your project is using some on-premise server, make sure that you have the firewall turned on. As the report shows, there’re many servers that are still at risk of attacks due to being exposed on the internet"
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *HTTP/3 From A To Z: Core Concepts* (Read [the core concept of the newly introduced version of the HTTP protocol](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "This long article, the first part of a 3 parts series, tries to give a nuanced explanation of the new HTTP/3 protocol, by explaining the core concept behind it. It can get too low level even for us programmers, but if you are interested in how each of your HTTP requests is conducted, this article will give you a complete picture."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *GitHub Copilot is generally available to all developers* (Read [the good news here](https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/))
-{: .tech-news-link }
+{: .news-url }
 
 __Brain:__ "The wait is over, you can now try to install GitHub Copilot for trial in your local dev environment. Go ahead and try it, and share your experience with your friends."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}

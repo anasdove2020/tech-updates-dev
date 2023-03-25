@@ -52,51 +52,51 @@ The following list is some of the Sentinel capabilities in the big picture:
 - **Configuration provider**: Sentinel acts as a source of authority for clients' service discovery and other configurations
 
 ## Tech News
-{: .tech-news-title }
+{: .news-title }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Notice of Recent Security Incident* (Read [the announcement from the LastPass blog](https://blog.lastpass.com/2022/08/notice-of-recent-security-incident/))
-{: .tech-news-link }
+{: .news-url }
 
 __Frandi:__ "LastPass users received this announcement via email on Aug 25, 2022. LastPass detected unusual activity in their development environments. They suspect that an unauthorized party gained access to the environment and took portions of source code and some proprietary information. But they assured us that their product and services are operating normally despite this incident."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Wolf in sheep’s clothing: how malware tricks users and antivirus* (Read [this Malware tricks and how to stay safe](https://www.bleepingcomputer.com/news/security/wolf-in-sheep-s-clothing-how-malware-tricks-users-and-antivirus/))
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "This article shows us how malware tricks users and antivirus. Deceiving people into downloading and running malicious files is one of the most popular methods used to distribute malware. Also, it shows us how to avoid the kind of attacks."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *New JavaScript runtime Bun challenges Deno, Node.js* (Read about [the Fast all-in-one JavaScript runtime, Bun](https://www.techtarget.com/searchsoftwarequality/news/252522622/New-JavaScript-runtime-Bun-challenges-Deno-Nodejs))
-{: .tech-news-link }
+{: .news-url }
 
 __Rizqun:__ "Bun is about three times faster than Node and Deno when server-rendering React or running database queries. Bun's speed stems from the fact that it is built around Webkit's JavaScriptCore framework, which tends to be faster than the more traditional V8 JavaScript engine used for Chrome, Deno, and Node.js. Another factor leading to increased speed is that the Bun JavaScript is written in Zig, a low-level programming language that can be read by system hardware."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Consider Gold, Silver, and Bronze for your Data, not just the Olympics* (Read [the good article about leveraging data quality](https://www.linkedin.com/pulse/consider-gold-silver-bronze-your-data-just-olympics-ruaidhri-hallinan))
-{: .tech-news-link }
+{: .news-url }
 
 Juniada: "In the embracement of business intelligence, artificial intelligence, and machine learning, data value transitions are a great way to leverage data quality. This will make the data processing easier and give the fullest context for the data usage."
-{: .tech-news-info }
+{: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
-{: .tech-news-logo }
+{: .news-logo }
 
 *Shifting Left with Postman* (Read [Shift-Left testing using Postman](https://dev.to/postman/shifting-left-with-postman-2a25))
-{: .tech-news-link }
+{: .news-url }
 
 __Yoga:__ "Postman has been helping a lot of developers with their API lifecycle needs by providing a number of features and functions that can assist the development and quality team for early testing. This article shows us how Postman helps the development and quality practices."
-{: .tech-news-info }
+{: .news-info }
 
 {% include post-suggested.html %}
