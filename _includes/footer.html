@@ -1,14 +1,17 @@
 <footer class="site-footer">
-  <div class="site-footer-banner">
-    <div class="site-footer-box">
-      <div class="site-footer-box-title">Get the latest tech insights from Polyrific’s experts</div>
-      <div class="site-footer-box-text">Get the latest insights and analysis from Polyrific’s experienced tech professionals. Subscribe to our updates and stay ahead of the curve.</div>
-      <div class="site-footer-box-control">
-        <input type="text" class="site-footer-box-input" placeholder="Email Address">
-        <button class="site-footer-box-button">SUBSCRIBE</button>
+  {% if page.hideFooterBanner %}
+  {% else %}
+    <div class="site-footer-banner">
+      <div class="site-footer-box">
+        <div class="site-footer-box-title">Get the latest tech insights from Polyrific’s experts</div>
+        <div class="site-footer-box-text">Get the latest insights and analysis from Polyrific’s experienced tech professionals. Subscribe to our updates and stay ahead of the curve.</div>
+        <div class="site-footer-box-control">
+          <input type="text" class="site-footer-box-input" placeholder="Email Address">
+          <button class="site-footer-box-button">SUBSCRIBE</button>
+        </div>
       </div>
     </div>
-  </div>
+  {% endif %}
   <div class="wrapper">
     <div class="site-footer-text">
       <div class="site-footer-text-left">© 2023 Polyrific, LLC. All rights reserved.</div>
