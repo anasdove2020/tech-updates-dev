@@ -1,0 +1,262 @@
+.subscription {
+  padding-top: 71px;
+}
+
+.subscription-title {
+  color: #FF7C0A;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'WorkSansMedium';
+  margin-bottom: 16px;
+  letter-spacing: 0.15px;
+}
+
+.subscription-description {
+  color: #020B13;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: 'WorkSansReguler';
+  margin-bottom: 44px;
+  width: 812px;
+}
+
+.subscription-banner {
+  display: flex;
+  margin-bottom: 108px;
+}
+
+.subscription-banner-image {
+  margin-right: 55px;
+}
+
+.subscription-banner-image img {
+  max-width: unset;
+  height: auto;
+}
+
+.subscription-banner-text {
+  padding-top: 14px;
+  padding-right: 184px;
+}
+
+.subscription-detail {
+  margin-bottom: 64px;
+}
+
+.subscription-banner-text p,
+.subscription-detail p {
+  color: #020B13;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'OpenSansRegular';
+  letter-spacing: 0.5px;
+  margin-bottom: 26px;
+}
+
+.subscription-box {
+  margin-top: 6px;
+  position: relative;
+  width: 536px;
+}
+
+.subscription-box-control {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  height: 51px;
+  background: #FFFFFF;
+}
+
+.subscription-box-input {
+  height: 49px;
+  width: 363px;
+  border: 1px solid #00000061;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-family: 'OpenSansRegular';
+  font-size: 16px;
+  line-height: 28px;
+  color: #020B13;
+  padding-left: 16px;
+  border-right: none;
+}
+
+.subscription-box-input::placeholder {
+  color: #020B13;
+  opacity: 1; /* Firefox */
+}
+
+.subscription-box-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #020B13;
+}
+
+.subscription-box-input::-ms-input-placeholder { /* Microsoft Edge */
+ color: #020B13;
+}
+
+.subscription-box-input:focus-visible,
+.subscription-box-input:focus,
+.subscription-box-input:hover,
+.subscription-box-input:active,
+.subscription-box-input:visited {
+  border: 1px solid #00000061;
+  border-right: none;
+  outline: none;
+}
+
+.subscription-box-button {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid #00000061;
+  border-left: none;
+  padding: 4px;
+  height: 43px;
+  width: 138px;
+}
+
+.subscription-box-button button {
+  background: #003788;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid #00000061;
+  border-left: none;
+  border-radius: 24px;
+  width: 135px;
+  height: 43px;
+  color: #FFFFFF;
+  font-family: 'OpenSansRegular';
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscription {
+    padding-top: 24px;
+  }
+  
+  .subscription-title {
+    margin-bottom: 12px;
+  }
+  
+  .subscription-description {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    width: 480px;
+  }
+  
+  .subscription-banner {
+    display: block;
+    margin-bottom: 0;
+  }
+  
+  .subscription-banner-image {
+    margin-right: 0;
+  }
+  
+  .subscription-banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .subscription-banner-text {
+    padding-top: 28px;
+    padding-right: 0;
+  }
+  
+  .subscription-detail {
+    margin-bottom: 64px;
+  }
+  
+  .subscription-banner-text p,
+  .subscription-detail p {
+    color: #020B13;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .subscription {
+    padding-top: 24px;
+  }
+  
+  .subscription-title {
+    margin-bottom: 12px;
+  }
+  
+  .subscription-description {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  
+  .subscription-banner {
+    display: block;
+    margin-bottom: 48px;
+  }
+  
+  .subscription-banner-image {
+    margin-right: 0;
+  }
+  
+  .subscription-banner-image img {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .subscription-banner-text {
+    padding-top: 28px;
+  }
+  
+  .subscription-detail {
+    margin-bottom: 64px;
+  }
+  
+  .subscription-banner-text p,
+  .subscription-detail p {
+    color: #020B13;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+
+  .subscription-box {
+    margin-top: 6px;
+    width: 100%;
+  }
+  
+  .subscription-box-control {
+    height: 51px;
+  }
+  
+  .subscription-box-input {
+    height: 49px;
+    width: 363px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .subscription-box-button {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #00000061;
+    border-left: none;
+    padding: 4px;
+    height: 43px;
+    width: 138px;
+  }
+  
+  .subscription-box-button button {
+    width: 120px;
+    height: 43px;
+    color: #FFFFFF;
+    font-family: 'OpenSansRegular';
+    font-size: 12px;
+    line-height: 14px;
+    cursor: pointer;
+  }
+}
