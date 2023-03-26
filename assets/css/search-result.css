@@ -1,0 +1,145 @@
+.search-results {
+  padding-top: 71px;
+  padding-bottom: 71px;
+  background: #FFFFFF;
+  opacity: 0.97;
+  display: none;
+}
+
+.search-result-empty {
+  text-align: center;
+  color: #020B13;
+  font-size: 34px;
+  line-height: 46px;
+  font-family: 'WorkSansMedium';
+  padding: 0 220px;
+}
+
+.search-result-data {
+  color: #020B13;
+  font-size: 34px;
+  line-height: 46px;
+  font-family: 'WorkSansMedium';
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.search-result-data a:hover {
+  text-decoration: none;
+}
+
+.search-result-post {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.search-result-post-image {
+  text-align: left;
+}
+
+.search-result-post-image img {
+  max-width: 628px;
+  height: auto;
+}
+
+.search-result-post-detail {
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.search-result-post-detail-header {
+  color: #020B13;
+  font-family: 'OpenSansRegular';
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.search-result-post-detail-title {
+  color: #020B13;
+  font-family: 'WorkSansMedium';
+  font-size: 34px;
+  line-height: 46px;
+  margin-bottom: 12px;
+}
+
+.search-result-post-detail-description {
+  color: #020B13;
+  font-family: 'OpenSansRegular';
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .search-result-empty {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 160px;
+  }
+
+  .search-result-post-image img {
+    height: 120px;
+  }
+
+  .search-result-post-detail {
+    padding-top: 4px;
+  }
+  
+  .search-result-post-detail-header {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .search-result-post-detail-title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .search-result-post-detail-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .search-result-post {
+    margin-bottom: 24px;
+    display: block;
+  }
+  
+  .search-result-post-image {
+    text-align: left;
+  }
+  
+  .search-result-post-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .search-result-post-detail {
+    text-align: left;
+    padding-left: 4px;
+    padding-top: 16px;
+  }
+  
+  .search-result-post-detail-header {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .search-result-post-detail-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .search-result-post-detail-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

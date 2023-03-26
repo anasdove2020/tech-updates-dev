@@ -4,7 +4,7 @@
       <img src="/assets/images/polyrific_logo.svg" alt="logo">
     </a>
     <div class="search-box">
-      <input type="text" class="search-input" placeholder="Search" />
+      <input id="search-post-id" type="text" class="search-input" placeholder="Search" />
     </div>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
@@ -42,4 +42,38 @@
         </nav>
       {% endif %}
   </div>
+  <div class="wrapper search-results" id="search-results-id">
+    <div class="search-result-empty" id="search-results-empty">
+      Nothing found. Please try using different keywords.
+    </div>
+    <div class="search-result-data" id="search-results-data">
+      <a href="{{ post.url | relative_url }}">
+        <div class="search-result-post">
+          <div class="search-result-post-image">
+            <img src="/assets/images/prompt_engineering.png" +  alt="banner">
+          </div>
+          <div class="search-result-post-detail">
+            <div class="search-result-post-detail-header">Week #6 · Feb 24, 2023</div>
+            <div class="search-result-post-detail-title">Prompt Engineering</div>
+            <div class="search-result-post-detail-description">A practice of using prompts to get the output you want in NLP and AI models.</div>
+          </div>
+        </div>
+      </a>
+      <a href="{{ post.url | relative_url }}">
+        <div class="search-result-post">
+          <div class="search-result-post-image">
+            <img src="/assets/images/serverless_function_banner.png" +  alt="banner">
+          </div>
+          <div class="search-result-post-detail">
+            <div class="search-result-post-detail-header">Week #6 · Feb 24, 2023</div>
+            <div class="search-result-post-detail-title">Prompt Engineering</div>
+            <div class="search-result-post-detail-description">A practice of using prompts to get the output you want in NLP and AI models.</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </header>
+
+<script src="/js/search.js"></script>
+<link rel="stylesheet" href="/assets/css/search-result.css">
