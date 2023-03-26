@@ -21,6 +21,10 @@
 
 /** COMMON **/
 
+.page-content {
+  padding-top: 56px;
+}
+
 .wrapper {
   max-width: 1089px;
   padding-right: 0;
@@ -50,6 +54,10 @@
   letter-spacing: 1.25px;
   width: 200px;
   font-family: 'OpenSansRegular';
+}
+
+.site-nav .page-link-highlighted-active {
+  color: #1D94D2;
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -94,7 +102,7 @@
   border: 1px solid #0000001F;
   border-radius: 19px;
   height: 34px;
-  width: 352px;
+  width: 308px;
   padding-left: 44px;
   background-image: url("/assets/images/feather-search.svg");
   background-size: 18px;
