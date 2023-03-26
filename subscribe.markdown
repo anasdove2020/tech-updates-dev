@@ -1,8 +1,36 @@
 ---
-layout: page
+layout: default
 title: Subscribe
+description: "Stay ahead of the technology curve with Polyrific."
 permalink: /subscribe/
 buttonHighlighted: true
+hideFooterBanner: true
 ---
 
-<iframe src="https://cdn.forms-content.sg-form.com/150295d9-8dbd-11ed-819e-96e7fc72fab4" style="width: 600px;height: 600px;" />
+<div class="subscription">
+  <p class="subscription-title">{{ page.title | default: "Subscribe" }}</p>
+  <h3 class="subscription-description">{{ page.description }}</h3>
+  <div class="subscription-banner">
+    <div class="subscription-banner-image">
+      <img src="/assets/images/subscription.svg"  alt="banner">
+    </div>
+    <div class="subscription-banner-text">
+      <p>
+        Our expert team of technologists provides the latest insights and analysis on industry trends, tools, and best practices. By subscribing to our updates, you’ll receive a curated selection of news and insights, delivered right to your inbox.
+      </p>
+      <p>
+        Whether you’re an entrepreneur, business leader, or technology enthusiast, our updates will help you make better decisions and unlock the full potential of your business. Join now to stay ahead of the competition.
+      </p>
+      <div class="subscription-box">
+        <div class="subscription-box-control">
+          <input type="text" class="subscription-box-input" placeholder="Email Address">
+          <div class="subscription-box-button">
+            <button>SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="/assets/css/subscription.css">
