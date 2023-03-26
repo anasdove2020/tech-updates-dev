@@ -1,0 +1,147 @@
+.about {
+  padding-top: 71px;
+}
+
+.about-title {
+  color: #FF7C0A;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'WorkSansMedium';
+  margin-bottom: 16px;
+  letter-spacing: 0.15px;
+}
+
+.about-description {
+  color: #020B13;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: 'WorkSansReguler';
+  margin-bottom: 44px;
+  width: 786px;
+}
+
+.about-banner {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.about-banner-image {
+  margin-right: 54px;
+}
+
+.about-banner-image img {
+  max-width: unset;
+  height: auto;
+}
+
+.about-banner-text {
+  padding-top: 43px;
+}
+
+.about-detail {
+  margin-bottom: 64px;
+}
+
+.about-banner-text p,
+.about-detail p {
+  color: #020B13;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'OpenSansRegular';
+  letter-spacing: 0.5px;
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding-top: 24px;
+  }
+  
+  .about-title {
+    margin-bottom: 12px;
+  }
+  
+  .about-description {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    width: 480px;
+  }
+  
+  .about-banner {
+    display: block;
+    margin-bottom: 0;
+  }
+  
+  .about-banner-image {
+    margin-right: 0;
+  }
+  
+  .about-banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-banner-text {
+    padding-top: 28px;
+  }
+  
+  .about-detail {
+    margin-bottom: 64px;
+  }
+  
+  .about-banner-text p,
+  .about-detail p {
+    color: #020B13;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    padding-top: 24px;
+  }
+  
+  .about-title {
+    margin-bottom: 12px;
+  }
+  
+  .about-description {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  
+  .about-banner {
+    display: block;
+    margin-bottom: 0;
+  }
+  
+  .about-banner-image {
+    margin-right: 0;
+  }
+  
+  .about-banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-banner-text {
+    padding-top: 28px;
+  }
+  
+  .about-detail {
+    margin-bottom: 64px;
+  }
+  
+  .about-banner-text p,
+  .about-detail p {
+    color: #020B13;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+}
