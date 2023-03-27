@@ -39,7 +39,7 @@
 }
 
 .about-detail {
-  margin-bottom: 64px;
+  margin-bottom: 0;
 }
 
 .about-banner-text p,
@@ -50,6 +50,10 @@
   font-family: 'OpenSansRegular';
   letter-spacing: 0.5px;
   margin-bottom: 26px;
+}
+
+.about-detail .p-last {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -87,7 +91,7 @@
   }
   
   .about-detail {
-    margin-bottom: 64px;
+    margin-bottom: 0;
   }
   
   .about-banner-text p,
@@ -134,7 +138,7 @@
   }
   
   .about-detail {
-    margin-bottom: 64px;
+    margin-bottom: 0;
   }
   
   .about-banner-text p,

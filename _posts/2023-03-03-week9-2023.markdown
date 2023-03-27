@@ -18,7 +18,7 @@ Modular monolith architecture is a software design pattern gaining popularity la
 
 We will explore the concept of modular monolith architecture in detail, discussing its advantages and disadvantages and providing a real-world example of a company that successfully implements modular monolith for its applications.
 
-__Why is it gaining popularity lately?__
+## Why is it gaining popularity lately?
 
 Modular monolith architecture has been gaining popularity due to its ability to address some of the challenges and drawbacks of traditional monolithic and microservices architectures.
 
@@ -28,7 +28,7 @@ Furthermore, modular monoliths also benefit from the simplicity of deployment, w
 
 Overall, modular monolith architecture balances the advantages of traditional monolithic and microservices architectures, providing developers with a more flexible and maintainable codebase while simplifying the deployment and scaling process.
 
-__But microservice should be the go-to choice for the modern application, right?__
+## But microservice should be the go-to choice for the modern application, right?
 
 Microservices architecture has become increasingly popular in recent years due to its ability to provide scalability, resilience, and flexibility to large-scale software systems. However, some challenges associated with microservices architecture have led some organizations to look for alternative design patterns like the modular monolith.
 
@@ -36,7 +36,7 @@ One of the primary challenges with a microservices architecture is the complexit
 
 Another challenge with a microservices architecture is the increased network latency and communication overhead that comes with a distributed architecture. In a microservices architecture, services communicate with each other over a network, which can introduce delays and performance issues. It can be especially problematic in applications that require low latency and high throughput, such as real-time data processing or transaction processing systems.
 
-__What is modularity in this context, by the way?__
+## What is modularity in this context, by the way?
 
 Modularity refers to the practice of designing and building software applications as a collection of independent, self-contained modules that can be developed, tested, and deployed separately. Each module is designed to perform a specific function or provide a particular service and has well-defined interfaces that allow it to communicate with other modules.
 
@@ -46,7 +46,7 @@ Implementing modularity on an application may require serious planning and may s
 
 For an example of modularity, let's say we have an e-commerce platform that allows users to search for and purchase products. The system could be broken down into the following modules: Product Catalogue, Search Engine, Order Processing, User Management, and others. Each of these modules can be owned by different teams that can work independently from each other. However, to allow each module to communicate with each other, a robust design of interfaces needs to be laid out prior to the implementation of the modules.
 
-__The Shopify story__
+## The Shopify story
 
 One example of a successful implementation of modular monolith architecture is the e-commerce platform: Shopify (you can read the more complete stories on their [engineering blog](https://shopify.engineering/shopify-monolith)). 
 
