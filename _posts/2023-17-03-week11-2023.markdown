@@ -20,7 +20,7 @@ Business Continuity (BC) and Disaster Recovery (DR) differ in their focus, with 
 
 Both BC and DR consider various unplanned events and aim to restore normal operations, particularly with regard to mission-critical applications. 
 
-__Why is BCDR important?__
+## Why is BCDR important?
 
 Business continuity and disaster recovery planning are critical for any organization to survive a catastrophic event. Disruption can cause significant downtime, resulting in revenue, customers, and productivity loss. A well-designed disaster recovery plan can help restore critical IT systems and data quickly, minimizing downtime and financial losses.
 
@@ -32,7 +32,7 @@ In the event of a disruption, maintaining customer service is essential to minim
 
 Data is often an organization's most valuable asset, and losing it can have severe consequences. A disaster recovery plan can ensure that critical data is backed up and can be quickly restored in the event of a disaster.
 
-__Risk Assessment__
+## Risk Assessment
 
 Risk assessment is a critical component of business continuity and disaster recovery planning. It involves identifying potential risks and threats impacting an organization's operations and developing mitigation strategies. A robust risk assessment process can help an organization effectively prepare for and respond to unexpected disruptions.
 
@@ -45,7 +45,7 @@ The risk assessment process typically includes the following steps:
 5. **Implement Strategies**: This step involves implementing the strategies developed in the previous step. Implementation can include investing in technology solutions, training employees, or partnering with vendors.
 6. **Review and Update**: This step involves regularly reviewing and updating the risk assessment and mitigation strategies. The review should consider changes in the organization's environment, emerging risks, and changes in regulations. 
 
-__Best Practices__
+## Best Practices
 
 Following best practices for BCDR is essential for ensuring that an organization can respond effectively to unexpected disruptions. Some of the best practices are:
 
@@ -57,7 +57,7 @@ Following best practices for BCDR is essential for ensuring that an organization
 6. **Leverage Cloud Computing and Virtualization Technologies**: Cloud computing and virtualization technologies provide flexibility, scalability, and redundancy. These technologies can help organizations minimize downtime and data loss during an unexpected disruption.
 7. **Follow Industry Standards and Regulations**: Compliance with regulations and industry standards ensures recovery plans align with relevant rules and standards to avoid penalties and legal issues. 
 
-__Tools and Technology__
+## Tools and Technology
 
 Several tools and technologies are available to organizations to support their business continuity and disaster recovery planning efforts. These tools can range from simple backup and recovery solutions to sophisticated cloud-based disaster recovery solutions. Here are some of them:
 

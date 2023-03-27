@@ -20,7 +20,7 @@ These platforms usually offer a visual and intuitive interface that allows devel
 
 The simplicity the low-code platform offers is believed to increase productivity because the platform has automatically done much of the coding work. It allows the developers to focus on the application's business logic and user experience. It also triggers more collaboration between different roles in the project because the platforms are usually equipped with end-to-end features for everyone to do their jobs, like version control, automation pipelines, feedback submission, asset storage, and so on.
 
-__It's well-suited to Agile__
+## It's well-suited to Agile
 
 You can use the Agile methodology when utilizing low-code platforms for software development. In fact, the low-code approach can be particularly well-suited to Agile because it allows for rapid prototyping and iteration.
 
@@ -28,7 +28,7 @@ Agile is an iterative and collaborative software development approach emphasizin
 
 In an Agile development process with low-code platforms, teams can work on smaller, manageable tasks and deliver functional software in short iterations. The low-code platform can provide continuous feedback and collaboration tools among team members and stakeholders, allowing real-time updates and changes. However, it is essential to note that the specific Agile methodology used may vary depending on the needs and requirements of the project.
 
-__The challenges__
+## The challenges
 
 While low-code platforms offer many benefits, there are also some challenges to consider:
 
@@ -40,7 +40,7 @@ While low-code platforms offer many benefits, there are also some challenges to 
 6. Limited functionality: Low-code platforms may not have all the functionality needed to build complex applications, and developers may need to use traditional coding methods to supplement the platform.
 7. Scalability: Some low-code/no-code platforms may not be able to handle large-scale or mission-critical applications, which may require more traditional software development methods. 
 
-__A success story__
+## A success story
 
 One example of a company that has successfully utilized low-code/no-code for its app development is Siemens Energy. Siemens Energy is a global energy company that provides sustainable energy solutions to customers worldwide.
 
@@ -50,7 +50,7 @@ Using Mendix, Siemens Energy was able to develop the Smart Maintenance Assistant
 
 Siemens Energy has also used Mendix to develop other applications for their business, including an application for tracking employee training and managing supplier contracts.
 
-__And a not-so-success story__
+## And a not-so-success story
 
 There have been cases where companies have started with low-code platforms but eventually switched to custom development. In 2019, the tech startup LinkSquares began using a low-code platform to build its contract management application. However, as their business evolved and they added more features to their application, they found that the limitations of the low-code platform hindered their ability to customize the application to their needs.
 
@@ -58,7 +58,7 @@ As a result, LinkSquares decided to switch to custom development using tradition
 
 While low-code platforms can be a great way to develop and deploy applications rapidly, they may not always be the best solution for more complex or highly customized applications. In some cases, switching to custom development may be necessary to realize a company's vision for their application fully.
 
-__The landscape__
+## The landscape
 
 The low-code platform market is growing rapidly, and several key players dominate the market. Here are some of them:
 

@@ -26,7 +26,7 @@ buttonHighlighted: false
     <p>
       We believe that everyone should have access to the best technology insights and expertise, regardless of their size or budget. That’s why we’ve made it our mission to democratize access to technology knowledge and insights, and to help businesses of all sizes succeed in the fast-paced digital world.
     </p>
-    <p>
+    <p class="p-last">
       So if you’re looking for a trusted source of technology insights and analysis, look no further than Polyrific. We’re here to help you navigate the complex world of technology, and to help you unlock the full potential of your business.
     </p>
   </div>
