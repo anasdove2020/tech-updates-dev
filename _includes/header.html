@@ -4,7 +4,7 @@
       <img src="/assets/images/polyrific_logo.svg" alt="logo">
     </a>
     <div class="search-box">
-      <input type="text" class="search-input" placeholder="Search" />
+      <input id="search-post-id" type="text" class="search-input" placeholder="Search" />
     </div>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
@@ -42,4 +42,14 @@
         </nav>
       {% endif %}
   </div>
+  <div class="wrapper search-results" id="search-results-id">
+    <div class="search-result-empty" id="search-results-empty">
+      Nothing found. Please try using different keywords.
+    </div>
+    <div class="search-result-data" id="search-results-data">
+    </div>
+  </div>
 </header>
+
+<script src="/js/search.js"></script>
+<link rel="stylesheet" href="/assets/css/search-result.css">
