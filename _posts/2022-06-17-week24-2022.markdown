@@ -2,16 +2,15 @@
 layout: post
 week: 24
 title:  "WebSocket"
-date:   2022-06-17 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-06-17 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## WebSocket
 
 WebSocket is a technology that makes it possible to open a bidirectional communication between the client and server, also known as full-duplex.
 

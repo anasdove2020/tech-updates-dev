@@ -1,10 +1,11 @@
 ---
 layout: post
 week: 47
-title:  "Site Reliability Engineering"
-date:   2022-11-25 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Site Reliability Engineering
+date: 2022-11-25 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
   - Engineering
@@ -12,19 +13,17 @@ keywords:
 
 {% include post-header.html %}
 
-## Site Reliability Engineering
-
 Site Reliability Engineering (SRE) is a discipline to help organizations sustainably achieve an appropriate level of reliability in their systems, services, and products. The SRE team uses the software engineering approach to automate IT operation tasks.
 
 SRE arises as a solution to bridge the needs of Developers who want to deliver software updates as soon and frequently as possible while maintaining the reliability of the application in the production environment.
 
-__vs. DevOps__
+## vs. DevOps
 
 DevOps is a culture that breaks the traditional boundary between the Developer and the Operation team. SRE can be seen as the practical implementation of DevOps.
 
 DevOps provides the philosophical foundation of what must be done to maintain software quality amidst the increasingly shortened development timeline. SRE offers the answers to achieving DevOps success by ensuring that the DevOps team strikes the right balance between speed and stability.
 
-__SLI, SLO, and SLA__
+## SLI, SLO, and SLA
 
 The SRE teams measure the quality of service delivery and reliability by monitoring some metrics.
 
@@ -34,7 +33,7 @@ The **Service Level Objectives (SLO)** are specific goals that are considered ac
 
 The **Service Level Agreements (SLA)** are legal documents that state what would happen when one or more SLOs are not met. For example, if you cannot fulfill the 99.95% uptime commitment, you might be obligated to refund the customers.
 
-__Operational Balance__
+## Operational Balance
 
 Maintaining the balance between operations and development work is a critical component of SRE. The SRE team split their time between operations tasks and project work.
 
@@ -42,7 +41,7 @@ According to SRE best practices from Google, site reliability engineers can only
 
 Automation is an essential part of the SRE team’s role. They will likely automate a solution if they repeatedly deal with a problem.
 
-__Benefits__
+## Benefits
 
 Let's see again how SRE benefits your organization:
 

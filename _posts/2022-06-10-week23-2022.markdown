@@ -2,16 +2,15 @@
 layout: post
 week: 23
 title:  "WAI-ARIA"
-date:   2022-06-10 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-06-10 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## WAI-ARIA
 
 [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/) (Web Accessibility Initiative – Accessible Rich Internet Applications) is a set of HTML attributes to improve the accessibility of a website. It complements the semantic elements in HTML5 by giving further meaning to them so browsers and assistive technologies can recognize and maximize its accessibility features.
 

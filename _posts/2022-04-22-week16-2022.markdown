@@ -2,16 +2,15 @@
 layout: post
 week: 16
 title:  "Microservice Challenges"
-date:   2022-04-22 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-04-22 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Microservice Challenges
 
 Microservice architecture is gaining momentum in the IT industry for the many advantages over traditional architectural approaches. It promises faster innovations because it allows the team to go forward with what is best for their owned product without being held by the limitations of other products.
 

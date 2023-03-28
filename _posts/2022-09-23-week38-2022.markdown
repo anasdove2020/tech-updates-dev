@@ -2,16 +2,15 @@
 layout: post
 week: 38
 title:  "DAPR"
-date:   2022-09-23 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-09-23 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## DAPR
 
 Microservice architecture is believed to solve many problems that monolithic architecture faces. But it comes with a price - complexity. Suddenly, everything that seems straightforward in the monolithic now needs special handling in microservice, like service integration, monitoring, data migrations, and so on.
 
@@ -21,13 +20,13 @@ In 2019, Microsoft [announced an open-source project called Distributed Applicat
 
 DAPR can act as a proxy or abstraction for the building blocks it provides. This way, your services will be platform-agnostic, which means you can switch between any language, framework, or external service provider without worrying about breaking the integration with other services in the application.
 
-__Sidecar__
+## Sidecar
 
 DAPR works by using the sidecar pattern. A sidecar is a secondary piece of software that is deployed alongside the primary application, typically in a separate process. It provides supporting functionality so the primary application can focus on serving the main business functionality only.
 
 Every service in the application is accompanied by a single DAPR sidecar. So you would deploy two containers for every service in the application. They typically share the same lifecycle that will scale in or scale out together.
 
-__Building Blocks__
+## Building Blocks
 
 DAPR provides some building blocks that are typically required if you build a microservice application. Each of these building blocks is independent, which means you can use one, some, or all of them in your application.
 
@@ -41,7 +40,7 @@ DAPR provides some building blocks that are typically required if you build a mi
 - **Configuration**: access application configuration and be notified of updates
 - **Distributed lock**: acquire a lock for any resource that gives it exclusive access until it is released or timeout
 
-__Running DAPR__
+## Running DAPR
 
 DAPR can be run either locally for development or in a remote environment to work in a team and for Production usage.
 

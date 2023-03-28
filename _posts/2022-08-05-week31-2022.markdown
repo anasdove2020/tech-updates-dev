@@ -2,16 +2,15 @@
 layout: post
 week: 31
 title:  "OIDC"
-date:   2022-08-05 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-08-05 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## OIDC
 
 OpenID Connect (OIDC) is a kind of authentication protocol commonly used to protect a resource, like websites or API endpoints. But, before getting further into the OIDC discussion, let's focus first on the difference between authentication and authorization.
 

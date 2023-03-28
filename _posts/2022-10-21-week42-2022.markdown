@@ -2,16 +2,15 @@
 layout: post
 week: 42
 title:  "Deployment Strategies"
-date:   2022-10-21 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-10-21 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Deployment Strategies
 
 One notable practice that contrasts modern and legacy applications are the frequency of deployments. Before the cloud, it was common to see months or years of release cycles for software products. But today, doing deployment every day or multiple times a day is not weird at all.
 
@@ -19,7 +18,7 @@ However, this change also creates new challenges at the same time. If not done c
 
 We will discuss a few popular deployment strategies usually used to deliver modern applications, like **Rolling deployment**, **Blue/Green deployment**, and **Canary deployment**.
 
-__Rolling Deployment__
+## Rolling Deployment
 
 Modern cloud applications usually include distributed components hosted in multiple cloud services, servers, or containers. In a Rolling deployment, the changes are released gradually to some instances before others.
 
@@ -29,7 +28,7 @@ This strategy might perfectly fit large applications where downtime during deplo
 
 However, this deployment strategy will also potentially produce unexpected behavior because of the version inconsistency between instances. Your application might also become more complex as it must carefully handle edge cases caused by version inconsistency.
 
-__Canary Deployment__
+## Canary Deployment
 
 In some ways, the Canary deployment strategy is similar to the Rolling deployment, where the new release is made available only to a subset of users simultaneously. However, Canary deployment targets specific users to receive the update instead of rolling it to particular application servers or instances.
 
@@ -37,7 +36,7 @@ The condition to apply the update to specific users highly depends on the busine
 
 This deployment strategy makes sense for applications with an identifiable group of users. In some cases, the Canary deployment is also done by allowing users to opt-in for preview features. Of course, the volunteered users must be well-informed about the benefits and risks when they roll in.
 
-__Blue/Green deployment__
+## Blue/Green deployment
 
 In the Blue/Green deployment, the team maintains two identical environments. The "blue" environment holds the old version of the application, while the "green" environment holds the new one.
 

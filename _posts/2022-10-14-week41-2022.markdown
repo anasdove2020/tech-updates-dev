@@ -2,16 +2,15 @@
 layout: post
 week: 41
 title:  "Zero Trust"
-date:   2022-10-14 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-10-14 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Zero Trust
 
 Zero trust is an approach that assumes a complex network’s security is always at risk of external and internal threats. It is a concept that is based on the thought of “never trust - always verify.” It has been around for a decade, actually, but then got the spotlight again in the last couple of years because organizations have been facing more and more security threats when moving their resources into the cloud and hybrid environments.
 
@@ -19,7 +18,7 @@ Traditionally, the IT industry has relied on a perimeter security strategy to pr
 
 With the rise of cloud computing and hybrid architectures, application components are not always located in an isolated environment anymore. They are often distributed in different locations and communicate via the internet. With this condition, trusted entities cannot be based on their location only. This is where Zero Trust principles come into play.
 
-__Principles__
+## Principles
 
 **Verify explicitly**: Always make security decisions using all available data points, including identity, location, device health, resource, data classification, and anomalies.
 
@@ -27,7 +26,7 @@ __Principles__
 
 **Assume breach**: Minimize blast radius with micro-segmentation, end-to-end encryption, continuous monitoring, and automated threat detection and response.
 
-__Foundational Elements__
+## Foundational Elements
 
 The Zero Trust model requires that the security decisions have to be based on multiple factors. The following are the key pillars that you need to put your attention to:
 
@@ -43,7 +42,7 @@ The Zero Trust model requires that the security decisions have to be based on mu
 
 **Applications**: Applications and APIs provide the interface by which data is consumed. Apply controls and technologies to discover shadow IT, ensure appropriate in-app permissions, gate access based on real-time analytics, monitor for abnormal behavior, control user actions, and validate secure configuration options.
 
-__Implementation stages__
+## Implementation stages
 
 The following stages will help you to plan the implementation of the Zero Trust model:
 

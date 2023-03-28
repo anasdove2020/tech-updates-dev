@@ -2,16 +2,15 @@
 layout: post
 week: 9
 title:  "IaC Web Interface"
-date:   2022-03-04 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-03-04 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## IaC Web Interface
 
 If you've worked on some of Polyrific's projects, you might notice that the involvement of the Department of Technology there mainly was on the infrastructure setup and maintenance. However, that's not the only type of work the Department of Technology has on its program this year. The other exciting program is researching and developing technologies that might be adopted in other projects or promoted into Polyrific's product.
 

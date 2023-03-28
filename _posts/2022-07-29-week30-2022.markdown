@@ -2,16 +2,15 @@
 layout: post
 week: 30
 title:  "GitOps"
-date:   2022-07-29 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-07-29 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## GitOps
 
 GitOps, in short, is the Infrastructure as Code done right. It is a way of implementing Continous Deployment for cloud-native applications. It focuses on a developer-centric experience when operating infrastructure by using tools developers are already familiar with, including Git and the CI/CD tools.
 

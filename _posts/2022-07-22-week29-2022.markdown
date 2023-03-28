@@ -2,16 +2,15 @@
 layout: post
 week: 29
 title:  "HTTP/2"
-date:   2022-07-22 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-07-22 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## HTTP/2
 
 Hypertext Transfer Protocol (HTTP) is a protocol commonly found on the web, facilitating the communication between servers and clients. The first documented HTTP version was released in 1991 as HTTP 0.9 and received no significant updates for years afterward. Some minor updates, HTTP 1.0 and HTTP 1.1, were also released in the 90s and haven't got major updates until HTTP/2 was finally released on 2015.
 

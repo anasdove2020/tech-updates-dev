@@ -2,16 +2,15 @@
 layout: post
 week: 21
 title:  "IE 11 End of Support"
-date:   2022-05-27 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-05-27 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## IE 11 End of Support
 
 Last year, Microsoft officially [announced](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/) the end of support of the Desktop Internet Explorer 11, which will be on June 15, 2022. You can read the full explanation on the announcement. But, what does it mean for us?
 

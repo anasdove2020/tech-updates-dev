@@ -1,10 +1,11 @@
 ---
 layout: post
 week: 7
-title:  "Serverless Functions"
-date:   2023-02-17 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Serverless Functions
+date: 2023-02-17 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
  - Networking
  - CI/CD
@@ -12,13 +13,11 @@ keywords:
 
 {% include post-header.html %}
 
-## Serverless Functions
-
 In recent years, the trend toward cloud computing has led to the development of a new paradigm known as "serverless computing." At the core of this paradigm are serverless functions, also known as Function-as-a-Service (FaaS).
 
 Serverless functions allow developers to build and deploy applications without worrying about the underlying infrastructure. Instead of managing servers, developers can simply write code that responds to specific events, such as user requests, database updates, or file uploads. When these events occur, the serverless Platform automatically executes the corresponding function, scales it up or down as needed, and charges only for the resources used during the execution.
 
-__It emerges as a solution to some real challenges__
+## It emerges as a solution to some real challenges
 
 To understand the background story of serverless functions, we need to look back at the evolution of cloud computing. Initially, cloud computing required users to rent virtual machines or containers, configure them with software stacks, and manage them manually. This approach provided flexibility and scalability, but it also required a significant amount of time and expertise, as well as a constant commitment to maintenance and updates.
 
@@ -30,7 +29,7 @@ Another challenge that serverless functions address is the need for high availab
 
 Finally, serverless functions aim to provide a more cost-efficient approach to cloud computing. Traditional cloud computing models require users to pay for the entire virtual machine or container, even if they use only a fraction of its resources. On the other hand, serverless functions charge users only for the exact amount of resources used during the execution of each function, making it a more cost-effective solution for applications with sporadic or unpredictable traffic.
 
-__But, of course, it doesn't come to solve every problem in the world__
+## But, of course, it doesn't come to solve every problem in the world
 
 While serverless functions provide many benefits, they are not a one-size-fits-all solution for all use cases. There are certain scenarios where the use of serverless functions may not be the best fit.
 
@@ -40,7 +39,7 @@ For the same reasons, applications with specific needs like high computing or me
 
 Although some cloud providers have been progressing well in equipping their serverless service with advanced capabilities to serve those requirements, many people still argue that they still don't get the sense of complete control over their system.
 
-__And the other pitfalls that need to be aware of__
+## And the other pitfalls that need to be aware of
 
 Except for the limited hardware choice, you also need to consider the possibility of vendor lock-in after deciding to use the serverless service from a cloud provider, which can make it difficult to switch to a different provider or move to an on-premises environment. Developers should ensure that they have an exit strategy in place in case they need to move their application to a different platform.
 
@@ -48,7 +47,7 @@ Serverless functions also introduce new security concerns that need to be addres
 
 Debugging and testing serverless functions can be challenging, too, as developers have limited visibility into the underlying infrastructure. Developers need to adopt best practices for testing and debugging, including using local development environments and adopting testing frameworks that support serverless functions.
 
-__Is it the same as Platform as a Service (PaaS)?__
+## Is it the same as Platform as a Service (PaaS)?
 
 While Serverless Functions and Platform as a Service (PaaS) share some similarities, they are not the same thing.
 
@@ -58,7 +57,7 @@ On the other hand, serverless computing is a subset of PaaS that allows develope
 
 So, while they share some similarities, the main difference is the level of abstraction they provide. PaaS is a complete application platform, while serverless computing is a more granular approach to running code in the cloud. Serverless computing offers a more straightforward, more focused way to build and deploy code, while PaaS solutions provide a more comprehensive platform for building and deploying entire applications.
 
-__The Providers__
+## The Providers
 
 The big three cloud providers offer serverless functions as part of their leading cloud platforms. Azure comes with [Azure Functions](https://azure.microsoft.com/en-au/products/functions/), GCP offers  [Cloud Functions](https://cloud.google.com/functions/), and AWS with [AWS Lambda](https://aws.amazon.com/lambda/).
 

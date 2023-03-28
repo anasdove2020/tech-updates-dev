@@ -2,16 +2,15 @@
 layout: post
 week: 18
 title:  "World Password Day"
-date:   2022-05-06 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-05-06 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## World Password Day
 
 Did you know that we had World Password Day this week? It is celebrated every first Thursday in May and was started in 2013 to raise awareness of having strong passwords.
 

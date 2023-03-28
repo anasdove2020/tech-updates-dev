@@ -1,10 +1,11 @@
 ---
 layout: post
 week: 51
-title:  "Data Mesh"
-date:   2022-12-23 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Data Mesh
+date: 2022-12-23 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Data
   - Database
@@ -12,8 +13,6 @@ keywords:
 ---
 
 {% include post-header.html %}
-
-## Data Mesh
 
 Data Mesh architecture is a decentralized approach that enables teams to perform cross-domain data analysis independently. It involves a cultural shift in how companies think about their data. Instead of data acting as a by-product of a process, it becomes the product, where data producers act as data product owners.
 
@@ -28,17 +27,17 @@ To come up with the best implementation, you need to understand the core princip
 - **Self-serve data platform** empowers and supports developers to focus on building great data products without wasting their time and energy on manual configurations, infrastructure maintenance, or any unnecessary repetitive tasks.
 - **Federated computational governance** ensures that distributed ownership is balanced with standardization. Two critical reasons for this are making data products more discoverable inside an organization and guaranteeing and maintaining certain quality, interoperability, and security standards.
 
-__vs. Data Lake__
+## vs. Data Lake
 
 Data Lake is a low-cost storage environment aggregating data from various sources. It is typically used as a dumping ground for data as it frequently ingests data that still needs to have a defined purpose. On the other hand, a Data Mesh is an architectural approach to data, which a data lake can be a part of. Data Mesh is a distributed data architecture where data is organized by its domain to make it more accessible to users across an organization.
 
-__vs. Data Fabric__
+## vs. Data Fabric
 
 Data Fabric is an architectural concept that focuses on automating data integration, data engineering, and governance in a data value chain between data providers and consumers.
 
 A data fabric is complementary to a data mesh instead of mutually exclusive. In fact, the data fabric makes the data mesh better because it can automate key parts of the data mesh, such as creating data products faster, enforcing global governance, and making it easier to orchestrate the combination of multiple data products.
 
-__Data Mesh Technology__
+## Data Mesh Technology
 
 Data Mesh implementation can be done using off-the-shelf cloud and data platform solutions. If you're interested in using them, please check this [overview](https://github.com/ryandawsonuk/data-platforms-tools). However, it's important to remember that they are not Data Mesh platforms; none (at the time of writing) are a silver bullet for a successful Data Mesh implementation.
 

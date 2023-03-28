@@ -2,16 +2,15 @@
 layout: post
 week: 35
 title:  "Azure Cost Management"
-date:   2022-09-02 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-09-02 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Azure Cost Management
 
 Everyone has their own reason for putting their infrastructure in the cloud. Maybe it's because of the promise of flexibility, scalability, performance, security, etc. Whatever the reasons behind the decision, it is better that we also understand that managing costs are a critical skill that we need to possess from day 1.
 

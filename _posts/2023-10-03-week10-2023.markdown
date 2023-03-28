@@ -1,18 +1,17 @@
 ---
 layout: post
 week: 10
-title:  "Serverless Functions"
-date:   2023-03-10 20:00:00 +0700
-bannerUrl: "serverless_function_banner.png"
-briefDescription: "The cloud platform that allows you to focus on developing your app’s functionality instead of worrying about the underlying infrastructure."
+title: Low-Code Platform
+date: 2023-03-10 20:00:00 +0700
+bannerUrl: banner_default.png
+briefDescription:
+introduction:
 keywords:
  - Networking
  - CI/CD
 ---
 
 {% include post-header.html %}
-
-## Low-Code Platform
 
 Low-code platform is an emerging trend in software development that allows users to create applications with little to no coding experience. It offers a powerful way to streamline application development and deployment and is gaining traction across industries and organizations of all sizes.
 
@@ -81,7 +80,7 @@ These platforms' market share constantly evolves and may vary based on the sourc
 [GitHub makes 2FA mandatory next week for active developers](https://www.bleepingcomputer.com/news/security/github-makes-2fa-mandatory-next-week-for-active-developers/)
 {: .news-url }
 
-____Yoga:____ "As previously announced, GitHub will begin enforcing 2FA (two-factor authentication) on developer accounts starting March 13th. To minimize interruptions to productivity and prevent account lockouts, GitHub will be rolling out the 2FA process in several phases. It is a critical security effort by GitHub to enhance the security of the software supply chain and move away from basic password authentication."
+__Yoga:__ "As previously announced, GitHub will begin enforcing 2FA (two-factor authentication) on developer accounts starting March 13th. To minimize interruptions to productivity and prevent account lockouts, GitHub will be rolling out the 2FA process in several phases. It is a critical security effort by GitHub to enhance the security of the software supply chain and move away from basic password authentication."
 {: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
@@ -90,7 +89,7 @@ ____Yoga:____ "As previously announced, GitHub will begin enforcing 2FA (two-fac
 [Introducing the ChatGPT App for Slack](https://www.salesforce.com/news/stories/chatgpt-app-for-slack/)
 {: .news-url }
 
-____Rizqun:____ "Salesforce and OpenAI introduced the ChatGPT app for Slack earlier this week. Having ChatGPT on Slack will help users to deliver instant conversation summaries, research tools, and writing assistance directly. This new app combines knowledge found in Slack with the intelligence of ChatGPT, which can help users move faster. Because it is still in the beta stage, we need to register to access it for now."
+__Rizqun:__ "Salesforce and OpenAI introduced the ChatGPT app for Slack earlier this week. Having ChatGPT on Slack will help users to deliver instant conversation summaries, research tools, and writing assistance directly. This new app combines knowledge found in Slack with the intelligence of ChatGPT, which can help users move faster. Because it is still in the beta stage, we need to register to access it for now."
 {: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
@@ -99,7 +98,7 @@ ____Rizqun:____ "Salesforce and OpenAI introduced the ChatGPT app for Slack earl
 [Android 14 is on the way](https://www.techradar.com/news/android-14)
 {: .news-url }
 
-____Dika:____ "Google announced the Android 14 on February 8th, and the first Developer Preview launched on the same day, with the second Developer Preview also now here. It brings features like satellite communication that make it possible for users to utilize emergency satellite communication when there is no signal. Another interesting feature is app cloning for apps that don't natively support multiple accounts."
+__Dika:__ "Google announced the Android 14 on February 8th, and the first Developer Preview launched on the same day, with the second Developer Preview also now here. It brings features like satellite communication that make it possible for users to utilize emergency satellite communication when there is no signal. Another interesting feature is app cloning for apps that don't natively support multiple accounts."
 {: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
@@ -108,7 +107,7 @@ ____Dika:____ "Google announced the Android 14 on February 8th, and the first De
 [Microsoft Designer: a new designer tool from Microsoft](https://designer.microsoft.com/)
 {: .news-url }
 
-____Brain:____ "We already have GitHub co-pilot for developers. Now Microsoft is trying to create a similar tool, but for designers. Microsoft designer is a new tool announced by Microsoft that utilizes AI for a design workflow. It combines several emerging technologies in AI, like image and text generation, to make it very easy to create a design from scratch by using a few text prompts. To try it, you can join the waitlist by registering your email on the website."
+__Brain:__ "We already have GitHub co-pilot for developers. Now Microsoft is trying to create a similar tool, but for designers. Microsoft designer is a new tool announced by Microsoft that utilizes AI for a design workflow. It combines several emerging technologies in AI, like image and text generation, to make it very easy to create a design from scratch by using a few text prompts. To try it, you can join the waitlist by registering your email on the website."
 {: .news-info }
 
 ![memo](/assets/images/tech-news.svg)
@@ -117,7 +116,7 @@ ____Brain:____ "We already have GitHub co-pilot for developers. Now Microsoft is
 [The future of touch: Researchers uncover physical limitation in haptic holography](https://techxplore.com/news/2023-03-future-uncover-physical-limitation-haptic.html)
 {: .news-url }
 
-____Frandi:____ "Haptic holography is a technology that combines haptic feedback and holographic imagery to create a realistic sense of touch in virtual environments. It is a type of augmented reality that allows users to feel and interact with digital objects in a physical way. But, a new study reveals a surprising physical obstacle that will need to be overcome."
+__Frandi:__ "Haptic holography is a technology that combines haptic feedback and holographic imagery to create a realistic sense of touch in virtual environments. It is a type of augmented reality that allows users to feel and interact with digital objects in a physical way. But, a new study reveals a surprising physical obstacle that will need to be overcome."
 {: .news-info }
 
 {% include post-suggested.html %}

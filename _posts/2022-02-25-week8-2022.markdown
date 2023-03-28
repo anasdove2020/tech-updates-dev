@@ -2,17 +2,16 @@
 layout: post
 week: 8
 title:  "Security in Polyrific"
-date:   2022-02-25 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-02-25 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Polyrific
   - Security
 ---
 
 {% include post-header.html %}
-
-## Security in Polyrific
 
 This week, we completed a risk assessment form for a client. It contained questions about how we conduct security in general in our company. It ranged from basic questions like whether we enforce our employees to use multi-factor authentication (MFA) on some services and how we manage the access permissions to some infrastructure resources. And also many more advanced questions like whether we have a written policy for intrusion detection/prevention and how we plan for disaster recovery and business continuity.
 

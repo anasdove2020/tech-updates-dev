@@ -2,16 +2,15 @@
 layout: post
 week: 28
 title:  "ITSM"
-date:   2022-07-15 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-07-15 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## ITSM
 
 IT Service Management (ITSM) refers to all processes and activities in managing the delivery of IT services to customers. It is essential to understand that the main focus of ITSM is the delivery of values to customers instead of just the tools or the framework.
 

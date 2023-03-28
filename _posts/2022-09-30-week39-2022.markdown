@@ -2,16 +2,15 @@
 layout: post
 week: 39
 title:  "Status Page"
-date:   2022-09-30 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-09-30 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Status Page
 
 Having a Software as a Service (SaaS) product means we must consider the whole experience users will get when interacting with the product. Not only on the main application itself but also on the other supporting ecosystem, like the status page.
 

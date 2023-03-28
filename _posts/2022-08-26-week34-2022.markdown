@@ -2,16 +2,15 @@
 layout: post
 week: 34
 title:  "Redis Architecture"
-date:   2022-08-26 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-08-26 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Redis Architecture
 
 Redis is not a new thing for us. We know it as an in-memory database used as a cache in front of other "main" databases like SQL Server or MySQL. It helps to improve the overall application performance and offloads the work of the primary data source.
 

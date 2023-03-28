@@ -1,18 +1,17 @@
 ---
 layout: post
 week: 11
-title:  "Edge computing"
-date:   2023-03-17 20:00:00 +0700
-bannerUrl: "edge_computing.png"
-briefDescription: "This week, we will discuss Edge Computing, a distributed computing model that processes and analyzes data closer to the network’s edge."
+title: Business Continuity and Disaster Recovery
+date: 2023-03-17 20:00:00 +0700
+bannerUrl: banner_default.png
+briefDescription:
+introduction:
 keywords:
  - Computer
  - Networking
 ---
 
 {% include post-header.html %}
-
-## Business Continuity and Disaster Recovery
 
 Business Continuity and Disaster Recovery refer to an organization's processes and procedures to ensure that essential business functions can continue during an unexpected disruption. They are critical for minimizing downtime, reducing financial losses, and ensuring that customers continue to receive products or services.
 
