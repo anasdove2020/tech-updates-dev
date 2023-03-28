@@ -5,6 +5,7 @@ title:  "Kubernetes"
 date: 2022-07-08 20:00:00 +0700
 bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---

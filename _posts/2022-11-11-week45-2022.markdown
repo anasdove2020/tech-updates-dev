@@ -5,6 +5,7 @@ title:  "Platform Team"
 date: 2022-11-11 20:00:00 +0700
 bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
   - Networking

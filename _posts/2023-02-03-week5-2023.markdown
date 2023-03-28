@@ -5,6 +5,7 @@ title: ChatGPT
 date: 2023-02-03 20:00:00 +0700
 bannerUrl: chat_gpt.png
 briefDescription: 
+introduction:
 keywords:
  - Computer
 ---

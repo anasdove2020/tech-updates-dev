@@ -5,6 +5,7 @@ title:  "Pub/Sub"
 date: 2022-05-20 20:00:00 +0700
 bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
