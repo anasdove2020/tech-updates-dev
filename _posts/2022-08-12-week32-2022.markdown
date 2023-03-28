@@ -2,8 +2,8 @@
 layout: post
 week: 32
 title:  "gRPC"
-date:   2022-08-12 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-08-12 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

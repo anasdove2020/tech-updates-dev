@@ -1,9 +1,9 @@
 ---
 layout: post
 week: 10
-title:  "Low-Code Platform"
-date:   2023-03-10 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Low-Code Platform
+date: 2023-03-10 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription:
 keywords:
  - Networking

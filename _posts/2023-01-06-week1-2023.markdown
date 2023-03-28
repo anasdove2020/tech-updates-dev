@@ -1,9 +1,9 @@
 ---
 layout: post
 week: 1
-title:  "Cloud FinOps"
-date:   2023-01-06 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Cloud FinOps
+date: 2023-01-06 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Networking

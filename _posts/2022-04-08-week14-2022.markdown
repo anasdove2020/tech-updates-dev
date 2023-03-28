@@ -2,8 +2,8 @@
 layout: post
 week: 14
 title:  "Monitoring & Observability Service"
-date:   2022-04-08 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-04-08 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

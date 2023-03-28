@@ -2,8 +2,8 @@
 layout: post
 week: 11
 title:  "Tech Support"
-date:   2022-03-18 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-03-18 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Networking

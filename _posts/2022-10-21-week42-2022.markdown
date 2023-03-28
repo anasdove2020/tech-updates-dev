@@ -2,8 +2,8 @@
 layout: post
 week: 42
 title:  "Deployment Strategies"
-date:   2022-10-21 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-10-21 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

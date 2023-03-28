@@ -2,8 +2,8 @@
 layout: post
 week: 37
 title:  "OpenTelemetry"
-date:   2022-09-16 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-09-16 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

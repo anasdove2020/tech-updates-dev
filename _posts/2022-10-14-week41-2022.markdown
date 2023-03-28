@@ -2,8 +2,8 @@
 layout: post
 week: 41
 title:  "Zero Trust"
-date:   2022-10-14 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-10-14 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

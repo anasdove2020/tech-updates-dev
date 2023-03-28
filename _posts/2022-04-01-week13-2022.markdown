@@ -2,8 +2,8 @@
 layout: post
 week: 13
 title:  "Time Series Database"
-date:   2022-04-01 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-04-01 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Database

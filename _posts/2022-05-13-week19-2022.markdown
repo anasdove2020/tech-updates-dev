@@ -2,8 +2,8 @@
 layout: post
 week: 19
 title:  "Dangling Domains"
-date:   2022-05-13 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-05-13 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

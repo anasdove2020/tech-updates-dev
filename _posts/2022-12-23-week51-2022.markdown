@@ -1,9 +1,9 @@
 ---
 layout: post
 week: 51
-title:  "Data Mesh"
-date:   2022-12-23 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Data Mesh
+date: 2022-12-23 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Data

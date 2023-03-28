@@ -1,9 +1,9 @@
 ---
 layout: post
 week: 8
-title:  "Edge Computing"
-date:   2023-02-24 20:00:00 +0700
-bannerUrl: "edge_computing.png"
+title: Edge Computing
+date: 2023-02-24 20:00:00 +0700
+bannerUrl: edge_computing.png
 briefDescription: 
 keywords:
  - Computer

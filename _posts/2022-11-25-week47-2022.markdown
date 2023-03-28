@@ -1,9 +1,9 @@
 ---
 layout: post
 week: 47
-title:  "Site Reliability Engineering"
-date:   2022-11-25 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Site Reliability Engineering
+date: 2022-11-25 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer

@@ -1,9 +1,9 @@
 ---
 layout: post
 week: 48
-title:  "Lift and Shift"
-date:   2022-12-02 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Lift and Shift
+date: 2022-12-02 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
 keywords:
   - Computer
