@@ -23,6 +23,7 @@
 
 .page-content {
   padding-top: 56px;
+  padding-bottom: 64px;
 }
 
 .wrapper {
@@ -162,7 +163,7 @@
 .site-footer-banner {
   background-image: url("/assets/images/footer-banner.svg");
   width: 100%;
-  height: 439px;
+  height: 432px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -171,7 +172,7 @@
   position: relative;
   top: 79px;
   left: 47%;
-  width: 543px;
+  width: 545px;
 }
 
 .site-footer-box-title {
@@ -181,6 +182,7 @@
   font-size: 34px;
   line-height: 46px;
   margin-bottom: 26px;
+  font-weight: 500;
 }
 
 .site-footer-box-text {
@@ -189,6 +191,7 @@
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 37px;
+  letter-spacing: 0.5px;
 }
 
 .site-footer-box-control {
@@ -210,6 +213,7 @@
   line-height: 28px;
   color: #020B13;
   padding-left: 16px;
+  letter-spacing: 0.5px;
 }
 
 .site-footer-box-input:focus-visible,
@@ -219,6 +223,19 @@
 .site-footer-box-input:visited {
   border: none;
   outline: none;
+}
+
+.site-footer-box-input::placeholder {
+  color: #020B13;
+  opacity: 1; /* Firefox */
+}
+
+.site-footer-box-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #020B13;
+}
+
+.site-footer-box-input::-ms-input-placeholder { /* Microsoft Edge */
+ color: #020B13;
 }
 
 .site-footer-box-button {
@@ -234,6 +251,7 @@
   position: absolute;
   right: 4px;
   cursor: pointer;
+  letter-spacing: 1.25px;
 }
 
 .site-footer-text {
@@ -387,6 +405,8 @@
   font-family: 'WorkSansMedium';
   text-align: center;
   margin-bottom: 16px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
 }
 
 .home-description {
@@ -396,6 +416,7 @@
   font-family: 'WorkSansMedium';
   text-align: center;
   margin-bottom: 44px;
+  font-weight: 500;
 }
 
 .home-banner {
@@ -422,6 +443,7 @@
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 12px;
+  letter-spacing: 0.25px;
 }
 
 .home-banner-detail-title {
@@ -430,6 +452,7 @@
   font-size: 34px;
   line-height: 46px;
   margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .home-banner-detail-description {
@@ -437,7 +460,8 @@
   font-family: 'OpenSansRegular';
   font-size: 16px;
   line-height: 28px;
-  padding-right: 85px;
+  padding-right: 90px;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -484,6 +508,10 @@
   .home-banner {
     position: relative;
     margin-bottom: 24px;
+  }
+
+  .home-banner a:hover {
+    text-decoration: none;
   }
   
   .home-banner-image img {
@@ -567,6 +595,7 @@
   font-size: 34px;
   line-height: 46px;
   margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .home-post-detail-description {
@@ -580,11 +609,12 @@
   border: none;
   border-radius: 24px;
   background: #002966;
-  padding: 12px 26px; 
+  padding: 12px 25px 12px 25.42px; 
   color: #FFFFFF;
   font-family: 'OpenSansRegular';
   font-size: 14px;
-  line-height: 16px;
+  line-height: 19px;
+  letter-spacing: 1.25px;
   cursor: pointer;
 }
 
@@ -682,15 +712,14 @@
   width: 904px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 44px;
+  margin-top: 74px;
+  margin-bottom: 0;
 }
 
 .post-content-metadata {
-  color: #020B13;
-  font-family: 'OpenSansRegular';
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 18px;
+  font-size: 14px !important;
+  margin-bottom: 18px !important;
+  letter-spacing: 0.25px !important;
 }
 
 .post-content-title {
@@ -699,19 +728,15 @@
   font-size: 48px;
   line-height: 56px;
   margin-bottom: 24px;
+  font-weight: 500;
 }
 
 .post-content-briefdescription {
-  color: #020B13;
-  font-family: 'OpenSansRegular';
-  font-size: 16px;
-  line-height: 28px;
-  margin-bottom: 24px;
-  letter-spacing: 0.5px;
+  margin-bottom: 24px !important;
 }
 
 .post-content-image {
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
 }
 
 .post-content-image img {
@@ -725,6 +750,7 @@
   font-size: 34px;
   line-height: 46px;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .post-content p {
@@ -732,8 +758,17 @@
   font-family: 'OpenSansRegular';
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 16px;
+  margin-bottom: 44px;
   letter-spacing: 0.5px;
+}
+
+.post-content strong {
+  margin-top: 28px;
+}
+
+.post-content ol {
+  margin-top: -28px;
+  margin-bottom: 44px;
 }
 
 .post-content li {
@@ -741,7 +776,6 @@
   font-family: 'OpenSansRegular';
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 4px;
   letter-spacing: 0.5px;
 }
 
@@ -752,10 +786,9 @@
   }
   
   .post-content-metadata {
-    color: #020B13;
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 8px;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    margin-bottom: 8px !important;
   }
   
   .post-content-title {
@@ -765,14 +798,7 @@
   }
   
   .post-content-briefdescription {
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 12px;
-    letter-spacing: 0.5px;
-  }
-  
-  .post-content-image {
-    margin-bottom: 24px !important;
+    margin-bottom: 12px !important;
   }
   
   .post-content-image img {
@@ -793,10 +819,13 @@
     letter-spacing: 0.5px;
   }
   
+  .post-content ol {
+    margin-top: unset;
+  }
+  
   .post-content li {
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 4px;
     letter-spacing: 0.5px;
   }
 }
@@ -821,6 +850,16 @@
   font-weight: bold;
   border-left: 3px solid #1D94D2;
   margin-bottom: 0 !important;
+}
+
+.news-url a {
+  color: #1D94D2;
+  text-decoration: underline;
+}
+
+.news-url a:hover {
+  color: #1D94D2;
+  text-decoration: underline;
 }
 
 .news-url-no-info {
@@ -851,8 +890,8 @@
 /** POST SUGGESTED **/
 
 .post-suggesteds {
-  margin-left: -93px;
-  margin-right: -92px;
+  margin-left: -123px;
+  margin-right: -122px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -875,12 +914,18 @@
   margin-bottom: 16px;
 }
 
+.post-suggested-image img {
+  width: 352px;
+  height: 117.57px;
+}
+
 .post-suggested-metadata {
   color: #020B13;
   font-family: 'OpenSansRegular';
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 4px;
+  letter-spacing: 0.25px;
 }
 
 .post-suggested-title {
@@ -889,6 +934,9 @@
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 4px;
+  letter-spacing: 0.18px;
+  padding-right: 16px;
+  font-weight: 500;
 }
 
 .post-suggested-briefdescription {
@@ -896,8 +944,8 @@
   font-family: 'OpenSansRegular';
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 24px;
   letter-spacing: 0.5px;
+  padding-right: 16px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -954,7 +1002,6 @@
 .column {
   float: left;
   width: 33.33%;
-  padding: 8px;
   box-sizing: border-box;
 }
 

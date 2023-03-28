@@ -13,6 +13,7 @@
   line-height: 46px;
   font-family: 'WorkSansMedium';
   padding: 0 220px;
+  font-weight: 500;
 }
 
 .search-result-data {
@@ -23,6 +24,7 @@
   max-height: 500px;
   overflow-x: hidden;
   overflow-y: auto;
+  font-weight: 500;
 }
 
 .search-result-data a:hover {
@@ -63,6 +65,7 @@
   font-size: 34px;
   line-height: 46px;
   margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .search-result-post-detail-description {
