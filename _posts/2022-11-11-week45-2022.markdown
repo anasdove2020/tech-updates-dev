@@ -12,37 +12,35 @@ keywords:
 
 {% include post-header.html %}
 
-## Platform Team
-
 After discussing [Platform Engineering](https://tech-updates.polyrific.com/2022/10/28/week43-2022.html) (the discipline) and [Internal Developer Platform](https://tech-updates.polyrific.com/2022/11/04/week44-2022.html) (the product) in the previous weeks, let's move on to discuss the Platform Team (the people) this week.
 
 Platform Team is a dedicated group in an organization responsible for creating a self-service layer on top of the scattered tools and technology stack used by the other teams. A successful Platform Team maintains solid guardrails and standards for its customers without compromising their autonomy.
 
-__Laying the foundation__
+## Laying the foundation
 
 Designing and implementing a good foundation is crucial in supporting an organization to grow and run faster toward its goals. The Platform Team must be able to initiate the attempt to lay this foundation that the other teams will follow.
 
 But of course, it is not a one-time job. Although the foundation needs to be stable enough to be usable, it should be able to adapt dynamically to the needs of the other teams.
 
-__Simplify complexity__
+## Simplify complexity
 
 The Platform Team should build tooling that makes things easier and simpler for users. They need to understand the overall setup of the system, so they know what's essential to be kept visible to the users and what's safe to be hidden away.
 
-__Solve common problems__
+## Solve common problems
 
 A good Platform team prevents other teams from repeatedly reinventing the wheel by solving common problems. It's key to figure out what these common problems are: start by understanding developer pain points and friction areas that cause slowdowns in development.
 
-__Advocate best practices__
+## Advocate best practices
 
 The Platform Team collaborates with other teams to build applications that make the best use of technology. The bigger the organization, the higher the need to spread knowledge systematically regarding best practices across the teams. The platform team will need to stay in the loop regarding team discussions related to tools, tasks, what works, and, perhaps more importantly, what doesn't.
 
-__Modernize old systems__
+## Modernize old systems
 
 The Platform Team must drive the other teams to modernize the unstable legacy system. They must detect which component is outdated and when the replacement is ready and ensure a smooth transition.
 
 Sometimes, not all stakeholders think that replacing the old system is a good idea because everything looks normal. However, what looks normal on the surface doesn't always be like that underneath. Maintaining an old system is problematic because it has security, stability, reliability, and scalability risks. So the Platform Team must be able to make valid points if they believe the system is worth to be modernized.
 
-__Being ahead of the curve__
+## Being ahead of the curve
 
 The Platform Team must be able to empower the other teams by balancing between giving them what they want and educating them about where they need to go. It forces the Platform Team to stay ahead of the curve so they are always ready when demands come from the other teams.
 

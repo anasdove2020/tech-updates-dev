@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Containerization
-
 Containerization is a technology to package an application and its dependencies in a standard way so that it will always behave similarly in different environments. After building the package into a read-only container image, we can create multiple instances from it that are entirely isolated from each other.
 
 __vs. Virtual Machine__

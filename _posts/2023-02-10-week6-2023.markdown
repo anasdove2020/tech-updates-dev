@@ -11,13 +11,11 @@ keywords:
 
 {% include post-header.html %}
 
-## Prompt Engineering
-
 Prompt Engineering is the practice of using prompts to get the output you want in Natural Language Processing (NLP) and Artificial Intelligence (AI) models. A prompt is a sequence of text, like a sentence or a block of code, that could be interpreted as instructions, questions, examples, or input data.
 
 Prompt engineering is essential to designing conversational AI systems because it can significantly impact the overall user experience. The process of prompt engineering typically involves several steps, including defining the conversational goal, identifying the user's likely responses, and creating optimized prompts. The prompts are tested and refined through iteration and experimentation to ensure that they effectively guide the conversation toward the desired outcome.
 
-__Examples__
+## Examples
 
 Prompts can be initiated by the system to help users start the conversation. These are some examples:
 
@@ -33,7 +31,7 @@ Prompts can also be initiated by the users to get what they want from the system
 2. **Large language models**, like GPT-3 or ChatGPT: the prompt can contain anything from a simple question to a complicated problem with all kinds of data inserted in the prompt
 3. **Code assistance tools**, like GitHub Copilot: the prompt can be the code comments or code examples.
 
-__Characteristics of good prompts__
+## Characteristics of good prompts
 
 A good prompt should have several key characteristics that effectively guide the conversation toward the desired outcome. These characteristics help create clear, engaging, and effective prompts. They include:
 
@@ -45,7 +43,7 @@ A good prompt should have several key characteristics that effectively guide the
 - **Proactivity**: The prompt should be proactive in guiding the conversation toward the desired outcome rather than waiting for the user to initiate the next step.
 - **Adaptability**: The prompt should be adaptable based on the context and previous interactions to maintain the relevance and effectiveness of the conversation.
 
-__Why is Prompt Engineering important?__
+## Why is Prompt Engineering important?
 
 Prompt engineering is important for several reasons:
 
@@ -57,7 +55,7 @@ Prompt engineering is important for several reasons:
 
 In short, prompt engineering is necessary because it is critical to delivering an effective, engaging, and natural conversational experience. It can significantly impact the success of the conversational AI system.
 
-__The Development Team__
+## The Development Team
 
 The implementation of Prompt Engineering is usually included in the larger conversational AI project. The team can vary in size and composition depending on the scale and complexity of the project. However, in a typical team, you might see the following roles:
 

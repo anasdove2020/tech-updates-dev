@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## GitOps
-
 GitOps, in short, is the Infrastructure as Code done right. It is a way of implementing Continous Deployment for cloud-native applications. It focuses on a developer-centric experience when operating infrastructure by using tools developers are already familiar with, including Git and the CI/CD tools.
 
 When talking about developer-centric experience, it isn't only about writing and storing code in version control. It also involves everything considered best practice in the code writing procedure, i.e., no-direct commit to the main branch, code review requirement, continuous test, etc.

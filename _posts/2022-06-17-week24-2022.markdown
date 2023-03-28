@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## WebSocket
-
 WebSocket is a technology that makes it possible to open a bidirectional communication between the client and server, also known as full-duplex.
 
 Contrary to the traditional HTTP, the WebSocket allows the connection between client and server to be maintained until one party closes the connection. It enhances user experience because it will enable faster and real-time conversation.

@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Status Page
-
 Having a Software as a Service (SaaS) product means we must consider the whole experience users will get when interacting with the product. Not only on the main application itself but also on the other supporting ecosystem, like the status page.
 
 Status page is a central place for users to get information about the health status of the offered service. This is the first place users will go when they sense a problem with your service.

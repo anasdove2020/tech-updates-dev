@@ -12,15 +12,13 @@ keywords:
 
 {% include post-header.html %}
 
-## Chaos Engineering
-
 Chaos engineering is a methodology that helps developers attain consistent reliability by hardening services against failures in production. Chaos Engineering lets you compare what you think will happen to what actually happens in your systems. You literally "break things on purpose" to learn how to build more resilient systems.
 
 A common way to introduce chaos is to inject faults that cause system components to fail deliberately. The goal is to observe, monitor, respond to, and improve your system's reliability under adverse circumstances. For example, take dependencies offline (stopping API apps, shutting down VMs, etc.), restrict access (enabling firewall rules, changing connection strings, etc.), or force failover (database level, Front Door, etc.).
 
 Architecting your service to expect failure is a core approach to creating a modern service. Chaos engineering embraces the uncertainty of the production environment and strives to anticipate rare, unpredictable, and disruptive outcomes so that you can minimize any potential impact on your customers.
 
-__How it works__
+## How it works
 
 All testing in chaos engineering happens through so-called chaos experiments. In general, these are how it's done:
 
@@ -31,7 +29,7 @@ All testing in chaos engineering happens through so-called chaos experiments. In
 - **Identify and act based on the result** - After running your first experiment, there will be two possible outcomes: either you've verified that your system is resilient to the failure you introduced, or you've found a problem you need to fix. Both of these are good outcomes. On the one hand, you've increased your confidence in the system and its behavior; on the other, you've found a problem before it caused an outage.
 - **Document the process and observations** - it is crucial that you always have everything documented for future reference. It will be helpful for many things, like when you want to apply a similar process on different systems or if you want to understand some anomalies resulting from the tests.
 
-__The principles__
+## The principles
 
 Using the following principles, you can adopt chaos engineering in many challenging environments and organizations.
 
@@ -44,7 +42,7 @@ Using the following principles, you can adopt chaos engineering in many challeng
 - **Increase complexity gradually** - Increase complexity gradually while you adjust the granularity of the experiments. Expanding the scope and combining tests can reveal previously unknown weaknesses.
 - **Socialize continuously** - Effective and transparent communication is critical to the success of any chaos engineering program. It creates a culture that recognizes the benefits of introducing rigorously controlled risks to drive increased resilience.
 
-__Best Practices__
+## Best Practices
 
 These are the best practices that you can follow when conducting chaos tests:
 
@@ -53,7 +51,7 @@ These are the best practices that you can follow when conducting chaos tests:
 - **Blast radius** - Stop the experiment when it goes beyond scope. Unknown results are an expected outcome of chaos experiments. Strive to balance collecting the actual result data and affecting as few production users as possible.
 - **Error budget testing** - Establish an error budget as an investment in chaos and fault injection. Your error budget is the difference between achieving 100% of the service-level objective (SLO) and achieving the agreed-upon SLO.
 
-__Tools__
+## Tools
 
 These are some tools that are commonly used for chaos engineering:
 

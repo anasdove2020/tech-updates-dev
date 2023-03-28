@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Monitoring & Observability Service
-
 From the previous discussion, we know that Application Monitoring System is equally important as the application itself. We have also discussed some best practices in setting up a logging system and examples of the Time Series Database used by modern applications.
 
 In practice, setting up a powerful yet easy-to-use application monitoring system is not an easy task. The tight timeline and the limited resources force the company to focus only on their business and feature development and delegate the application monitoring needs to third parties.

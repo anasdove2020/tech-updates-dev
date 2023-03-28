@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Application Monitoring
-
 In DevOps, the application monitoring strategy is equally important as the development and delivery strategy. It closes the application lifecycle loop and is one of the primary inputs for the subsequent development iteration. Unfortunately, it is an area that usually doesn't get enough love from the developers because it is not directly related to the application's main functionality.
 
 In Polyrific, it's been a standard to include the monitoring strategy in the initial skeleton of an application setup. The monitoring infrastructure should be ready to use in every environment, not only in the production but also in the DEV, QA, or UAT. This setup is essential because it is almost impossible to produce a bug-free and more stable application without a proper monitoring setup.

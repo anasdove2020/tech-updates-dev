@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## ITSM
-
 IT Service Management (ITSM) refers to all processes and activities in managing the delivery of IT services to customers. It is essential to understand that the main focus of ITSM is the delivery of values to customers instead of just the tools or the framework.
 
 ITSM is essential for a variety of reasons. Implementing ITSM can help regularize processes through structured delivery and documentation. ITSM implementation also helps in saving costs by building a predictable IT org and implementing ITSM for business benefits by bringing actionable IT insights to the business that help in decision making.

@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Pub/Sub
-
 Pub/Sub is a shorthand for publish/subscribe, the communication model where applications exchange messages asynchronously. It decouples between the applications that send the messages (called publishers or producers) and those that receive them (called subscribers or consumers).
 
 This type of communication is commonly found in modern applications, in oppose to the more traditional ones, like the remote procedural calls (RPC) or the direct API calls, because it provides better scalability and stability.

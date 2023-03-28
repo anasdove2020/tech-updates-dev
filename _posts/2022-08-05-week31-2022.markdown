@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## OIDC
-
 OpenID Connect (OIDC) is a kind of authentication protocol commonly used to protect a resource, like websites or API endpoints. But, before getting further into the OIDC discussion, let's focus first on the difference between authentication and authorization.
 
 Authentication is the act of validating that users are who they claim to be. It could be done by requiring users to provide a password, one-time token, authentication app, biometrics, etc. In some instances, the processes are combined to form a multi-factor authentication that is used to increase security before granting the access.

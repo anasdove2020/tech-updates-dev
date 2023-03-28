@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Feature Flags
-
 Feature Flag is a technique in software development to switch on or off a feature based on specific conditions.
 Many scenarios can take advantage of Feature Flags. These are a few samples of them:
 

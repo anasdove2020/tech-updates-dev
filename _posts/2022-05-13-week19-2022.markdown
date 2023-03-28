@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Dangling Domains
-
 One item that we always have on our checklist when doing the regular infrastructure maintenance is to check for the "dangling domains." Dangling domains are items in the DNS records that the target resources don't exist anymore.
 
 For example, we have a subdomain "admin.company.com" in the DNS manager with the CNAME record pointing to "myadmin.azurewebsites.net." We need to ensure that the resource in the "myadmin.azurewebsites.net" does exist and is fully under our control. If the resource doesn't exist while the DNS record is still there, it will be a dangling domain, and it's vulnerable to the subdomain takeover threat.

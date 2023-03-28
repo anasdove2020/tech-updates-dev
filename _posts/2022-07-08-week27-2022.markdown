@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Kubernetes
-
 Last week, we discussed containerization as a way to host an application ecosystem. It has opened opportunities to set up a replicable, scalable, and secure infrastructure environment. As applications grow to span multiple containers deployed across multiple servers, operating them becomes more complex. Kubernetes came to solve this issue by providing a set of tools to control how and where those containers will run.
 
 In the simplest definition, Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. Kubernetes is capable of orchestrating almost every component required to run a containerized system, from the service discovery, load balancing, resource allocation tracking, scales based on compute utilization, health check, and self-healing mechanism.

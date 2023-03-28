@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## CI/CD Best Practices
-
 Continuous integration, delivery, and deployment have been Polyrific’s standard as part of its commitment to deliver high-quality service and applications. You can find the following best practices that we find useful based on our experience so far.
 
 __Pick a branching strategy__

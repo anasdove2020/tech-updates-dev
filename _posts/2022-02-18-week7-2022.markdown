@@ -12,8 +12,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Security Protocols
-
 We had fun in Bali during the Indonesian team outing last week. While this island was still warm and exotic, as we remembered, we also noticed something different at the same time. The visit rate was drastically low due to the pandemic. The tourism and hospitality business has been suffering for more than two years.
 
 Health protocols were strictly enforced everywhere. The airplane mandates the full dose of vaccine and PCR/Antigen test for the passengers. After landing at Bali's airport, we needed to fulfill the Health Alert Card (eHAC) form. We needed to check-in via the "Peduli Lindungi" apps and had the body temperature checked at every place we visited. And, of course, we were always required to wear face masks everywhere.

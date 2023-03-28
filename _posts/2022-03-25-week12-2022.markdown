@@ -12,8 +12,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Application Logging
-
 A couple of weeks ago, we featured the importance of Application Monitoring, which should be a default setup in every project. The most basic type of monitoring is the logging system.
 
 In this week's issue, we will take you to look at some items considered best practices in modern applications logging systems.

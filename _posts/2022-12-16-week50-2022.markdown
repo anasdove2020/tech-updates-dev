@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Database DevOps
-
 DevOps has been a standard practice in modern software development lately. By definition, DevOps is a set of practices that breaks the silos between the Dev and Ops team, intending to deliver features and updates faster.
 
 While the application DevOps has been a considerable success, database implementation/deployment is often seen as a big hurdle. It is because the DBA team traditionally handles database implementation either partially or entirely manually. This practice will also be prone to mistakes or inconsistencies and time-consuming.

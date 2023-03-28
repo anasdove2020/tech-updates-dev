@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## IaC Web Interface
-
 If you've worked on some of Polyrific's projects, you might notice that the involvement of the Department of Technology there mainly was on the infrastructure setup and maintenance. However, that's not the only type of work the Department of Technology has on its program this year. The other exciting program is researching and developing technologies that might be adopted in other projects or promoted into Polyrific's product.
 
 One project currently in progress is the "IaC Web Interface" project. This project is a proof of concept to create a web interface to abstract the complexity of working with Infrastructure as Code to be utilized by a non-technical person. We plan to make it a feature in the Polyrific's Catapult when complete.

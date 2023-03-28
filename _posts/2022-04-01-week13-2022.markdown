@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Time Series Database
-
 Last week, we learned that it is best to store logging data for modern applications in external storage. When you look at some logging implementations, you will find that they usually utilize a special-purpose database called Time Series Database (TSDB).
 
 TSDB is designed to store and retrieve data records associated with timestamps. The timestamps provide a critical context for each of the data points in how they are related to others. The order of the data points is vital and is a native characteristic of the data.

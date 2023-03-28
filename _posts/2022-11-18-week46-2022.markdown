@@ -13,9 +13,7 @@ keywords:
 
 {% include post-header.html %}
 
-## Similar Services on Azure
-
-__Azure App Service vs. App Service Environment__
+## Azure App Service vs. App Service Environment
 
 [Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/) is an HTTP-based service for hosting web applications, REST APIs, and mobile backends. The application runs on top of computing resources determined by the App Service Plan. You can write the apps in your favorite languages supported by the App Service, like .NET, .NET Core, Java, Ruby, Node.js, PHP, or Python.
 
@@ -28,7 +26,7 @@ Most of the time, App Service should be enough for your general need. You might 
 - Network-isolated application hosting
 - Multi-tier applications
 
-__Azure SQL Database vs. Azure SQL Managed Instance vs. SQL Server on Azure VM__
+## Azure SQL Database vs. Azure SQL Managed Instance vs. SQL Server on Azure VM
 
 Azure SQL is a family of managed and secure data platforms that use the SQL Server database engine in the Azure cloud infrastructure.
 
@@ -38,7 +36,7 @@ Azure SQL is a family of managed and secure data platforms that use the SQL Serv
 
 [Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql) falls into the Platform-as-a-Service (PaaS) industry category and is best for most migrations to the cloud. This option provides all of the PaaS benefits of Azure SQL Database but adds capabilities previously only available in SQL Server VMs. It includes a native virtual network and nearly 100% compatibility with on-premises SQL Server.
 
-__Event Grid vs. Event Hub vs. Service Bus__
+## Event Grid vs. Event Hub vs. Service Bus
 
 Azure offers three services that assist with delivering events or messages throughout a solution, i.e., Event Grid, Event Hub, and Service Bus. Although they have some similarities, each service is designed for particular scenarios. In some cases, using all of them in a solution could give you the full power of the messaging system in your application.
 
@@ -48,7 +46,7 @@ Azure offers three services that assist with delivering events or messages throu
 
 [Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) is a fully managed enterprise message broker with message queues and publish-subscribe topics. The service is intended for enterprise applications that require transactions, ordering, duplicate detection, and instantaneous consistency. If you have the requirement to handle high-value messages that can't be lost or duplicated, you don't want to miss Service Bus on your list of technology.
 
-__ACA vs. ACI vs. AKS__
+## ACA vs. ACI vs. AKS
 
 There are many options for teams to build and deploy cloud-native and containerized applications on Azure.
 
@@ -60,7 +58,7 @@ There are many options for teams to build and deploy cloud-native and containeri
 
 Except with the above options, you can also use Azure App Service to host a container application. In fact, if you want to build a web app, Azure App Service should be an ideal option. However, if your goal is to build a microservice-style system based on container technology, you should give ACA, ACI, or AKS good attention.
 
-__Front Door vs. Traffic Manager vs. Application Gateway vs. Azure Load Balancer__
+## Front Door vs. Traffic Manager vs. Application Gateway vs. Azure Load Balancer
 
 Azure provides various load-balancing services that you can use to distribute your workloads across multiple computing resources - Front Door, Traffic Manager, Application Gateway, and Load Balancer.
 

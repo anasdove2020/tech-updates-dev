@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Cybersecurity Mesh Architecture
-
 Cybersecurity Mesh Architecture (CSMA) is a modern architecture of your security posture. It helps to provide a standard and integrated security structure to secure all assets, whether on-premises, in data centers, or in the cloud.
 
 CSMA follows the concept of a distributed approach to network and infrastructure security. It changes the understanding of the security perimeter in your company. As you know, traditional security approaches usually rely upon fragmented network perimeters as the mechanism for controlling access. CSMA lowers the granularity of the scope by creating individual perimeters around every person or machine on your network. 

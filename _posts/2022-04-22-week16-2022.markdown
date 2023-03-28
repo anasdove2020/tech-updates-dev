@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Microservice Challenges
-
 Microservice architecture is gaining momentum in the IT industry for the many advantages over traditional architectural approaches. It promises faster innovations because it allows the team to go forward with what is best for their owned product without being held by the limitations of other products.
 
 However, some challenges must be considered before deciding to implement the microservice architectural approach. Because if you fail to recognize them during your planning, not only that you will not get the promised benefits, you will use most of your time fixing new issues every day.

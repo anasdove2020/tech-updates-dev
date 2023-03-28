@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## IE 11 End of Support
-
 Last year, Microsoft officially [announced](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/) the end of support of the Desktop Internet Explorer 11, which will be on June 15, 2022. You can read the full explanation on the announcement. But, what does it mean for us?
 
 1. You should not use IE 11 anymore in your daily work activities; use the modern browsers instead (Firefox, Google Chrome, or Microsoft Edge) for better features and security support. If, for any reason, you still need to use IE 11, please consult with the TECH team to find better solutions.

@@ -11,13 +11,11 @@ keywords:
 
 {% include post-header.html %}
 
-## Platform Engineering
-
 Platform engineering is a discipline to lay out the foundation of infrastructure that enables self-service capabilities for software engineering in an organization. The platform could be anything from the underlying hardware setup, tooling, standard workflow, or services.
 
 A dedicated team usually handles the process of engineering the platform. The platform's specific capabilities depend entirely on its end users' needs. While it is evident that the platform's audience is the Software Engineering team, other parties, like leadership & governance, data analyst & scientists, will also benefit from the platform product.
 
-__Benefits__
+## Benefits
 
 These are some benefits that you will achieve by implementing good Platform Engineering practices:
 
@@ -27,7 +25,7 @@ These are some benefits that you will achieve by implementing good Platform Engi
 - **Provide consistency and confidence**: The platform will make everything in order and predictable. Users are encouraged to be creative and not afraid of mistakes because they can be easily reverted if anything goes wrong.
 - **Help scale teams**: As the business grows, the platform will be helpful guidance to expand the team and replicate the process on a bigger scale.
 
-__Principles__
+## Principles
 
 Below are some helpful principles commonly found among successful platform teams and self-service organizations:
 
@@ -37,7 +35,7 @@ Below are some helpful principles commonly found among successful platform teams
 - **Glue is valuable**: Platform teams are often seen as a pure cost center because they don't ship any product features for the end user. They are only gluing together our systems, after all. This is a very dangerous perspective, and, of course, that glue is extremely valuable.
 - **Don't reinvent the wheel**: Platform team needs to carefully identify if a problem can be solved by creating a new creative solution or just by utilizing an existing one. Creating your own tool might look cool, but is it really necessary? The decisions must include many factors, like budget, time, future maintenance, etc.
 
-__Success Characteristics__
+## Success Characteristics
 
 How do we know that the implementation of Platform Engineering is a success? These are the characteristics:
 

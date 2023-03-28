@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## OWASP
-
 The [Open Web Application Security Project](https://owasp.org/) (OWASP) is an international non-profit organization dedicated to improving web application security. The core principle of OWASP is to make all their materials freely available and easily accessible on their website. Anyone from website owners to security experts can use the published materials to protect their web applications from the ever-growing cyber attacks.
 
 OWASP Top 10

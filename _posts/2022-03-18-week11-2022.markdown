@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Tech Support
-
 Department of Technology has played a vital role as a point of contact to support employees' needs regarding technological requirements, like infrastructure setup and account management for cloud services.
 
 For any project-related requests, it's been a good practice to record the requests in Jira tickets. But if they were not project-related, the requests usually came from the usual communication channels like emails and Slacks. It worked relatively well without significant issues because we were a small team, and the requirements were generally not too complex.

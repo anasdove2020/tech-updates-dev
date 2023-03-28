@@ -12,8 +12,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Minimum Viable Architecture
-
 The minimum viable architecture (MVA), also known as "just enough architecture," is an approach to start software development with the bare minimum architecture that is good enough for a release. From there, improvements will be continuously introduced alongside the software product during its lifetime.
 
 The idea of MVA is related to the concept of agile methodology. One main component in agile is the minimum viable product (MVP), which refers to a product with just enough features to be usable by early customers who can then provide feedback for future product development. MVA carries the same idea but is applied to the software architecture instead of a product.

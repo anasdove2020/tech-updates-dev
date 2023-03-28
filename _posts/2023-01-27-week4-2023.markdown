@@ -12,8 +12,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Observability-Driven Development
-
 Observability-driven development (ODD) is a software development approach in which observability is built into the design and development of software systems. It means that developers focus on making systems easily observable and understandable, rather than just functional, to make it easier to detect and diagnose issues in production.
 
 ODD is a shift left of everything related to observability to the earliest stages of development. Much like test-driven development emphasizes writing test cases before writing code to improve quality and design, ODD does the same for building observable systems: developers write code intending to declare the outputs and specification limits required to infer the internal state of the system and process, both at a component level and as a whole system.
@@ -28,7 +26,7 @@ Observability-driven development (ODD) has become increasingly popular for sever
 - **The importance of observability**: As organizations increasingly rely on software to drive their businesses, observability has become a critical requirement.
 - **Open-source tools availability**: Many open-source tools can be used to implement ODD, which helps to lower the barrier to entry for ODD. 
 
-__Benefits__
+## Benefits
 
 There are several benefits of using an observability-driven development approach:
 
@@ -38,7 +36,7 @@ There are several benefits of using an observability-driven development approach
 - **Easier to maintain**: Observable systems are easier to understand and modify, which can make adding new features or making updates easier.
 - **Better collaboration**: Observability can make it easier for developers, operations teams, and other stakeholders to work together to identify and resolve issues, improving communication and coordination across teams. 
 
-__ODD in practice__
+## ODD in practice
 
 Currently, there is no widely adopted standard or framework for implementing observability-driven development (ODD). However, several best practices and guidelines can be used when implementing ODD. These include:
 
@@ -55,7 +53,7 @@ Each step above requires effort and resources. For example, you may need to inve
 
 However, it's important to remember that the benefits of observability can far outweigh the costs. Improved reliability, faster problem resolution, a better understanding of the system, better decision-making, and increased trust in the system can lead to improved performance, adoption, and, ultimately, a better return on investment. 
 
-__Tools__
+## Tools
 
 Several tools are commonly used for observability-driven development (ODD), including:
 
@@ -70,7 +68,7 @@ These are just a few examples of the commonly used tools for ODD. The other more
 
 It's also worth noting that, as observability is a relatively new field, many organizations are still figuring out what works best for them, and it's not a one-size-fits-all solution. Consider starting small and gradually increasing your observability efforts over time. 
 
-__vs. Test-Driven Development__
+## vs. Test-Driven Development
 
 Test-driven development (TDD) and observability-driven development (ODD) are both development methodologies, but they focus on different aspects of the software development process.
 

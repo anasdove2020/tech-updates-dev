@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Lift and Shift
-
 "Lift and Shift" is the process of migrating an application from one host environment to another - usually from on-premise to the cloud. It involves little or no change to the application code and architecture. Hence, the "Lift and Shift" strategy is considered the fastest and less-costly option to migrate workload to the cloud.
 
 The "Lift and Shift" migration usually falls into the Infrastructure as a Service (IaaS) category. For example, if you want to move an application hosted in an on-premise Windows Server, you usually want to move the host to an equivalent virtual machine in the cloud.

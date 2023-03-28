@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Leaked password
-
 Have you ever received an email with the above subject? For me, almost every day. But they were usually phishing emails that were mostly caught automatically by Gmail filter as spam.
 
 But on some occasions (read: today), I received a valid email notification from Google with the above subject alerting me that there was a potential password leak from one of our employees with his Polyrific account.

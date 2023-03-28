@@ -12,8 +12,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Security in Polyrific
-
 This week, we completed a risk assessment form for a client. It contained questions about how we conduct security in general in our company. It ranged from basic questions like whether we enforce our employees to use multi-factor authentication (MFA) on some services and how we manage the access permissions to some infrastructure resources. And also many more advanced questions like whether we have a written policy for intrusion detection/prevention and how we plan for disaster recovery and business continuity.
 
 Fortunately, we have prepared this security requirement by utilizing the Vanta service since last year. If you don't know, Vanta is an automation service that continuously scans our resources to comply with specific standards (SOC 2, ISO27001, HIPAA, GDPR, etc.) If you remember, all of you have participated in the compliance fulfillment process by completing the onboarding items. It included the requirement for you to accept some policies and complete the security training. It also required you to install a Vanta agent on your computer for full-time employees.

@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## World Password Day
-
 Did you know that we had World Password Day this week? It is celebrated every first Thursday in May and was started in 2013 to raise awareness of having strong passwords.
 
 Interestingly, while the name of the celebration contains the word "password," the trend shows that the future is moving to the "passwordless" world. The reasoning is simple; if a weak password is considered a vulnerability in security, we should not use it at all, right?

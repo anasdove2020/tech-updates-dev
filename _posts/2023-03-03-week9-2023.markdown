@@ -1,18 +1,16 @@
 ---
 layout: post
 week: 9
-title:  "Prompt Engineering"
+title:  "Modular Monolith Architecture"
 date:   2023-03-03 20:00:00 +0700
-bannerUrl: "prompt_engineering.png"
-briefDescription: "A practice of using prompts to get the output you want in NLP and AI models."
+bannerUrl: "banner_default.png"
+briefDescription: 
 keywords:
  - Engineering
  - Computer
 ---
 
 {% include post-header.html %}
-
-## Modular Monolith Architecture
 
 Modular monolith architecture is a software design pattern gaining popularity lately as an alternative to traditional monolithic and microservices architectures. It combines the benefits of both patterns while avoiding their respective drawbacks. 
 

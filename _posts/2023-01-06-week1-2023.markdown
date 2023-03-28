@@ -12,15 +12,13 @@ keywords:
 
 {% include post-header.html %}
 
-## Cloud FinOps
-
 Based on the [FinOps foundation](https://www.finops.org/introduction/what-is-finops/), FinOps is an evolving cloud financial management discipline and cultural practice that enables organizations to get maximum business value by helping engineering, finance, technology, and business teams to collaborate on data-driven spending decisions.
 
 At its core, FinOps is a cultural practice. It's how teams manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in Engineering, Finance, Product, etc., work together to enable faster product delivery while at the same time gaining more financial control and predictability.
 
 There's a misconception that FinOps means becoming cheap with cloud spend. Actually, FinOps is about removing blockers, empowering engineering teams to deliver better features, apps, and migrations faster, and enabling a cross-functional conversation about where to invest and when. Sometimes a business will decide to tighten its belt. Sometimes it'll choose to invest more. But with FinOps, teams know why they're making those spending decisions.
 
-__General Principles__
+## General Principles
 
 FinOps principles are a set of guidance that is encouraged to be taken when implementing this practice. The FinOps foundation lays out six principles, which are:
 
@@ -31,7 +29,7 @@ FinOps principles are a set of guidance that is encouraged to be taken when impl
 - The business value of the cloud drives all decisions
 - Take advantage of the variable cost model of the cloud
 
-__Cultural Principles__
+## Cultural Principles
 
 The Google Cloud team also stated that the successful implementation of FinOps will be able to achieve if it is developed under the following cultural principles:
 
@@ -43,14 +41,14 @@ The Google Cloud team also stated that the successful implementation of FinOps w
 - **Cost transparency** - access to real-time billing/cost data at all layers of the organization.
 - **Variable nature of the cloud** - embrace the pay-as-you-go nature of the cloud and benefit by serving your customers dynamically during their constantly changing needs.
 
-__Phases__
+## Phases
 
 The FinOps Foundation has defined the FinOps journey in three phases — Inform, Optimize and Operate — and a company may find itself in multiple phases at once depending on where each team or unit is in its FinOps maturity.
 1. **Inform**: this is the first phase of the FinOps framework. It's about empowering all stakeholders with the information and understanding they need to make informed decisions around cloud usage.
 2. **Optimize**: this is the next phase of the FinOps framework, focusing on discovering savings opportunities.
 3. **Operate**: this is the final phase of the FinOps framework, where organizations continuously evaluate their performance against business objectives and look for ways to improve their FinOps practice. Once optimization efforts are in place, automation empowers organizations to implement policies that continuously adjust cloud resources to control cost without impacting performance.
 
-__Stakeholders__
+## Stakeholders
 
 Generally, five key FinOps stakeholders will collaborate during the process. However, it should vary by organization because of the difference in role titles.
 - **Executives**: the people who have the authority to create and change operational policies

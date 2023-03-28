@@ -11,8 +11,6 @@ keywords:
 
 {% include post-header.html %}
 
-## WebAssembly
-
 WebAssembly is a technology that makes it possible to run code in a modern web browser. Think of it as a small virtual machine in your browser that executes portable bytecode at near-native speed.
 
 Many languages can be used to write codes that run on WebAssembly, like C++, C#, Rust, Python, Ruby, and more. Those languages have been used to write code for the server-side application before, but now they can also be used to write client-side applications.

@@ -11,61 +11,57 @@ keywords:
 
 {% include post-header.html %}
 
-## ChatGPT
-
 ChatGPT is a language model that is optimized for conversational dialogue. I have been researching what it is and why it is becoming so popular lately. Many experts have given their opinion, but then I thought it would be fun to let the ChatGPT itself tell the story. So I went to ChatGPT and started to ask questions.
 
-__Overview__
+## Overview
 
 ![1](/images/chatgpt/1.png)
 
 Pretty slick, right? It can provide alternative answers based on our follow-up request.
 
-__The knowledge__
+## The knowledge
 
 ![2](/images/chatgpt/2.png)
 
 Just like any other machine learning model, ChatGPT can only be as good as the data it learned from.
 
-__Wide adoption__
+## Wide adoption
 
 ![3](/images/chatgpt/3.png)
 
 Ok, it is interesting to see how it is used widely in many applications.
 
-__About Open-Source__
+## About Open-Source
 
 ![4](/images/chatgpt/4.png)
 
 It is not open-source software at the moment, but who knows :)
-{: .news-url }
 
-__GPT Technology__
+## GPT Technology
 
 ![5](/images/chatgpt/5.png)
 
 Yes, it is interesting to see how GPT-3 is implemented beyond chat windows.
 
-__Training Data__
+## Training Data
 
 ![6](/images/chatgpt/6.png)
 
 Not too recent, apparently. So I guess it is not aware if Argentina has won World Cup 2022 :)
-{: .news-url }
 
-__Current Data__
+## Current Data
 
 ![7](/images/chatgpt/7.png)
 
 Fair enough, as a language model, it cannot access real-time data or alike.
 
-__Similar services__
+## Similar services
 
 ![8](/images/chatgpt/8.png)
 
 Nice!
 
-__Question with different context__
+## Question with different context
 
 ![9](/images/chatgpt/9.png)
 

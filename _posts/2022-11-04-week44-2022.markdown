@@ -12,8 +12,6 @@ keywords:
 
 {% include post-header.html %}
 
-## Internal Developer Platform
-
 The Internal Developer Platform (IDP) is a self-service layer on top of tools or services used by the Engineering team to support their daily needs. IDP is the product of the Platform Engineering practice discussed in [last week's edition of Tech Update](https://tech-updates.polyrific.com/2022/10/28/week43-2022.html).
 
 The well-designed IDP should allow developers to deal with infrastructure needs without depending on the Ops team. It can help the organization streamline project execution and increase productivity if appropriately implemented.
