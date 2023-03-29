@@ -2,17 +2,16 @@
 layout: post
 week: 12
 title:  "Application Logging"
-date:   2022-03-25 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-03-25 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
   - Networking
 ---
 
 {% include post-header.html %}
-
-## Application Logging
 
 A couple of weeks ago, we featured the importance of Application Monitoring, which should be a default setup in every project. The most basic type of monitoring is the logging system.
 

@@ -2,16 +2,15 @@
 layout: post
 week: 19
 title:  "Dangling Domains"
-date:   2022-05-13 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-05-13 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Dangling Domains
 
 One item that we always have on our checklist when doing the regular infrastructure maintenance is to check for the "dangling domains." Dangling domains are items in the DNS records that the target resources don't exist anymore.
 

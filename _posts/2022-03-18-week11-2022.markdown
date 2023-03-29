@@ -2,16 +2,15 @@
 layout: post
 week: 11
 title:  "Tech Support"
-date:   2022-03-18 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-03-18 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Networking
 ---
 
 {% include post-header.html %}
-
-## Tech Support
 
 Department of Technology has played a vital role as a point of contact to support employees' needs regarding technological requirements, like infrastructure setup and account management for cloud services.
 

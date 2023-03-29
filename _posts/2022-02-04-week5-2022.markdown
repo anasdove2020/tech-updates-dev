@@ -2,9 +2,10 @@
 layout: post
 week: 5
 title:  "2022"
-date:   2022-02-04 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-02-04 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---

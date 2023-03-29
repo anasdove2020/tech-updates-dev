@@ -2,16 +2,15 @@
 layout: post
 week: 17
 title:  "Leaked password"
-date:   2022-04-29 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-04-29 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Leaked password
 
 Have you ever received an email with the above subject? For me, almost every day. But they were usually phishing emails that were mostly caught automatically by Gmail filter as spam.
 

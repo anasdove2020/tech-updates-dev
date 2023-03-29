@@ -2,16 +2,15 @@
 layout: post
 week: 27
 title:  "Kubernetes"
-date:   2022-07-08 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-07-08 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Kubernetes
 
 Last week, we discussed containerization as a way to host an application ecosystem. It has opened opportunities to set up a replicable, scalable, and secure infrastructure environment. As applications grow to span multiple containers deployed across multiple servers, operating them becomes more complex. Kubernetes came to solve this issue by providing a set of tools to control how and where those containers will run.
 

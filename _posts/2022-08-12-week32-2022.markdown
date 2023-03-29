@@ -2,16 +2,15 @@
 layout: post
 week: 32
 title:  "gRPC"
-date:   2022-08-12 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-08-12 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## gRPC
 
 Remote Procedure Call (RPC) is not new in distributed computing or the client-server architecture. It allows the client to invoke functionalities in the remote servers as if it's just invoking local functions. The primary use of RPC is to hide the existence of the network.
 

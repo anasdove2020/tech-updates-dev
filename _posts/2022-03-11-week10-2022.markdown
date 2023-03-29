@@ -2,16 +2,15 @@
 layout: post
 week: 10
 title:  "Application Monitoring"
-date:   2022-03-11 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-03-11 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Application Monitoring
 
 In DevOps, the application monitoring strategy is equally important as the development and delivery strategy. It closes the application lifecycle loop and is one of the primary inputs for the subsequent development iteration. Unfortunately, it is an area that usually doesn't get enough love from the developers because it is not directly related to the application's main functionality.
 

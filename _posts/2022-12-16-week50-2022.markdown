@@ -1,17 +1,16 @@
 ---
 layout: post
 week: 50
-title:  "Database DevOps"
-date:   2022-12-16 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title: Database DevOps
+date: 2022-12-16 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Database
 ---
 
 {% include post-header.html %}
-
-## Database DevOps
 
 DevOps has been a standard practice in modern software development lately. By definition, DevOps is a set of practices that breaks the silos between the Dev and Ops team, intending to deliver features and updates faster.
 

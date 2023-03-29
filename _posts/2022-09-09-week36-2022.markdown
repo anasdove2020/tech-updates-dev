@@ -2,16 +2,15 @@
 layout: post
 week: 36
 title:  "CI/CD Best Practices"
-date:   2022-09-09 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-09-09 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## CI/CD Best Practices
 
 Continuous integration, delivery, and deployment have been Polyrific’s standard as part of its commitment to deliver high-quality service and applications. You can find the following best practices that we find useful based on our experience so far.
 

@@ -1,17 +1,16 @@
 ---
 layout: post
 week: 22
-title:  "Week #22 2022 - .NET Family"
-date:   2022-06-03 20:00:00 +0700
-bannerUrl: "banner_default.png"
+title:  ".NET Family"
+date: 2022-06-03 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## .NET Family
 
 In Polyrific, we have been using .NET as the leading technology for a long time. Most of the projects, including the products like [Catapult](https://opencatapult.net/) and [Go Wandering](https://gowandering.com/), are built on top of this technology. Considering how much time and effort we've invested in this technology, it doesn't hurt to remind us again that .NET isn't only about web applications. A wide variety of applications can be built on top of this technology.
 

@@ -2,16 +2,15 @@
 layout: post
 week: 20
 title:  "Pub/Sub"
-date:   2022-05-20 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-05-20 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## Pub/Sub
 
 Pub/Sub is a shorthand for publish/subscribe, the communication model where applications exchange messages asynchronously. It decouples between the applications that send the messages (called publishers or producers) and those that receive them (called subscribers or consumers).
 

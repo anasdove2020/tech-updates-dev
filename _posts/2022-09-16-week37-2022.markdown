@@ -2,16 +2,15 @@
 layout: post
 week: 37
 title:  "OpenTelemetry"
-date:   2022-09-16 20:00:00 +0700
-bannerUrl: "banner_default.png"
+date: 2022-09-16 20:00:00 +0700
+bannerUrl: banner_default.png
 briefDescription: 
+introduction:
 keywords:
   - Computer
 ---
 
 {% include post-header.html %}
-
-## OpenTelemetry
 
 In the previous TECH Updates, we discussed the types of [application monitoring](https://tech-updates.polyrific.com/2022/03/11/week10-2022.html) and some knowledge about [application logging](https://tech-updates.polyrific.com/2022/03/25/week12-2022.html). We also discussed the example of [monitoring and observability services](https://tech-updates.polyrific.com/2022/04/08/week14-2022.html) and the [time series databases](https://tech-updates.polyrific.com/2022/04/01/week13-2022.html) we can use to store telemetry data. In this edition, we will discuss the standard that is widely used when implementing application observability, which is OpenTelemetry.
 
@@ -19,7 +18,7 @@ In the previous TECH Updates, we discussed the types of [application monitoring]
 
 Before OpenTelemetry, all backend platforms have their own definition and implementation regarding telemetry data processing. Each application must instrument the code in a specific format depending on the backend platform. We must re-instrument the code if the application needs to change the backend or broadcast telemetry data to multiple platforms. With OpenTelemetry, we don’t need to make radical changes because everything has been standardized.
 
-__Telemetry Data__
+## Telemetry Data
 
 Telemetry data, or signal, is the output collected from system sources. There are three primary data that are usually observed:
 
@@ -29,7 +28,7 @@ Telemetry data, or signal, is the output collected from system sources. There ar
 
 Individually logs, metrics, and traces serve different purposes. But together, they provide the comprehensive and detailed insights needed to understand and troubleshoot distributed systems.
 
-__Components__
+## Components
 
 OpenTelemetry is made up of several components:
 
@@ -38,7 +37,7 @@ OpenTelemetry is made up of several components:
 - **SDK**: it is a set of language-specific libraries that consumes the OpenTelemetry API to do various tasks.
 - **Automatic Instrumentation**: OpenTelemetry supports many components that generate relevant telemetry data from popular libraries and frameworks for supported languages. Using automatic instrumentation may differ from language to language.
 
-__Benefits__
+## Benefits
 
 OpenTelemetry offers several benefits:
 
@@ -47,7 +46,7 @@ OpenTelemetry offers several benefits:
 - **Simpler choice**: Organizations had to select between OpenTracing or OpenCensus before OpenTelemetry, each of which took a different strategy to obtain observability. OpenTelemetry is the combination of the two frameworks which will give you the best of both in a single solution.
 - **Streamlined observability**: Developers can monitor application usage and performance metrics with OpenTelemetry from any device or web browser. This user-friendly interface makes tracking and analyzing observability data in real-time a breeze.
 
-__Vendor supports__
+## Vendor supports
 
 Many vendors support OpenTelemetry. The following are well-known vendors that you might know:
 

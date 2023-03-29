@@ -23,7 +23,7 @@
 
 .subscription-banner {
   display: flex;
-  margin-bottom: 108px;
+  margin-bottom: 29px;
 }
 
 .subscription-banner-image {
@@ -55,7 +55,6 @@
 }
 
 .subscription-box {
-  margin-top: 6px;
   position: relative;
   width: 536px;
 }
@@ -80,6 +79,9 @@
   color: #020B13;
   padding-left: 16px;
   border-right: none;
+  padding: 0;
+  padding-left: 16px;
+  letter-spacing: 0.5px;
 }
 
 .subscription-box-input::placeholder {
@@ -110,7 +112,7 @@
   border-bottom-right-radius: 25px;
   border: 1px solid #00000061;
   border-left: none;
-  padding: 4px;
+  padding: 3px;
   height: 43px;
   width: 138px;
 }
@@ -129,6 +131,7 @@
   font-size: 14px;
   line-height: 16px;
   cursor: pointer;
+  letter-spacing: 1.25px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -197,7 +200,7 @@
   
   .subscription-banner {
     display: block;
-    margin-bottom: 48px;
+    margin-bottom: 29px;
   }
   
   .subscription-banner-image {
@@ -226,19 +229,12 @@
   }
 
   .subscription-box {
-    margin-top: 6px;
     width: 100%;
   }
   
-  .subscription-box-control {
-    height: 51px;
-  }
-  
   .subscription-box-input {
-    height: 49px;
     width: 363px;
     font-size: 14px;
-    line-height: 24px;
   }
   
   .subscription-box-button {
@@ -246,8 +242,6 @@
     border-bottom-right-radius: 25px;
     border: 1px solid #00000061;
     border-left: none;
-    padding: 4px;
-    height: 43px;
     width: 138px;
   }
   
