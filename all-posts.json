@@ -31,5 +31,10 @@ layout: none
     {% for post in site.posts %}
       "{{ post.briefDescription }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
+  ],
+  "content" : [
+    {% for post in site.posts %}
+      "{{ post.content | strip | replace:'"','\"' }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
   ]
 }
