@@ -84,6 +84,11 @@
   letter-spacing: 0.5px;
 }
 
+.subscription-box-input-error {
+  border: 1px solid #dc3545;
+  border-right: none;
+}
+
 .subscription-box-input::placeholder {
   color: #020B13;
   opacity: 1; /* Firefox */
@@ -107,6 +112,16 @@
   outline: none;
 }
 
+.subscription-box-input-error:focus-visible,
+.subscription-box-input-error:focus,
+.subscription-box-input-error:hover,
+.subscription-box-input-error:active,
+.subscription-box-input-error:visited {
+  border: 1px solid #dc3545;
+  border-right: none;
+  outline: none;
+}
+
 .subscription-box-button {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -115,6 +130,11 @@
   padding: 3px;
   height: 43px;
   width: 138px;
+}
+
+.subscription-box-button-error {
+  border: 1px solid #dc3545;
+  border-left: none;  
 }
 
 .subscription-box-button button {
@@ -132,6 +152,33 @@
   line-height: 16px;
   cursor: pointer;
   letter-spacing: 1.25px;
+}
+
+.subscription-box-validation {
+  margin-top: 8px;
+  font-family: 'OpenSansRegular';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  padding-left: 16px;
+  color: #dc3545;
+  display: none;
+}
+
+.subscription-box-result-success {
+  margin-top: 1rem;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-family: 'OpenSansRegular';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -235,14 +282,6 @@
   .subscription-box-input {
     width: 363px;
     font-size: 14px;
-  }
-  
-  .subscription-box-button {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border: 1px solid #00000061;
-    border-left: none;
-    width: 138px;
   }
   
   .subscription-box-button button {
