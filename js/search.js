@@ -5,9 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
   // Load the JSON file containing all URLs
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '/all-posts.json');
-  xhr.onload = function() {
+  xhr.onload = function () {
     if (xhr.status === 200) {
-      allPosts = JSON.parse(xhr.responseText);
+      var originalPost = xhr.responseText.replace(/\s+/g, ' ');
+      allPosts = JSON.parse(originalPost);
 
       for (let i = 0; i < allPosts.title.length; i++) {
         posts.push({
@@ -16,7 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
           date: allPosts.date[i],
           week: allPosts.week[i],
           bannerUrl: allPosts.bannerUrl[i],
-          briefDescription: allPosts.briefDescription[i]
+          briefDescription: allPosts.briefDescription[i],
+          content: allPosts.content[i]
         });
       }
     }
@@ -28,11 +30,20 @@ document.addEventListener('DOMContentLoaded', function () {
     if (val === '') {
       const searchResultsEl = document.getElementById('search-results-id');
       searchResultsEl.style.display = "none";
+
+      const searchCloseEl = document.getElementById('search-close-id');
+      searchCloseEl.style.display = "none";
     } else {
       const searchResultsEl = document.getElementById('search-results-id');
       searchResultsEl.style.display = "block";
 
-      const postsByTitle = posts.filter(post => post.title.toUpperCase().includes(val.toUpperCase()));
+      const searchCloseEl = document.getElementById('search-close-id');
+      searchCloseEl.style.display = "block";
+
+      const postsByTitle = posts.filter(post => post.title.toUpperCase().includes(val.toUpperCase()) ||
+        post.briefDescription.toUpperCase().includes(val.toUpperCase()) ||
+        post.content.toUpperCase().includes(val.toUpperCase())
+      );
       if (postsByTitle.length === 0) {
         const searchResultsEmptyEl = document.getElementById('search-results-empty');
         searchResultsEmptyEl.style.display = "block";
@@ -65,10 +76,20 @@ document.addEventListener('DOMContentLoaded', function () {
                         </a>";
           results = results + html;
         });
-        
+
         const innerDiv = document.querySelector('#search-results-data');
         innerDiv.innerHTML = results;
       }
     }
+  });
+
+  document.querySelector("#search-close-id").addEventListener("click", function (e) {
+    const searchResultsEl = document.getElementById('search-results-id');
+    searchResultsEl.style.display = "none";
+
+    const searchCloseEl = document.getElementById('search-close-id');
+    searchCloseEl.style.display = "none";
+
+    document.getElementById("search-post-id").value = "";
   });
 });
