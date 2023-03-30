@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
   xhr.open('GET', '/all-posts.json');
   xhr.onload = function() {
     if (xhr.status === 200) {
-      allPosts = JSON.parse(xhr.responseText);
+      var originalPost = xhr.responseText.replace(/\s+/g, ' ');
+      allPosts = JSON.parse(originalPost);
+      
       totalPosts = allPosts.url.length;
       loadMoreActive = lastPage < totalPosts;
 

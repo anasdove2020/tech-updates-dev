@@ -97,6 +97,7 @@
   padding-top: 9px;
   width: 352px;
   float: left;
+  position: relative;
 }
 
 .search-input {
@@ -136,19 +137,37 @@
   outline: none;
 }
 
+.search-close {
+  position: absolute;
+  right: 8.76px;
+  top: 20px;
+  cursor: pointer;
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .search-box {
     padding-left: 40px;
-    width: 200px;
+    width: 248px;
   }
 
   .search-input {
     width: 200px;
   }
+
+  .search-close {
+    right: 11px;
+    top: 20px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .search-box {
+    display: none;
+  }
+
+  .search-close {
     display: none;
   }
 }
