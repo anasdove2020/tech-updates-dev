@@ -23,14 +23,17 @@ hideFooterBanner: true
       </p>
       <div class="subscription-box">
         <div class="subscription-box-control">
-          <input type="text" class="subscription-box-input" placeholder="Email Address">
-          <div class="subscription-box-button">
-            <button>SUBSCRIBE</button>
+          <input id="email-id" type="text" class="subscription-box-input" placeholder="Email Address">
+          <div id="button-box-id" class="subscription-box-button">
+            <button id="subscribe-button-id">SUBSCRIBE</button>
           </div>
         </div>
+        <div id="subscribe-error-id" class="subscription-box-validation"></div>
       </div>
     </div>
   </div>
+  <div id="subscribe-result-id" class="subscription-box-result-success">Thank you, you have been subscribed to the weekly newsletter</div>
 </div>
 
+<script src="/js/subscribe.js"></script>
 <link rel="stylesheet" href="/assets/css/subscription.css">
