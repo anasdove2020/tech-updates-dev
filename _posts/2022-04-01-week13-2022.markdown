@@ -7,7 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
-  - Database
 ---
 
 {% include post-header.html %}
