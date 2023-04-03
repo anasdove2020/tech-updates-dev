@@ -7,8 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
- - Engineering
- - Computer
 ---
 
 {% include post-header.html %}

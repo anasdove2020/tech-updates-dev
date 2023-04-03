@@ -7,8 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
-  - Networking
-  - CI/CD
 ---
 
 {% include post-header.html %}
