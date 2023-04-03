@@ -32,8 +32,14 @@ hideFooterBanner: true
       </div>
     </div>
   </div>
+  <div class="g-recaptcha subscription-recaptcha" data-sitekey="{{ site.env.SITE_KEY }}"></div>
   <div id="subscribe-result-id" class="subscription-box-result-success">Thank you, you have been subscribed to the weekly newsletter</div>
 </div>
 
 <script src="/js/subscribe.js"></script>
 <link rel="stylesheet" href="/assets/css/subscription.css">
+
+<script>
+window.siteKey = "{{ site.env.SITE_KEY }}";
+window.apiUrl = "{{ site.env.API_URL }}";
+</script>
