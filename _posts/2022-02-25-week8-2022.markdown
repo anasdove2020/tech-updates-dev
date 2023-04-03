@@ -7,8 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
-  - Polyrific
-  - Security
 ---
 
 {% include post-header.html %}

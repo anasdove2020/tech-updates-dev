@@ -7,7 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
-  - Networking
 ---
 
 {% include post-header.html %}

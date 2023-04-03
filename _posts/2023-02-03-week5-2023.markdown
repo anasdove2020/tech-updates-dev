@@ -7,7 +7,6 @@ bannerUrl: chat_gpt.png
 briefDescription: 
 introduction:
 keywords:
- - Computer
 ---
 
 {% include post-header.html %}
