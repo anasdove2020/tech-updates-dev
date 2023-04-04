@@ -7,8 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
- - OOP
- - Computer
 ---
 
 {% include post-header.html %}

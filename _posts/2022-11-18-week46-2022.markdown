@@ -7,9 +7,6 @@ bannerUrl: banner_default.png
 briefDescription: 
 introduction:
 keywords:
-  - CI/CD
-  - Networking
-  - Azure
 ---
 
 {% include post-header.html %}
