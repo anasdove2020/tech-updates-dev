@@ -25,7 +25,7 @@ hideFooterBanner: true
         <div class="subscription-box-control">
           <input id="email-id" type="text" class="subscription-box-input" placeholder="Email Address">
           <div id="button-box-id" class="subscription-box-button">
-            <button id="subscribe-button-id" class="g-recaptcha" data-sitekey="{{ site.env.SITE_KEY }}"  data-callback='onSubmit' data-action='submit'>SUBSCRIBE</button>
+            <button id="subscribe-button-id" class="g-recaptcha" data-sitekey="{{ site.SITE_KEY }}"  data-callback='onSubmit' data-action='submit'>SUBSCRIBE</button>
           </div>
         </div>
         <div id="subscribe-error-id" class="subscription-box-validation"></div>
@@ -40,6 +40,6 @@ hideFooterBanner: true
 <link rel="stylesheet" href="/assets/css/subscription.css">
 
 <script>
-window.siteKey = "{{ site.env.SITE_KEY }}";
-window.apiUrl = "{{ site.env.API_URL }}";
+window.siteKey = "{{ site.SITE_KEY }}";
+window.apiUrl = "{{ site.API_URL }}";
 </script>

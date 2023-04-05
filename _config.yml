@@ -26,9 +26,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: tech-updates.polyrific.com
 url: https://tech-updates.polyrific.com # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-4FKKZG2NZ1
-env:
-  SITE_KEY: ${{ secrets.SITE_KEY }}
-  API_URL: ${{ secrets.API_URL }}
+SITE_KEY: ${{ secrets.SITE_KEY }}
+API_URL: ${{ secrets.API_URL }}
 
 # Build settings
 theme: minima
