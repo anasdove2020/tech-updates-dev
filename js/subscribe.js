@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function onSubmit(token) {
   showLoading(true);
   const apiUrl = window.apiUrl;
+  const functionKey = window.functionKey;
   if (token) {
     let email = document.getElementById("email-id").value;
     if (email === "") {
@@ -24,12 +25,16 @@ function onSubmit(token) {
         fetch(apiUrl + '/api/Subscription', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'x-functions-key': functionKey
           },
           body: JSON.stringify(data)
         })
           .then(response => {
             if (response.status === 200) {
+              setTimeout(function() {
+                document.getElementById('subscribe-result-id').style.display = "none";
+              }, 5000);
               document.getElementById('email-id').classList.remove('subscription-box-input-error');
               document.getElementById('button-box-id').classList.remove('subscription-box-button-error');
               document.getElementById('subscribe-error-id').innerHTML = "";
