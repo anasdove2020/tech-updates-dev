@@ -181,12 +181,6 @@
   display: none;
 }
 
-.subscription-recaptcha {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @media screen and (max-width: 1024px) {
   .subscription {
     padding-top: 24px;
@@ -232,10 +226,6 @@
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 18px;
-  }
-
-  .subscription-recaptcha {
-    justify-content: flex-start;
   }
 }
 
