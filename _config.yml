@@ -27,8 +27,8 @@ domain: tech-updates.polyrific.com
 url: https://tech-updates.polyrific.com # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-4FKKZG2NZ1
 env:
-  SITE_KEY: 6LekQl0lAAAAAN9Ua1YyDcuy_kbSxzqe9UzVxaTm
-  API_URL: http://localhost:7036
+  SITE_KEY: ${{ secrets.SITE_KEY }}
+  API_URL: ${{ secrets.API_URL }}
 
 # Build settings
 theme: minima
