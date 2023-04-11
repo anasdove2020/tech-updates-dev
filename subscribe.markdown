@@ -34,12 +34,3 @@ hideFooterBanner: true
   </div>
   <div id="subscribe-result-id" class="subscription-box-result-success">Thank you, you have been subscribed to the weekly newsletter</div>
 </div>
-
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script src="/js/subscribe.js"></script>
-<link rel="stylesheet" href="/assets/css/subscription.css">
-
-<script>
-window.siteKey = "{{ site.SITE_KEY }}";
-window.apiUrl = "{{ site.API_URL }}";
-</script>

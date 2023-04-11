@@ -28,6 +28,7 @@ url: https://tech-updates.polyrific.com # the base hostname & protocol for your 
 google_analytics: G-4FKKZG2NZ1
 SITE_KEY: 6Ldlk1MlAAAAAOIHWIHiQvisOoAs-CGSjAZFSoJ5
 API_URL: https://tech-update-subs-dev.azurewebsites.net
+FUNCTION_KEY: v_j53Mv--ol50V_LXpGyZTW_FM1D_kZ5MSLBznkrKozEAzFuFW19pQ==
 
 # Build settings
 theme: minima

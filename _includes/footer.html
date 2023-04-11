@@ -5,12 +5,14 @@
       <div class="site-footer-box">
         <div class="site-footer-box-title">Get the latest tech insights from Polyrific’s experts</div>
         <div class="site-footer-box-text">Get the latest insights and analysis from Polyrific’s experienced tech professionals. Subscribe to our updates and stay ahead of the curve.</div>
-        <div class="site-footer-box-control">
-          <input type="text" class="site-footer-box-input" placeholder="Email Address">
-          <button class="site-footer-box-button">SUBSCRIBE</button>
+        <div id="button-box-id" class="site-footer-box-control">
+          <input id="email-id" type="text" class="site-footer-box-input" placeholder="Email Address">
+          <button id="subscribe-button-id" class="site-footer-box-button g-recaptcha" data-sitekey="{{ site.SITE_KEY }}"  data-callback='onSubmit' data-action='submit'>SUBSCRIBE</button>
         </div>
+        <div id="subscribe-error-id" class="site-footer-box-validation"></div>
       </div>
     </div>
+    <div id="subscribe-result-id" class="subscription-box-result-success">Thank you, you have been subscribed to the weekly newsletter</div>
   {% endif %}
   <div class="wrapper">
     <div class="site-footer-text">
@@ -22,3 +24,12 @@
     </div>
   </div>
 </footer>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="/js/subscribe.js"></script>
+<link rel="stylesheet" href="/assets/css/subscription.css">
+
+<script>
+  window.siteKey = "{{ site.SITE_KEY }}";
+  window.apiUrl = "{{ site.API_URL }}";
+  window.functionKey = "{{ site.FUNCTION_KEY }}";
+</script>
